@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 3
 apis:
 - description: Shipping.com provides a marketplace and intelligence platform for the ocean freight and logistics industry. The platform aggregates freight rates from major carriers and provides rate comparison, mark
@@ -170,7 +170,7 @@ score:
     - north-america
   previous_composite: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

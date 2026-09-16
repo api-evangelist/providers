@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 8
 apis:
 - baseURL: https://dm-api.cloud.us.kontakt.io
@@ -431,7 +431,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ created: '2026-07-17'
 description: Anki, Inc. was a consumer robotics and artificial-intelligence company based in San Francisco, founded in 2010 and backed by Andreessen Horowitz, Index Ventures, and J.P. Morgan. It was known for the Cozmo and Vector companion robots and the Anki Drive / Overdrive robotic racing system, which combined computer vision, on-device AI, and mapping/navigation. Anki debuted at Apple's WWDC in 2013, shipped Cozmo in 2016 and Vector in 2018, and published first-party Python and C# SDKs so developers could program the robots over a local connection. Anki ceased operations in May 2019 and its assets were later acquired by Digital Dream Labs. This profile was surfaced as a portfolio company of a16z and enriched by the API Evangelist pipeline; the robot SDKs remain the company's public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anki.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-15'
 name: Anki
 nav: Providers
 network: true

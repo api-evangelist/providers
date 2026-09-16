@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 15
 apis:
 - description: Returns optimal swap routes and ready-to-sign transaction calldata across aggregated DEX liquidity. Supports Classic Swap, intent-based Fusion, and cross-chain Fusion+ flows.
@@ -127,6 +127,10 @@ common:
   title: ''
   type: LlmsText
   url: https://1inch.com/llms.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://business.1inch.com/contact
 created: '2026-05-23'
 description: 1inch is a leading DeFi aggregator providing best-execution swaps across decentralized exchanges, an intent-based Fusion order flow, cross-chain Fusion+ swaps, limit orders, and rich market data. The 1inch Developer Portal (business.1inch.com/portal) exposes 13+ REST APIs covering Swap, Orderbook, Spot Price, Token, Token Details, Charts, Balance, Portfolio, Transaction Gateway, History, Traces, Gas Price, Web3 RPC, NFT, and Domains across 14+ EVM and non-EVM chains, distributed under a single API key.
 finops:
@@ -146,7 +150,7 @@ network: true
 overview: '1inch publishes 15 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, DEX Aggregator, Swap, Limit Orders, and Fusion.
 
 
-  1inch''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
+  1inch''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, support, and 6 more developer resources.'
 plans:
 - name: 1Inch Plans Pricing
   plan_count: 1
@@ -158,7 +162,7 @@ rate_limits:
   slug: 1inch-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 29.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 59.0
@@ -166,12 +170,12 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 31.9
-    developer_ergonomics: 11.9
+    developer_ergonomics: 16.7
     discoverability: 81.5
     operational_transparency: 26.3
   previous_composite: 28.2
@@ -182,7 +186,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

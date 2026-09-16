@@ -20,16 +20,17 @@ created: '2026-07-17'
 description: 'Violin Systems is a company surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/violin-systems.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Violin Systems
 nav: Providers
 network: true
-overview: Violin Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Infrastructure.
+overview: Violin Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, and Defunct.
 random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/violin-systems/refs/heads/main/screenshots/violin-systems-2026-09-02T165944.png
 slug: violin-systems
 tags:
 - Company
 - Infrastructure
+- Defunct
 website: https://www.violinsystems.com/
 ---

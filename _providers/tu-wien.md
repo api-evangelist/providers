@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: 'Public REST API of the TU Wien Research Data repository, running InvenioRDM 14.0. Records, communities, affiliations, funders and vocabularies are readable anonymously; /api/names returns 403 without '
@@ -310,7 +310,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

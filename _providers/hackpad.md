@@ -36,7 +36,7 @@ created: '2026-07-17'
 description: Hackpad was a web-based real-time collaborative wiki and document editor, built on the open-source Etherpad codebase, that let teams write and edit documents together simultaneously. It was acquired by Dropbox in April 2014 and its underlying platform was released as open source under the Apache 2.0 license at github.com/dropbox/hackpad. The hosted hackpad.com service was wound down after Dropbox folded the team's work into Dropbox Paper, and the public service was discontinued in 2017. This API Evangelist profile tracks Hackpad as a historical, now-defunct portfolio company surfaced from the a16z portfolio; there is no live production API surface remaining, and the durable public artifact is the open-source repository.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hackpad.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: Hackpad
 nav: Providers
 network: true

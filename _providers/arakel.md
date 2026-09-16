@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: REST API providing machine-readable evidence checks against official U.S. government sources, with free preflight routes and x402/HTTP-402 payment-gated paid routes. Also exposes an MCP server, llms.t
@@ -109,7 +109,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

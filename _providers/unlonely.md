@@ -64,7 +64,7 @@ graphqls:
   slug: unlonely-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unlonely.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Unlonely
 nav: Providers
 network: true

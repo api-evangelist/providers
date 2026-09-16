@@ -25,7 +25,7 @@ created: '2026-07-17'
 description: Lynda.com was an online video learning platform founded in 1995 by Lynda Weinman and Bruce Heavin, offering courses in software, creative, and business skills. LinkedIn acquired Lynda.com in 2015 (~$1.5B) and folded it into LinkedIn Learning; the standalone Lynda.com service has been retired and www.lynda.com now 301-redirects to linkedin.com/learning. The brand exposes no public developer program or API surface of its own. This profile was surfaced as an Accel portfolio company and enriched as a lead; the honest result is a defunct brand with no first-party API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lyndacom.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Lynda.com
 nav: Providers
 network: true
@@ -47,5 +47,6 @@ tags:
 - Video Courses
 - Acquired
 - LinkedIn
+- Defunct
 website: http://www.lynda.com
 ---

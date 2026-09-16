@@ -55,7 +55,7 @@ created: '2025-03-23'
 description: 'Colfax Corporation was a diversified global manufacturer founded in 1995 in Richmond, Virginia by Steven and Mitchell Rales. In April 2022, Colfax completed the spin-off of its fabrication technology business as ESAB Corporation (NYSE: ESAB) and renamed itself Enovis Corporation (NYSE: ENOV), refocusing on specialty medical technologies. The Colfax brand and corporate entity no longer exists as an operating company. This profile is preserved for historical reference and routes to the two successor entities. No Colfax-branded developer APIs were ever published; any successor APIs would fall under Enovis or ESAB.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/colfax.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-15'
 name: Colfax Corporation (Historical)
 nav: Providers
 network: true
@@ -85,4 +85,5 @@ tags:
 - Industrial
 - Medical Technology
 - Spin-Off
+- Defunct
 ---

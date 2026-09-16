@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: REST API for merchant onboarding, card and ACH transaction processing (auth, sale, capture, void, refund, offline and device sale), card and bank-account tokenization, gateway orchestration, hosted pa
@@ -247,7 +247,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: 'Zeitgold was a Berlin-based fintech that automated bookkeeping, invoice and receipt processing, payments, and financial administration for small and medium-sized businesses, blending software with human back-office review. It was backed by Battery Ventures and other investors and was acquired by Deel in 2021. As of this enrichment pass the company operates no independent public developer surface: zeitgold.com does not respond on HTTP or HTTPS, and zeitgold.de resolves to a parked/reserved domain page. No public API, developer portal, documentation, OpenAPI, or other machine-readable artifact could be discovered, so this profile remains an identity-only record.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeitgold.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Zeitgold
 nav: Providers
 network: true

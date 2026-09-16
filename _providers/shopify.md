@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -2282,7 +2282,7 @@ mcp_servers:
 - description: Shopify ships more MCP surface than any other commerce platform in this catalog, across four distinct servers. One is a hosted, anonymous, cross-merchant server on Shopify's own domain (Global Catalog
   name: Shopify Global Catalog MCP (remote) + Storefront/Cart/Checkout MCP + Dev MCP (stdio)
   slug: shopify-global-catalog-mcp-remote-storefrontcartcheckout-mcp-dev-mcp-stdio
-modified: '2026-08-27'
+modified: '2026-09-15'
 name: Shopify
 nav: Providers
 network: true
@@ -2376,7 +2376,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

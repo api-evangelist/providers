@@ -35,7 +35,7 @@ created: '2026-08-28'
 description: Skybox Security was a cybersecurity vendor, headquartered in San Jose, California with R&D in Israel, whose Security Posture Management Platform combined attack surface visibility, network modelling and attack-path analysis, firewall assurance and change management, vulnerability and exposure management, and its own threat intelligence feed for large hybrid enterprise and OT networks. It raised roughly $335 million in venture and private-equity funding, including a $50 million round in February 2023, before ceasing operations on February 24, 2025 and laying off approximately 300 employees across the United States and Israel. Tufin acquired a limited portion of Skybox's business and technology and retained select personnel, but did not assume Skybox's customer contracts or support obligations; it instead runs an "ExpressPath for Skybox Customers" migration programme onto the Tufin Orchestration Suite. Skybox exposed a REST API and integrations (Splunk, ServiceNow, Elasticsearch)
   to its customers, but the reference lived behind customer/partner credentials at docs.skyboxsecurity.com and no machine-readable contract was ever published publicly. Every skyboxsecurity.com host now 301-redirects into tufin.com, so nothing served on those hosts can be attributed to Skybox any longer.
 layout: provider
-modified: '2026-08-28'
+modified: '2026-09-15'
 name: Skybox Security
 nav: Providers
 network: true
@@ -57,4 +57,5 @@ tags:
 - Security Posture Management
 - Threat Intelligence
 - Attack Surface Management
+- Defunct
 ---

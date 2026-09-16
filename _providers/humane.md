@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: Humane was a consumer AI hardware startup, founded by former Apple engineers, best known for the AI Pin — a screenless, wearable AI-powered device — and its companion Cosmos operating system and Humane.Center cloud service. The company was acquired by HP in early 2025, the AI Pin was discontinued, and its cloud services and humane.com domain were taken offline. It was surfaced as a portfolio company of Kindred Ventures and added to the API Evangelist network for enrichment. As of this pass the company has no reachable web, developer, or API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humane.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Humane
 nav: Providers
 network: true
@@ -33,5 +33,6 @@ tags:
 - Hardware
 - Wearables
 - Consumer Electronics
+- Defunct
 website: https://humane.com/
 ---

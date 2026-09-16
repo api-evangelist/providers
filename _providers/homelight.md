@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: Partner-gated REST API for submitting buyer and seller leads to HomeLight, submitting Simple Sale cash-offer seller leads, and checking for duplicate leads before submission. Authentication is via a p
@@ -159,7 +159,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

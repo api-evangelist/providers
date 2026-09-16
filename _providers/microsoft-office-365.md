@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -88,6 +88,21 @@ apis:
   description: Manage users in Azure Active Directory. Users are the core identity resource representing a person, including their profile, organizational relationships, and access to services.
   name: Microsoft Office 365 Users API
   slug: microsoft-office-365-users-api
+- description: The primary API for Office 365, providing access to data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility + Security.
+  name: Microsoft Graph API
+  slug: microsoft-graph-api
+- description: Access email, manage folders, send mail, and manage mail settings via Microsoft Graph.
+  name: Outlook Mail API
+  slug: outlook-mail-api
+- description: Access and manage calendar events, meeting requests, and calendar groups.
+  name: Outlook Calendar API
+  slug: outlook-calendar-api
+- description: Access and manage files stored in OneDrive and SharePoint.
+  name: OneDrive API
+  slug: onedrive-api
+- description: Integrate with Microsoft Teams for chat, channels, meetings, and collaboration.
+  name: Microsoft Teams API
+  slug: microsoft-teams-api
 arazzos:
 - description: Create an event, read it back to confirm, then delete it from the calendar.
   name: Microsoft Office 365 Cancel Event
@@ -146,7 +161,7 @@ arazzos:
 - description: Patch a user's profile properties, then read the user back to verify.
   name: Microsoft Office 365 Update User Profile
   slug: microsoft-office-365-update-user-profile-workflow
-artifact_total: 261
+artifact_total: 266
 collections:
 - collection_type: postman
   name: Microsoft Office 365 Microsoft Graph API
@@ -1004,11 +1019,11 @@ jsonld:
   property_count: 10
   slug: microsoft-office-365-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-15'
 name: Microsoft Office 365
 nav: Providers
 network: true
-overview: 'Microsoft Office 365 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Groups API, Mail API, and 1 more. Tagged areas include Cloud, Collaboration, Enterprise, Microsoft, and Productivity.
+overview: 'Microsoft Office 365 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Groups API, Mail API, and 2 more. Tagged areas include Cloud, Collaboration, Enterprise, Microsoft, and Productivity.
 
 
   The Microsoft Office 365 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1078,7 +1093,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -363,6 +363,7 @@ common:
   type: MCPDocumentation
   url: https://www.attomdata.com/news/company-news/delivery-solutions/connecting-ai-agents-to-property-data-with-mcp/
 created: '2026-05-25'
+description: ATTOM is a property-data provider. Its API covers assessments, automated valuation models, sales and transaction history, building permits, foreclosures, owner and boundary data, school and community attributes, and property events.
 examples:
 - key_count: 3
   name: Attom Area Hierarchy Example
@@ -410,7 +411,7 @@ jsonld:
   property_count: 10
   slug: attomdata-context
 layout: provider
-modified: '2026-09-13'
+modified: '2026-09-15'
 name: ATTOM
 nav: Providers
 network: true
@@ -454,21 +455,21 @@ rules:
   slug: attomdata-rules
 score:
   band: developing
-  composite: 50.9
+  composite: 51.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 77.5
+    catalog_earned: 82.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.5
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 52.6
     contract_governance: 28.8
     contract_quality: 72.1
     developer_ergonomics: 59.5
-    discoverability: 64.8
+    discoverability: 74.1
     operational_transparency: 5.3
   previous_composite: 50.9
   provenance:
@@ -485,7 +486,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

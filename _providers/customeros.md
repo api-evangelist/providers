@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -332,6 +332,10 @@ common:
   title: ''
   type: Overlay
   url: overlays/customeros-graphql-api-overlay.yaml
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:help@customeros.ai
 created: '2026-06-20'
 description: CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, and attributes content and ad spend to real pipeline. The developer surface spans a first-party JavaScript website tracker installed behind a customer-owned reverse-proxy CNAME, a set of key-authenticated REST APIs published as OpenAPI in the company monorepo (CustomerBASE contacts and organizations, person and organization enrichment, email verification and IP intelligence, Mailstack sending domains and mailboxes, billing invoices, outreach tracking), a 34-operation Flow API for outbound sequencing, and the open-source customer-os-api GraphQL server that predates the pivot. CustomerOS also runs a live anonymous MCP server and serves an A2A agent card from its documentation host.
 finops:
@@ -355,7 +359,7 @@ network: true
 overview: 'CustomerOS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Billing API, CustomerBASE API, and 7 more. Tagged areas include CRM, Revenue, Go-To-Market, Lead Intelligence, and Visitor Identification.
 
 
-  CustomerOS''s developer surface includes documentation, getting-started guide, engineering blog, pricing, changelog, authentication, and 37 more developer resources.'
+  CustomerOS''s developer surface includes documentation, getting-started guide, engineering blog, pricing, changelog, authentication, support, and 37 more developer resources.'
 plans:
 - name: Customeros Plans Pricing
   plan_count: 2
@@ -367,7 +371,7 @@ rate_limits:
   slug: customeros-rate-limits
 score:
   band: developing
-  composite: 52.4
+  composite: 53.4
   coverage:
     artifact_dirs: 27
     catalog_earned: 51.0
@@ -375,12 +379,12 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 82.9
     contract_governance: 4.5
     contract_quality: 52.2
-    developer_ergonomics: 37.5
+    developer_ergonomics: 42.3
     discoverability: 81.5
     operational_transparency: 26.3
   jurisdiction:
@@ -401,7 +405,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

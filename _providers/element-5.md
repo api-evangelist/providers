@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: element 5 AG was a German e-commerce and digital-distribution company founded in 2000 and headquartered in Cologne, Germany. It operated a platform that let software developers and publishers sell their products and licenses directly to customers online, growing to more than 10,000 clients across 150 countries and becoming one of Europe's leading software e-commerce providers. element 5 was acquired by U.S.-based Digital River (its direct competitor) for roughly $120M and subsequently absorbed and renamed Digital River GmbH, ceasing to operate as an independent company. It was an early Earlybird Venture Capital portfolio company; this profile records its identity and exit. No live independent API or developer surface remains to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/element-5.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: element 5 AG
 nav: Providers
 network: true
@@ -35,4 +35,5 @@ tags:
 - Payments
 - Germany
 - Acquired
+- Defunct
 ---

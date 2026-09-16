@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: Programmatic access to O-RAN Software Community open interface specifications, RAN intelligence APIs, near-real-time RIC (RICAPP), Non-RT RIC (NONRTRIC), and network virtualization tools.
@@ -125,7 +125,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

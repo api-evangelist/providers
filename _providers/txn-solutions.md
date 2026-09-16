@@ -25,7 +25,7 @@ created: '2026-07-17'
 description: TXN Solutions (TXN) was a fintech startup founded in 2014 that offered a web application for consumer spending analytics, competitive intelligence, and surveys - capturing spending directly from the credit and debit cards of consumers who joined its research panel to give brands, investors, and researchers insight into consumer spending, merchant performance, and market positioning, including CPG and SKU-level data. It raised seed funding (announced November 2016) from a16z, Homebrew, Bloomberg Beta, and Social Starts. The company appears defunct as of July 2026 - its historical domain txn.com has been relinquished and is parked on the eName domain marketplace - and no public API surface is known.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/txn-solutions.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: TXN Solutions
 nav: Providers
 network: true
@@ -44,4 +44,5 @@ tags:
 - Consumer Spending
 - Market Research
 - Analytics
+- Defunct
 ---

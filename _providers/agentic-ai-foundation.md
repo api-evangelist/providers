@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 6
 apis:
 - description: The Model Context Protocol (MCP) is an open JSON-RPC 2.0 standard for connecting AI applications to external systems — tools, resources and reusable prompt templates. Originally developed by Anthropic
@@ -403,7 +403,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

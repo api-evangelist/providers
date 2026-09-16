@@ -20,15 +20,16 @@ created: '2026-07-17'
 description: thefacefeed is a company surfaced as a portfolio company of slow-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thefacefeed.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-15'
 name: thefacefeed
 nav: Providers
 network: true
-overview: thefacefeed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: thefacefeed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
 random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/thefacefeed/refs/heads/main/screenshots/thefacefeed-2026-09-02T163431.png
 slug: thefacefeed
 tags:
 - Company
+- Defunct
 website: https://thefacefeed.com
 ---

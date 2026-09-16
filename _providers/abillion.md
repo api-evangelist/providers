@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: 'abillion was a Singapore-based social platform and mobile app for discovering and reviewing vegan, sustainable, and cruelty-free products across food, beauty, and fashion, pairing a large consumer review community with a rewards model that converted member reviews into donations to non-profits and animal sanctuaries. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network as an enrichment lead. NOTE: as of July 2026 the abillion platform has officially shut down ("abillion is closing its doors"); the public site serves only a farewell notice and states member data is archived for six months before permanent deletion. No public developer program, API, or discovery surface was found during enrichment.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abillion.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-15'
 name: abillion
 nav: Providers
 network: true
@@ -45,5 +45,6 @@ tags:
 - Consumer
 - Social
 - Vegan
+- Defunct
 website: https://abillion.com
 ---

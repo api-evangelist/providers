@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: 'The advertised live football data API — REST plus a WebSocket stream — covering competitions, fixtures, live scores, match events, standings, teams, players, line-ups, statistics, head-to-head, odds, '
@@ -143,7 +143,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.4
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

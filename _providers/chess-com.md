@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -268,6 +268,7 @@ common:
   type: Vocabulary
   url: vocabulary/chess-com-vocabulary.yml
 created: '2026-05-25'
+description: Chess.com is an online chess platform. Its public data API exposes player profiles and game archives, clubs, team matches, tournaments, leaderboards, titled players and country data.
 examples:
 - key_count: 2
   name: Chess Com Get Daily Puzzle Example
@@ -303,7 +304,7 @@ jsonld:
   property_count: 7
   slug: chess-com-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-15'
 name: Chess.com
 nav: Providers
 network: true
@@ -378,7 +379,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

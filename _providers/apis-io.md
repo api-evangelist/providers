@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 75.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ arazzos:
 - description: Submit a valid APIs.json to the APIs.io index, then search the registry to confirm the submitted API appears.
   name: APIs.io Submit and Verify API
   slug: apis-io-submit-and-verify-api-workflow
-artifact_total: 97
+artifact_total: 98
 asyncapis:
 - description: 'Events APIs.io sends to a provider watching their own listing. Register with `POST /v1/me/watch/{slug}` (Influence), supplying `callback_url` for the signed-webhook delivery described here, `contact` '
   name: APIs.io Watch Events
@@ -596,7 +596,10 @@ jsonld:
   slug: apis-io-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: The APIs.io catalog as a Model Context Protocol server over streamable HTTP — 137 tools and 36 guided prompts across API, provider, tag, artifact, operation, cohort and rating discovery. Anonymous cal
+  name: APIs.io MCP Server
+  slug: mcp
+- description: 'Hosted streamable-HTTP endpoint for the APIs.io catalog MCP server. Descriptor and tool inventory: mcp/apis-io-mcp.yml.'
   name: APIs.io MCP Server
   slug: apisio-mcp-server
 modified: '2026-09-11'
@@ -676,7 +679,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -48,7 +48,7 @@ created: '2026-07-17'
 description: 'Suborbital was a developer-tools company building a WebAssembly-based extensibility platform: the Suborbital Extension Engine (SE2, formerly Suborbital Compute), a hosted service for running sandboxed third-party plugins; E2 Core / Reactr, a function scheduler for Go and WebAssembly; Sat, a tiny fast Wasm edge-compute server; Grav, an embedded decentralized message bus; and the subo CLI for building Wasm plugins and scaffolding projects. Suborbital was acquired by F5 in 2023 and the hosted product was subsequently wound down; the suborbital.dev domain has since been repurposed as an unrelated content blog. The first-party open-source client libraries (npm @suborbital/*, the se2-go Go client, and the subo CLI) and the 32-repo GitHub organization remain publicly available.'
 image: https://avatars.githubusercontent.com/u/54323182?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Suborbital
 nav: Providers
 network: true
@@ -71,5 +71,6 @@ tags:
 - Serverless
 - Plugins
 - Extensibility
+- Defunct
 website: https://suborbital.dev
 ---

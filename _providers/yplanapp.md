@@ -25,7 +25,7 @@ created: '2026-07-17'
 description: YPlan (operated by Leanworks Limited) was a mobile-first event discovery and last-minute booking app founded in London in 2012 by Rytis Vitkauskas and Viktoras Jucikas. It offered a curated feed of things to do and same-day ticket booking across cities including London, Bristol, Dublin and New York, working with thousands of event partners. The company was acquired by Time Out Group plc in October 2016 and the consumer app was discontinued in 2017. The yplanapp.com domain now 301-redirects to checkout.timeout.com. No public developer program, API, SDK, or documentation surface exists; enrichment probing found no API artifacts, so this remains an identity-only record for a defunct company.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yplanapp.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: yplanapp
 nav: Providers
 network: true

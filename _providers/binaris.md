@@ -35,7 +35,7 @@ created: '2026-07-17'
 description: Binaris was a fast, low-latency Function-as-a-Service (FaaS) platform for running production Node.js workloads in the cloud. Founded in 2017 and backed by Lightspeed Venture Partners, its developer surface centered on the `bn` command-line tool and Node.js SDK (published to npm as `binaris` and to Docker Hub as `binaris/bn`), which let developers scaffold, deploy, invoke, and inspect serverless functions in seconds. Authentication was via a Binaris API key (`BINARIS_API_KEY`). The company later explored a "Shift" programming model (`@binaris/shift-fetch-runtime`). The hosted platform at binaris.io / binaris.com is no longer in service, but the first-party client packages and a 42-repository GitHub organization remain publicly available and are captured here.
 image: https://avatars.githubusercontent.com/u/27725492?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Binaris
 nav: Providers
 network: true

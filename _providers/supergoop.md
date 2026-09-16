@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol server implementing the Universal Commerce Protocol dev.ucp.shopping service for the Supergoop! store. An anonymous tools/list returns 13 tools with full JSON Sche
@@ -240,7 +240,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

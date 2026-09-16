@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.6
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 8
 apis:
 - baseURL: https://app.textql.com/v2
@@ -242,6 +242,10 @@ common:
   title: ''
   type: Webhooks
   url: asyncapi/textql-webhooks.yml
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@textql.com
 created: '2026-08-30'
 description: TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboards, scheduled reports (Playbooks) and long-running monitors (Agents) on top of a governed Ontology semantic layer. TextQL ships a public REST platform API in two generations — a v1 Connect-RPC surface and a REST-native v2 — plus an OAuth-authorized remote MCP server that exposes Ana to Claude, Cursor, ChatGPT, Copilot and any MCP-compatible client. First-party TypeScript and Python SDKs, embeddable iframe surfaces for Ana, dashboards and data apps, SAML/OIDC single sign-on with SCIM 2.0 provisioning, and self-hosted Helm deployment into a customer VPC round out the developer surface.
 image: https://raw.githubusercontent.com/api-evangelist/textql/main/images/textql-og-card.png
@@ -260,7 +264,7 @@ overview: 'TextQL publishes 3 APIs on the [APIs.io](https://apis.io/) network: v
   The TextQL catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TextQL''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 31 more developer resources.'
+  TextQL''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
 plans:
 - name: Textql Plans Pricing
   plan_count: 3
@@ -277,7 +281,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 66.6
+  composite: 67.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 52.0
@@ -285,12 +289,12 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 54.6
-    developer_ergonomics: 73.8
+    developer_ergonomics: 78.6
     discoverability: 81.5
     operational_transparency: 42.1
   previous_composite: 66.6
@@ -304,7 +308,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

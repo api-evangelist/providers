@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: REST API for converting HTML content and web page URLs to PDF documents with support for custom page sizes, margins, headers, footers, watermarks, page numbering, and 256-bit HTTPS encryption.
@@ -154,7 +154,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 34.9
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

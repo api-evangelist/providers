@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -291,6 +291,7 @@ common:
   type: JSONLD
   url: json-ld/mathpix-context.jsonld
 created: '2026-05-25'
+description: Mathpix provides OCR and document conversion for STEM content. Its API converts images, handwriting, strokes and PDFs into LaTeX, Markdown and structured formats, with batch processing, app tokens and usage reporting.
 examples:
 - key_count: 7
   name: Mathpix Batch Example
@@ -325,7 +326,7 @@ jsonld:
   property_count: 8
   slug: mathpix-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-15'
 name: Mathpix
 nav: Providers
 network: true
@@ -369,21 +370,21 @@ rules:
   slug: mathpix-rules
 score:
   band: strong
-  composite: 54.9
+  composite: 55.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 77.5
+    catalog_earned: 82.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.5
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 67.1
     contract_governance: 28.8
     contract_quality: 65.1
     developer_ergonomics: 60.7
-    discoverability: 55.6
+    discoverability: 64.8
     operational_transparency: 36.8
   previous_composite: 54.9
   provenance:
@@ -394,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

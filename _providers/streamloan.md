@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: StreamLoan was a digital mortgage software company offering a point-of-sale (POS) and loan-origination platform that connected loan officers, borrowers, and real-estate agents to convert leads into funded home loans faster. Its toolkit spanned lead management, borrower communication and collaboration, workflow automation, document collection, security/privacy controls, and a branded borrower experience aimed at cutting the 40+ day mortgage close cycle. Backed by 500 Global. As of this enrichment pass the company appears defunct - streamloan.io is parked on a registrar IP and every developer/app/api/docs/portal subdomain is unreachable (DNS records remain but no host responds), and no public API or developer program was ever documented.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/streamloan.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: StreamLoan
 nav: Providers
 network: true

@@ -28,7 +28,7 @@ created: '2026-07-17'
 description: OB1 was the venture-backed company that built and stewarded OpenBazaar, a fully decentralized, peer-to-peer marketplace protocol for buying and selling goods and services directly between users using Bitcoin and other cryptocurrencies, with no central platform, listing fees, or intermediaries. Founded on the earlier OpenBazaar project and funded in 2015 by Union Square Ventures and Andreessen Horowitz, OB1 developed the OpenBazaar desktop and mobile clients, the underlying protocol built on IPFS and Bitcoin, and hosted supporting services. OB1 announced the closure of its servers on 15 January 2021 and the company is no longer operating; this profile is retained for historical and portfolio-graph completeness. The open-source code remains publicly archived under the OpenBazaar GitHub organization.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ob1.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: OB1
 nav: Providers
 network: true

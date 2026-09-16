@@ -23,7 +23,7 @@ created: '2026-07-17'
 description: 'BuildScience Inc. (Y Combinator Winter 2015) was a PropTech startup based in Mountain View, California that built an operating-system platform for commercial buildings. Its software let building owners and facility operators deploy customized building-management solutions intended to reduce operational costs while improving tenant satisfaction, and the company reported deploying in a one-million-square-foot Class A office building. As of the 2026 enrichment pass the company appears dormant: the buildscience.com domain no longer serves a live product (the host returns a CloudFront default certificate that does not match the domain and a broken origin), no developer portal, documentation, or public API surface could be located, and the organization''s single public GitHub repository was last updated in January 2020. This profile is retained as a verified-identity network record; no API artifacts could be enriched because the provider publishes no live API.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buildscience.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Buildscience
 nav: Providers
 network: true

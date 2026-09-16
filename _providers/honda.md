@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 2
 apis:
 - description: Honda's customer satisfaction API includes roadside assistance, maintenance programs, and vehicle-service contracts for customers and dealers.
@@ -112,7 +112,7 @@ score:
     - japan-korea
   previous_composite: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

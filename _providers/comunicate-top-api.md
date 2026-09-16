@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 57.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: 'REST API for press-release/advertorial distribution: free keyless public routes (niches, stats, market statistics) plus authenticated partner routes for articles, media, publications, editorial orders'
@@ -222,7 +222,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

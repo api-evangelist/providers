@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -314,6 +314,7 @@ common:
   type: FinOps
   url: finops/convai-finops.yml
 created: '2026-05-25'
+description: Convai builds conversational AI for interactive characters in games and virtual worlds. Its API covers character creation and configuration, chat sessions and history, knowledge banks, speech and text-to-speech, custom LLM integration and evaluation.
 finops:
 - name: Convai Finops
   service_category: AI and Machine Learning
@@ -332,7 +333,7 @@ jsonld:
   property_count: 6
   slug: convai-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-15'
 name: Convai
 nav: Providers
 network: true
@@ -365,21 +366,21 @@ rules:
   slug: convai-com-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.3
+  composite: 53.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 75.3
+    catalog_earned: 80.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.8
+    catalog_gap: 34.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.6
     developer_ergonomics: 63.1
-    discoverability: 55.6
+    discoverability: 64.8
     operational_transparency: 36.8
   previous_composite: 52.3
   provenance:
@@ -390,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 2
 apis:
 - baseURL: https://api.magichour.ai
@@ -189,6 +189,10 @@ common:
   title: ''
   type: Login
   url: https://magichour.ai/developer
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@magichour.ai
 created: '2026-08-22'
 description: Magic Hour is an AI media generation platform for video, image and audio, exposed as a public REST API. The contract is an OpenAPI 3.0 document of 33 paths and 36 operations served from api.magichour.ai with bearer authentication, covering generators for headshots, clothes changing, face editing, GIFs, image editing and upscaling, plus video and audio synthesis. Operations are priced in credits and the documentation states the credit cost per call. Magic Hour publishes two llms.txt files — one on the marketing site and a different one on the docs host — plus a 653KB llms-full.txt, and documents an HMAC-SHA256 signed webhook surface with a full event-type reference.
 image: https://magichour.ai/logo-social.png
@@ -207,7 +211,7 @@ overview: 'Magic Hour publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Magic Hour catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Magic Hour''s developer surface includes authentication, changelog, sandbox, pricing, engineering blog, and 24 more developer resources.'
+  Magic Hour''s developer surface includes authentication, changelog, sandbox, pricing, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Magichour Plans Pricing
   plan_count: 7
@@ -219,7 +223,7 @@ rate_limits:
   slug: magichour-rate-limits
 score:
   band: strong
-  composite: 61.5
+  composite: 62.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 61.0
@@ -227,12 +231,12 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 63.1
-    developer_ergonomics: 73.8
+    developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 73.7
   previous_composite: 61.5
@@ -246,7 +250,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: Read-only JSON API for country calling code lookup, phone number formatting, analysis, batch normalization, comparison, dialing guidance and capabilities. Includes a hosted Streamable HTTP MCP server,
@@ -126,7 +126,7 @@ score:
     regime_id: telecommunications
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

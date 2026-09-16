@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 3
 apis:
 - description: ERC-4337 bundler JSON-RPC endpoint. Accepts User Operations into the mempool, estimates UserOp gas, returns a UserOp and its receipt by hash, and lists supported EntryPoint addresses. One endpoint per
@@ -208,7 +208,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

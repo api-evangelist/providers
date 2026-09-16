@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: OutlookSoft was a corporate performance management (CPM) software company providing budgeting, planning, consolidation, forecasting, and financial reporting software. Originally surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub, enrichment confirmed OutlookSoft was acquired by SAP in 2007 and folded into SAP Business Planning and Consolidation (SAP BPC). The outlooksoft.com domain is now controlled by SAP (SAP nameservers) and serves no live site, developer portal, or API surface. This profile is retained as a historical company record; there is no independent API to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/outlooksoft.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: OutlookSoft
 nav: Providers
 network: true
@@ -35,4 +35,5 @@ tags:
 - Business Intelligence
 - Acquired
 - SAP
+- Defunct
 ---

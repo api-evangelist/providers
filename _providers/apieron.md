@@ -20,7 +20,7 @@ description: Apieron Inc. was a private, venture-backed medical device company h
   Apieron was a clinical-hardware company and never published a public API, developer portal, SDK, or machine-readable interface. This profile is retained as a historical record of the Canaan Partners portfolio and is not an active API provider.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apieron.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: Apieron
 nav: Providers
 network: true
@@ -38,4 +38,5 @@ tags:
 - Biosensors
 - Acquired
 - Historical
+- Defunct
 ---

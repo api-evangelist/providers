@@ -15,7 +15,7 @@ description: LightLogic was an optoelectronics company founded in January 1998 a
   pages. This is a hardware component maker with no API, developer or software surface — historically or today — and the lightlogic.com domain no longer resolves.
 image: https://lsvp.com/wp-content/uploads/2023/03/LightLogic.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: LightLogic
 nav: Providers
 network: true
@@ -32,4 +32,5 @@ tags:
 - Transceivers
 - Semiconductors
 - Hardware
+- Defunct
 ---

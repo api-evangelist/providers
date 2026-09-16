@@ -32,7 +32,7 @@ created: '2026-07-17'
 description: 'Perfect Market, Inc. was a digital publishing technology company founded by Idealab in 2007 and backed by Trinity Ventures, building on the Idealab/Overture paid-search lineage. It sold software for driving traffic, engagement and advertising revenue to premium publishers, and claimed more than 200 customers including LATimes.com, ChicagoTribune.com, NBCNews.com, Mediaite.com and BusinessInsider.com. Taboola acquired Perfect Market in August 2014 for cash and stock and folded its programmatic advertising technology into the Taboola-X publisher monetization product. The company no longer operates independently and publishes no API surface: perfectmarket.com retains delegated nameservers and Google Workspace mail but resolves to no web host on the apex, www, api, developer or docs names, so there is no website, developer portal, documentation, or contract to profile.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perfectmarket.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-15'
 name: PerfectMarket
 nav: Providers
 network: true
@@ -47,4 +47,5 @@ tags:
 - Content Monetization
 - Programmatic Advertising
 - Acquired
+- Defunct
 ---

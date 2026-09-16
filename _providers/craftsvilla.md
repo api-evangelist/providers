@@ -20,7 +20,7 @@ created: '2026-07-17'
 description: 'Craftsvilla was an India-based online marketplace for ethnic and handcrafted products — sarees, ethnic apparel, jewelry, footwear, accessories, beauty and home decor sourced from artisans, weavers and small sellers across India. Founded in 2011 and headquartered in Mumbai, it was backed by Lightspeed Venture Partners, Sequoia Capital, Nexus Venture Partners and Global Founders Capital before winding down its consumer operations around 2019 amid financial difficulties. It was surfaced as a Lightspeed portfolio company and added to the API Evangelist network as a stub for enrichment. Enrichment found no live public developer surface: the storefront domain now serves a broken AWS S3 redirect (www.craftsvilla.com is NXDOMAIN) and there is no API, developer portal, documentation, /.well-known/ discovery, or llms.txt to harvest.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/craftsvilla.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Craftsvilla
 nav: Providers
 network: true
@@ -41,4 +41,5 @@ tags:
 - Ethnic Wear
 - Handcrafted
 - India
+- Defunct
 ---

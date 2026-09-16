@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-14'
-api_count: 5
+  scored_at: '2026-09-15'
+api_count: 12
 apis:
 - description: Scalable virtual servers in the cloud.
   name: Amazon EC2
@@ -51,8 +51,33 @@ apis:
 - description: Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.
   name: Amazon RDS
   slug: amazon-rds
-artifact_total: 54
+- description: Amazon Bedrock is a fully managed service that provides access to foundation models from leading AI companies for building generative AI applications.
+  name: Amazon Bedrock API
+  slug: amazon-bedrock-api
+- description: Amazon Virtual Private Cloud lets you define and launch AWS resources in a logically isolated virtual network with full control over your networking environment.
+  name: Amazon VPC API
+  slug: amazon-vpc-api
+- description: Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud that combines the performance and availability of traditional enterprise databases with the simplicity and co
+  name: Amazon Aurora API
+  slug: amazon-aurora-api
+- description: Amazon Elastic Block Store provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud.
+  name: Amazon EBS API
+  slug: amazon-ebs-api
+- description: AWS Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS removing the need to manage servers.
+  name: AWS Fargate API
+  slug: aws-fargate-api
+- description: Amazon Keyspaces is a scalable, highly available, and managed Apache Cassandra-compatible database service for running Cassandra workloads in the cloud.
+  name: Amazon Keyspaces API
+  slug: amazon-keyspaces-api
+- description: AWS Transit Gateway connects VPCs and on-premises networks through a central hub simplifying your network and putting an end to complex peering relationships.
+  name: AWS Transit Gateway API
+  slug: aws-transit-gateway-api
+artifact_total: 61
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/security/aws-trust-center.yml
   title: ''
@@ -178,14 +203,14 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-15'
 name: Amazon Web Services (AWS)
 nav: Providers
 network: true
 overview: 'Amazon Web Services (AWS) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Amazon EC2, Amazon S3, Amazon Lambda, and 2 more. Tagged areas include Cloud Computing, Infrastructure-as-a-Service, Infrastructure, Platform-as-a-Service, and Serverless.
 
 
-  Amazon Web Services (AWS)''s developer surface includes developer portal, documentation, authentication, engineering blog, support, pricing, developer console, and 11 more developer resources.'
+  Amazon Web Services (AWS)''s developer surface includes developer portal, documentation, authentication, engineering blog, support, pricing, developer console, and 12 more developer resources.'
 plans:
 - name: Aws Plans Pricing
   plan_count: 3
@@ -197,7 +222,7 @@ rate_limits:
   slug: aws-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 43.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 48.0
@@ -205,17 +230,17 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 26.7
-    developer_ergonomics: 52.4
+    developer_ergonomics: 64.3
     discoverability: 74.1
     operational_transparency: 39.5
   previous_composite: 40.8
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

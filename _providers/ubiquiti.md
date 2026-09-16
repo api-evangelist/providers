@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ common:
   type: RateLimits
   url: rate-limits/ubiquiti-rate-limits.yml
 created: '2026-05-25T00:00:00.000Z'
-description: Ubiquiti Inc. (NYSE&#58; UI) is an American networking technology company that designs and sells wireless and wired network products for enterprises, service providers, and consumers under the UniFi, UISP, AmpliFi, airMAX, airFiber, and EdgeMax brands. UniFi is a full-stack platform spanning WiFi, switching, routing, identity, surveillance (Protect), access control (Access), and VoIP (Talk), managed locally by the UniFi Network Controller and globally via the UniFi Site Manager cloud at unifi.ui.com. UISP is Ubiquiti's ISP platform combining a Network Management System (NMS) and a Customer Relationship Management (CRM) module for wireless and fiber service providers. The official UniFi Site Manager API exposes hosts, sites, devices, ISP metrics, and SD-WAN configurations at api.ui.com/v1 with X-API-KEY authentication; UISP NMS and CRM APIs are hosted on each customer instance under /nms/api/v2.1/ and /crm/api/v1.0/ respectively.
+description: 'Ubiquiti Inc. (NYSE: UI) is an American networking technology company that designs and sells wireless and wired network products for enterprises, service providers, and consumers under the UniFi, UISP, AmpliFi, airMAX, airFiber, and EdgeMax brands. UniFi is a full-stack platform spanning WiFi, switching, routing, identity, surveillance (Protect), access control (Access), and VoIP (Talk), managed locally by the UniFi Network Controller and globally via the UniFi Site Manager cloud at unifi.ui.com. UISP is Ubiquiti''s ISP platform combining a Network Management System (NMS) and a Customer Relationship Management (CRM) module for wireless and fiber service providers. The official UniFi Site Manager API exposes hosts, sites, devices, ISP metrics, and SD-WAN configurations at api.ui.com/v1 with X-API-KEY authentication; UISP NMS and CRM APIs are hosted on each customer instance under /nms/api/v2.1/ and /crm/api/v1.0/ respectively.'
 features:
 - UniFi — full-stack networking with WiFi access points (UniFi 7), switches, routers (Dream Machine, Dream Router, Dream Wall), VPN, identity, protect cameras, access control, and talk VoIP
 - UniFi Site Manager — cloud-based multi-site management at unifi.ui.com with an official REST API at api.ui.com/v1
@@ -306,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -170,6 +170,10 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.tavily.com/llms.txt
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@tavily.com
 created: '2026-05-23'
 description: Tavily is a web access API platform optimized for LLMs and AI agents. It exposes a unified REST surface for real-time web search, page content extraction, site crawling, sitemap mapping, and AI-driven research tasks. The platform emphasizes low-latency search with a 180ms p50 on the search endpoint, a 99.99% uptime SLA, and built-in content validation safeguards. Tavily ships Python and JavaScript SDKs and integrates cleanly with major agent frameworks and LLM providers such as OpenAI, Anthropic, and Groq. Used by more than a million developers, it is trusted by enterprise customers including Databricks, IBM, JetBrains, MongoDB, and AWS.
 finops:
@@ -185,7 +189,7 @@ network: true
 overview: 'Tavily publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Crawl API, Extract API, Map API, and 2 more. Tagged areas include Search, Web Search, AI Agents, LLMs, and Extract.
 
 
-  Tavily''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, and 12 more developer resources.'
+  Tavily''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, and 12 more developer resources.'
 plans:
 - name: Tavily Plans Pricing
   plan_count: 1
@@ -223,7 +227,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

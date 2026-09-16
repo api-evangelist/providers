@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: edisn.ai was an AI-powered fan engagement platform for sports and media, surfaced as a Techstars portfolio company and added to the API Evangelist network as a stub for enrichment. The enrichment pipeline found no public developer surface — no API, OpenAPI, SDK, package, or documentation, and no docs/developer/api subdomain ever archived. The domain expired on 2026-05-09 and is now in pendingDelete/clientHold with no DNS resolution; by 2024 it already redirected to fubo.tv. No provider artifacts could be captured because none exist to search or derive from.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edisnai.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: edisn.ai
 nav: Providers
 network: true

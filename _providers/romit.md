@@ -142,7 +142,7 @@ created: '2026-07-17'
 description: Romit was a bank-agnostic digital wallet and payment-gateway platform for the card-not-present merchant-acquiring industry, built by a team of ex-Robocoin (bitcoin ATM) founders and backed by the 500 Global (500 Startups) accelerator. The Romit Merchant Suite let merchants stop chargebacks, reduce fraud and resolve disputes, while its consumer wallet let customers securely store payment methods, view transactions and communicate with merchants. Its OAuth2 REST API (api.romit.io/v1) exposed Banking (cards + linked bank accounts), Identity/KYC, Transfer (authorize/capture/refund/void money movement), Subscription, Plan and Invoice resources. Romit (romit.io) has since ceased operations; this profile captures the API surface derived from the surviving public evidence.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/romit.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Romit
 nav: Providers
 network: true

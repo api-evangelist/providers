@@ -9,31 +9,6 @@ access_model:
   - '{''url'': ''https://anar.biz/'', ''status'': 301, ''note'': ''declared website redirects to https://myragems.com/ — a different registrable domain (anar.biz -> myragems.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +33,7 @@ created: '2026-07-17'
 description: Anar was a B2B marketplace and business networking mobile app for small businesses, sellers, and buyers in India, operating from 2020 to 2023 before shutting down. At its peak it reported 1.6M+ registered businesses, 450k+ sellers, 1.1M+ buyers, and 7M+ business enquiries processed across 6.6M+ listed products. It raised roughly $6.5M from Accel and Elevation Capital plus angel investors. Added to the API Evangelist network as an Accel portfolio company; no public developer platform, API, SDK, or documentation was ever published, and the service is now defunct.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anar.png
 layout: provider
-modified: '2026-07-17T23:15:00Z'
+modified: '2026-09-15'
 name: Anar
 nav: Providers
 network: true
@@ -67,39 +42,6 @@ overview: 'Anar is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
   Anar''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 19
-score:
-  band: minimal
-  composite: 5.5
-  coverage:
-    artifact_dirs: 3
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 50.0
-    operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - india
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - india-south-asia
-  previous_composite: 5.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-14'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/anar/refs/heads/main/screenshots/anar-2026-07-25T200155.png
 security:
 - kind: domain-security

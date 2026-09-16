@@ -20,15 +20,16 @@ created: '2026-07-17'
 description: InSparq is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/insparq.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: InSparq
 nav: Providers
 network: true
-overview: InSparq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: InSparq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
 random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/insparq/refs/heads/main/screenshots/insparq-2026-07-25T222543.png
 slug: insparq
 tags:
 - Company
+- Defunct
 website: https://insparq.com
 ---

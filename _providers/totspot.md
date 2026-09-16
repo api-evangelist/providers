@@ -29,7 +29,7 @@ created: '2026-07-17'
 description: TotSpot was a mobile resale shopping marketplace for kids' clothes, letting parents buy and sell gently used children's fashion (brands like Burberry, Nike, GAP, Gymboree) with peer-to-peer listings and a concierge selling service. A 500 Global (500 Startups) portfolio company, TotSpot appears to be defunct - as of July 2026 totspot.me serves only a web-hosting placeholder page, and no public API or developer surface was found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/totspot.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: TotSpot
 nav: Providers
 network: true
@@ -49,5 +49,6 @@ tags:
 - Marketplace
 - Mobile Commerce
 - Shopping
+- Defunct
 website: https://totspot.me
 ---

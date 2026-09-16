@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,13 +88,13 @@ description: 'Jump is an AI operating system for financial advisors, used by 35,
 image: https://jump.imgix.net/v3/Web%20Linkedin%20Preview.png
 layout: provider
 modified: '2026-07-19'
-name: Jump &#8211; Advisor AI
+name: Jump – Advisor AI
 nav: Providers
 network: true
-overview: 'Jump &#8211; Advisor AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Advisors, Wealth Management, and Fintech.
+overview: 'Jump – Advisor AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Advisors, Wealth Management, and Fintech.
 
 
-  Jump &#8211; Advisor AI''s developer surface includes engineering blog, pricing, signup flow, and 8 more developer resources.'
+  Jump – Advisor AI''s developer surface includes engineering blog, pricing, signup flow, and 8 more developer resources.'
 random_paper: 18
 score:
   band: emerging
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.6
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

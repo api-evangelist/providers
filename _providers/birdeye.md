@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ apis:
   slug: birdeye-gmb-products-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
-  description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Q&amp;A section, in the Google listing
+  description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Q&A section, in the Google listing
   name: Birdeye Google Q&A API
   slug: birdeye-google-q-a-api
 - baseURL: https://api.birdeye.com
@@ -1077,7 +1077,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

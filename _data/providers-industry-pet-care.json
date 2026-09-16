@@ -1,6 +1,6 @@
 {
- "total": 35,
- "shown": 35,
+ "total": 34,
+ "shown": 34,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -70,7 +70,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -131,7 +131,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -180,7 +180,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -237,7 +237,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -280,7 +280,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -330,7 +330,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -373,7 +373,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -423,7 +423,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -466,7 +466,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -509,7 +509,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -559,7 +559,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -602,7 +602,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -645,7 +645,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -738,7 +738,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -780,7 +780,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -815,8 +815,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 18,
-   "shown": 18,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Smalls",
@@ -834,7 +834,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -877,7 +877,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -920,7 +920,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -963,7 +963,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1013,7 +1013,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1062,7 +1062,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1105,7 +1105,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1155,7 +1155,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1205,7 +1205,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1248,7 +1248,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1276,21 +1276,22 @@
      "rank": 27
     },
     {
-     "name": "The Farmer&#8217;s Dog",
-     "slug": "the-farmer-and-8217-s-dog",
-     "description": "The Farmer&#8217;s Dog is a New York-based direct-to-consumer pet health company that makes fresh, human-grade dog food. Founded in 2014 by Brett Podolsky and Jonathan Regev, it builds personalized meal plans from each dog's profile and delivers pre-portioned, gently cooked meals on a recurring subscription, shipping nationwide across the United States from its own food-safety-standard kitchens. The company is a consumer-brand portfolio company of Insight Partners. It operates a public marketing/commerce website and a GitHub organization (github.com/farmersdog) of internal tooling, but does not publish a public developer API; this profile was surfaced as a portfolio lead and enriched with the honest finding that there is no public API surface.",
-     "score": 5.3,
+     "name": "DogVacay",
+     "slug": "dogvacay",
+     "description": "DogVacay was a consumer marketplace for dog boarding, pet sitting, dog walking, and doggy daycare that connected pet owners with a network of vetted, background-checked pet sitters and hosts across the United States and Canada. Founded in 2012 and backed by Andreessen Horowitz (a16z), the company was acquired by and merged into Rover in 2017; the DogVacay brand has since been retired and dogvacay.com now redirects to Rover. No public developer API, developer portal, or API documentation was ever published, so this profile carries company identity only and no API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dogvacay/refs/heads/main/screenshots/dogvacay-2026-07-25T212233.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1318,10 +1319,10 @@
      "rank": 28
     },
     {
-     "name": "DogVacay",
-     "slug": "dogvacay",
-     "description": "DogVacay was a consumer marketplace for dog boarding, pet sitting, dog walking, and doggy daycare that connected pet owners with a network of vetted, background-checked pet sitters and hosts across the United States and Canada. Founded in 2012 and backed by Andreessen Horowitz (a16z), the company was acquired by and merged into Rover in 2017; the DogVacay brand has since been retired and dogvacay.com now redirects to Rover. No public developer API, developer portal, or API documentation was ever published, so this profile carries company identity only and no API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dogvacay/refs/heads/main/screenshots/dogvacay-2026-07-25T212233.png",
+     "name": "Itch",
+     "slug": "itch",
+     "description": "Itch is a UK direct-to-consumer pet wellness brand, backed by Seedcamp, offering a subscription service that delivers vet-approved flea, tick and worm treatments to pet owners on a recurring schedule, alongside pet health guidance and related care products. It was surfaced as a Seedcamp portfolio company and added to the API Evangelist network for enrichment. As of this pass no public developer portal, API documentation, or machine-readable API specification could be found; the consumer website sits behind bot protection, so this profile carries provider identity plus a probed domain-security posture rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itch/refs/heads/main/screenshots/itch-2026-07-25T222959.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1333,7 +1334,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1361,10 +1362,10 @@
      "rank": 29
     },
     {
-     "name": "Itch",
-     "slug": "itch",
-     "description": "Itch is a UK direct-to-consumer pet wellness brand, backed by Seedcamp, offering a subscription service that delivers vet-approved flea, tick and worm treatments to pet owners on a recurring schedule, alongside pet health guidance and related care products. It was surfaced as a Seedcamp portfolio company and added to the API Evangelist network for enrichment. As of this pass no public developer portal, API documentation, or machine-readable API specification could be found; the consumer website sits behind bot protection, so this profile carries provider identity plus a probed domain-security posture rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itch/refs/heads/main/screenshots/itch-2026-07-25T222959.png",
+     "name": "Pawsh",
+     "slug": "pawsh",
+     "description": "Pawsh is a consumer marketplace that connects pet owners with top-rated local dog and cat groomers. Pet owners browse groomer profiles, read real reviews, compare transparent pricing, and book grooming appointments online in minutes. Backed by 500 Global, Pawsh runs as a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or documentation surface — it is a consumer-facing booking platform with no programmable interface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawsh/refs/heads/main/screenshots/pawsh-2026-08-07T191615.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1376,7 +1377,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1404,10 +1405,10 @@
      "rank": 30
     },
     {
-     "name": "Pawsh",
-     "slug": "pawsh",
-     "description": "Pawsh is a consumer marketplace that connects pet owners with top-rated local dog and cat groomers. Pet owners browse groomer profiles, read real reviews, compare transparent pricing, and book grooming appointments online in minutes. Backed by 500 Global, Pawsh runs as a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or documentation surface — it is a consumer-facing booking platform with no programmable interface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawsh/refs/heads/main/screenshots/pawsh-2026-08-07T191615.png",
+     "name": "TellTail",
+     "slug": "telltail",
+     "description": "TellTail was a community-first platform providing community, education, and business support to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased operations (\"TellTail is closing its doors\"); it operated a consumer marketplace and community product with no public developer API, documentation, SDK, or event surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telltail/refs/heads/main/screenshots/telltail-2026-09-02T162746.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1419,7 +1420,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1447,49 +1448,6 @@
      "rank": 31
     },
     {
-     "name": "TellTail",
-     "slug": "telltail",
-     "description": "TellTail was a community-first platform providing community, education, and business support to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased operations (\"TellTail is closing its doors\"); it operated a consumer marketplace and community product with no public developer API, documentation, SDK, or event surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telltail/refs/heads/main/screenshots/telltail-2026-09-02T162746.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
      "name": "Petcube",
      "slug": "petcube",
      "description": "Petcube is a pet-technology company (a Y Combinator alum) that makes interactive Wi-Fi pet cameras and a companion mobile app for remote pet care. Its consumer hardware line includes the Petcube Cam, Bites treat-dispensing camera, and Play laser camera, offering HD video, night vision, two-way audio, motion and sound alerts, and app-controlled treat tossing and play. Petcube also sells the Care subscription (cloud video history, extended alerts) and Online Vet / Emergency Fund telehealth services. As of this enrichment pass Petcube exposes no public developer API, developer portal, or documented integration surface — the primary interface is the consumer iOS/Android app tied to its private cloud backend. This profile is maintained in the API Evangelist network as a company record.",
@@ -1505,7 +1463,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1537,7 +1495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Elanco Animal Health",
@@ -1555,7 +1513,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -1584,7 +1542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Patterson Companies",
@@ -1602,7 +1560,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1634,7 +1592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     }
    ]
   }

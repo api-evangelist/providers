@@ -19,14 +19,15 @@ created: '2026-07-17'
 description: Lockitron was a smart-lock startup (Bluetooth/Wi-Fi keyless entry, the Lockitron Bolt) that offered an open web API at api.lockitron.com and integrations with IFTTT, Pebble, Nest and others. It was acquired by Chamberlain Group in 2019 and its service and developer API were shut down on 2020-06-17; Bolt devices moved to Chamberlain's myQ platform. The company is defunct and its domain (lockitron.com) is parked with no live web or API surface. Surfaced as a slow-ventures portfolio lead.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lockitron.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: lockitron
 nav: Providers
 network: true
-overview: lockitron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: lockitron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
 random_paper: 15
 slug: lockitron
 tags:
 - Company
+- Defunct
 website: https://lockitron.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.9
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - baseURL: https://dashboard.starbridge.ai
@@ -263,6 +263,10 @@ common:
   title: ''
   type: Website
   url: https://starbridge.ai
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@starbridge.ai
 created: '2026-07-17'
 description: Starbridge is an AI-powered go-to-market and sales-intelligence platform for vendors selling to the public sector and education — government agencies, K-12 school districts, and higher-education institutions. It surfaces early buying signals (RFPs, board meetings, purchases, conferences, contact and job changes), scores and enriches target accounts, and drafts personalized outbound and RFP responses. Starbridge exposes an external REST API (Bearer API keys), Ed25519-signed webhooks, and a hosted OAuth MCP server, plus published Agent Skills, so buyer intelligence can be pulled into CRMs (Salesforce, HubSpot), Slack, Zapier, and AI agents. Backed by Craft Ventures.
 image: https://cdn.prod.website-files.com/68a834f29776727eae1bc0f6/694fa319b9cd6a197c7be433_1_Starbridge%20Homepage%20OpenGraph.webp
@@ -281,7 +285,7 @@ overview: 'Starbridge publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The Starbridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Starbridge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 30 more developer resources.'
+  Starbridge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 31 more developer resources.'
 plans:
 - name: Starbridge Plans Pricing
   plan_count: 0
@@ -331,7 +335,7 @@ score:
     regime_id: government
     score: 74.1
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

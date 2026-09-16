@@ -38,7 +38,7 @@ description: HiCustomer (ハイカスタマー) was a Japanese Customer Success 
   but empty) and the product is discontinued; the last archived homepage (Oct 2024) is a STUDIO-built single-page "About the company" placeholder. No public developer API, documentation, SDK, or developer portal was ever published — the Wayback record for hicustomer.jp contains no /api, /docs, /developers, /pricing or /status path at any point in its history.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hicustomer.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-15'
 name: HiCustomer
 nav: Providers
 network: true

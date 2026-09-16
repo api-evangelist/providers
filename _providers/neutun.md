@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: 'Neutun (Neutun Labs) was a consumer digital-health startup based in Toronto and San Francisco that built a mobile app for people living with epilepsy — helping them track and log seizure activity, manage and fulfill medications, share their journey with a care-circle of loved ones, and surface research-backed health insights to help reduce and prevent seizures. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub lead. Enrichment probing (2026-07-20) found the company appears defunct: neutun.com is still registered but resolves to no live website (last Wayback Machine snapshot October 2018), and no developer portal, API reference, SDK, OpenAPI, or any public API surface was ever published — only a consumer application with social OAuth sign-in.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neutun.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Neutun
 nav: Providers
 network: true
@@ -35,5 +35,6 @@ tags:
 - Medication Management
 - Consumer Health
 - Mobile App
+- Defunct
 website: https://neutun.com
 ---

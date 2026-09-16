@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface of the Walabot DIY storefront (walabot.com, a Shopify store operated by Vayyar): unauthenticated read-only product JSON endpoints (/products/{handle}.json, /collections/{'
@@ -164,7 +164,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

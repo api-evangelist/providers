@@ -1,29 +1,4 @@
 ---
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 0
 common:
@@ -51,46 +26,12 @@ created: '2026-08-17'
 description: 'Seiza was a French social-recruitment advertising and recruitment-automation SaaS platform dedicated to frontline hiring — hospitality and restaurants, transport and logistics, agri-food, industry, retail, temp staffing, healthcare and construction. Founded in Paris in 2010 as Work4 Labs by Stephane Le Viet, Gautier Machelon and Matt Brown, it built its early business on sourcing candidates through non-professional social networks rather than job boards or LinkedIn, later rebranding from Work4 to Seiza. It raised roughly $22.8M in venture capital (Serena, among others) and served about 400 clients across Europe and the US, including McDonald''s, Sysco, Ecolab and Veolia. The product was a recruiter web application — social sourcing campaigns, profile enrichment, one-click calling, a compatibility index, automated interview scheduling, SMS/messaging and reporting — plus a fixed catalog of 23 named ATS connectors (Bullhorn, Workday, Greenhouse, SmartRecruiters, iCIMS, Cornerstone,
   Recruitee, Talensoft, DigitalRecruiters, Beetween, Fountain, Paychex, CareerBuilder, Avionte, Acquity, Idibu, PivotCX, Talemetry, Gestmax, Scoptalent, Eolia Software, MyCVtheque, Hubspot), with anything outside that list handled as a bespoke integration through sales. No public API, developer portal, API reference, OpenAPI/AsyncAPI specification, webhook catalog, SDK or CLI was ever published: a 557-URL census of the archived seiza.co site shows only marketing, blog, FAQ and legal pages, and every /.well-known/ path returned 404 while the site was live. Seiza was acquired by UK job-search engine Adzuna on 2024-11-18 and folded into Adzuna''s social recruitment advertising line; Adzuna''s own developer program is profiled separately in this network. The company domain seiza.co was still serving in May 2026 but no longer resolves at all as of 2026-08-17. This profile is retained as a historical company record; there is no API surface to enrich.'
 layout: provider
-modified: '2026-08-17'
+modified: '2026-09-15'
 name: Seiza
 nav: Providers
 network: true
 overview: Seiza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Human Resources, HR Tech, and Recruitment.
 random_paper: 15
-score:
-  band: minimal
-  composite: 4.6
-  coverage:
-    artifact_dirs: 3
-    catalog_earned: 25.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 90.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 46.3
-    operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - france
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - europe
-    - france-iberia
-  previous_composite: 4.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-14'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/seiza/refs/heads/main/screenshots/seiza-2026-09-02T154811.png
 slug: seiza
 tags:

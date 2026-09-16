@@ -44,7 +44,7 @@ created: '2026-07-17'
 description: Campanja was a Stockholm-based advertising-technology company founded in 2010 that built a high-frequency paid-search bid-optimization engine. Its platform placed millions of automated bids per day across Google AdWords, Google Shopping, and Yahoo/Bing search campaigns, using real-time tracking and predictive big-data modeling to improve return on ad spend for large online advertisers while cutting media cost. Campanja raised a $5M Series A (Hoxton Ventures, DFJ Esprit) and was acquired by [24]7.ai in 2015, where its technology was folded into the [24]7 Customer Acquisition Cloud. The independent company is effectively defunct and campanja.com no longer resolves to a live site. This profile was surfaced as a 500 Global portfolio lead and processed by the API Evangelist enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/campanja.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-15'
 name: Campanja
 nav: Providers
 network: true
@@ -65,5 +65,6 @@ tags:
 - Marketing Technology
 - PPC
 - Sweden
+- Defunct
 website: https://campanja.com
 ---

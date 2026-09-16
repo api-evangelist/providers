@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -182,6 +182,10 @@ common:
   title: ''
   type: FinOps
   url: finops/novita-ai-finops.yml
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@novita.ai
 created: '2026-05-08'
 description: Novita AI is an AI inference cloud offering serverless LLM, image, video, and audio generation APIs alongside on-demand GPU rentals and serverless GPU endpoints. Hosts open-source models with both native and OpenAI-compatible chat surfaces, plus an agent sandbox and MCP server for tool-using agents.
 finops:
@@ -204,7 +208,7 @@ overview: 'Novita AI publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Novita AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Novita AI''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, CLI, and 21 more developer resources.'
+  Novita AI''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, CLI, support, and 21 more developer resources.'
 plans:
 - name: Novita Ai Plans Pricing
   plan_count: 1
@@ -254,7 +258,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

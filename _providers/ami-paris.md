@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: Agent-facing commerce surface for the AMI Paris Shopify storefront — a Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, checkout, fulfillment, discount, and order operations, p
@@ -143,7 +143,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

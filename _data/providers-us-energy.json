@@ -1,6 +1,6 @@
 {
- "total": 57,
- "shown": 57,
+ "total": 56,
+ "shown": 56,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -89,7 +89,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -140,7 +140,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -191,7 +191,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -242,7 +242,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -293,7 +293,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -336,8 +336,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 16,
-   "shown": 16,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Pacific Gas and Electric",
@@ -355,7 +355,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -406,7 +406,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -457,7 +457,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -508,7 +508,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -559,7 +559,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -610,7 +610,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -661,7 +661,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -712,7 +712,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -763,7 +763,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -814,7 +814,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -865,7 +865,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -916,7 +916,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -967,7 +967,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1003,57 +1003,6 @@
      "rank": 19
     },
     {
-     "name": "Arcadia",
-     "slug": "arcadia",
-     "description": "Arcadia is the leading clean energy data platform that provides developers and businesses with programmatic access to utility billing data, real-time energy usage, and tariff intelligence across thousands of utility providers in the United States. The Arc Connect API enables applications to collect and synchronize utility account credentials, retrieve structured billing statements, and access granular interval meter data down to 15-minute readings. Arcadia's Plug API covers more than 95% of US utility accounts, supporting use cases including energy management, carbon accounting, solar savings analysis, EV charging optimization, and community solar enrollment. The platform also offers Signal for tariff rate calculation, Switch for plan recommendations, and DataHub for warehouse-native SQL access to aggregated energy datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/screenshots/arcadia-2026-06-20T172358.png",
-     "score": 45.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 59.1,
-      "contract_governance": 9.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 37.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Energy Data Platforms",
-     "rank": 20
-    },
-    {
      "name": "Patch",
      "slug": "patch-io",
      "description": "Patch is an API-first climate platform that helps companies procure carbon credits and removals, run climate strategy programs, and embed climate action into their own products. The core Patch API exposes carbon projects, estimates, and orders so developers can build offset purchase flows directly into checkouts, accounting systems, and ESG products. Patch also runs Radius (network-based impact acceleration), Offtake (climate tech funding and long-term credit access), and an RFP tool for carbon credit procurement. Official SDKs are available for Node.js, Python, Ruby, and other languages, and the API is documented with an OpenAPI 3 spec and Swagger UI.",
@@ -1069,7 +1018,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -1095,7 +1044,7 @@
       "agentic_commerce": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "UtilityAPI",
@@ -1113,7 +1062,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1146,7 +1095,7 @@
       "agentic_commerce": false
      },
      "tier": "Energy Data Platforms",
-     "rank": 22
+     "rank": 21
     }
    ]
   },
@@ -1174,7 +1123,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1207,7 +1156,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "California ISO",
@@ -1225,7 +1174,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1258,7 +1207,7 @@
       "agentic_commerce": false
      },
      "tier": "System & Market Operators",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "NAESB",
@@ -1276,7 +1225,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1309,7 +1258,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Aurora Solar",
@@ -1327,7 +1276,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1360,7 +1309,7 @@
       "agentic_commerce": false
      },
      "tier": "Solar & Distributed Energy",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "ChargePoint",
@@ -1378,7 +1327,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1411,7 +1360,7 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "WattTime",
@@ -1429,7 +1378,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1462,7 +1411,7 @@
       "agentic_commerce": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Ameren",
@@ -1480,7 +1429,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1513,7 +1462,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Southern California Edison",
@@ -1531,7 +1480,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1564,7 +1513,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "New York Independent System Operator (NYISO)",
@@ -1582,7 +1531,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1615,7 +1564,7 @@
       "agentic_commerce": false
      },
      "tier": "System & Market Operators",
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Persefoni",
@@ -1633,7 +1582,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -1659,7 +1608,7 @@
       "agentic_commerce": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 32
+     "rank": 31
     }
    ]
   },
@@ -1687,7 +1636,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1720,7 +1669,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Landis+Gyr",
@@ -1738,7 +1687,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1771,7 +1720,7 @@
       "agentic_commerce": false
      },
      "tier": "Metering",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Electrify America",
@@ -1789,7 +1738,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1822,7 +1771,7 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Watershed",
@@ -1839,7 +1788,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -1865,7 +1814,7 @@
       "agentic_commerce": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "EVgo",
@@ -1882,7 +1831,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1915,7 +1864,7 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "EnergyHub",
@@ -1933,7 +1882,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1966,7 +1915,7 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "NERC",
@@ -1984,7 +1933,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2017,7 +1966,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators & Government Data",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Enverus",
@@ -2035,7 +1984,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2068,7 +2017,7 @@
       "agentic_commerce": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Yes Energy",
@@ -2086,7 +2035,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2119,7 +2068,7 @@
       "agentic_commerce": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Sempra",
@@ -2137,7 +2086,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2170,7 +2119,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Uplight",
@@ -2188,7 +2137,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2221,7 +2170,7 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Xcel Energy",
@@ -2239,7 +2188,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2272,7 +2221,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "American Electric Power",
@@ -2290,7 +2239,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2323,7 +2272,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Vistra Corp",
@@ -2341,7 +2290,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2374,7 +2323,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Constellation Energy",
@@ -2392,7 +2341,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2425,7 +2374,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 47
+     "rank": 46
     }
    ]
   },
@@ -2453,7 +2402,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2486,7 +2435,7 @@
       "agentic_commerce": false
      },
      "tier": "Solar & Distributed Energy",
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "AutoGrid",
@@ -2504,7 +2453,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2537,7 +2486,7 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Exelon",
@@ -2555,7 +2504,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2588,7 +2537,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "PSEG",
@@ -2606,7 +2555,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2639,7 +2588,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Dominion Energy",
@@ -2657,7 +2606,58 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 51
+    },
+    {
+     "name": "NextEra Energy",
+     "slug": "nextera-energy",
+     "description": "NextEra Energy, Inc. is a Fortune 500 American energy company and one of the largest electric utility holding companies in the United States. It is the world's largest generator of renewable energy from the wind and sun, and a world leader in battery storage. NextEra Energy operates principally through its two subsidiaries, Florida Power & Light (FPL) and NextEra Energy Resources. This repository captures the public-facing digital surface, corporate touchpoints, and any developer or data resources for NextEra Energy. No public REST APIs, developer portal, or machine-readable data feeds have been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextera-energy/refs/heads/main/screenshots/nextera-energy-2026-06-20T190258.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2693,22 +2693,108 @@
      "rank": 52
     },
     {
-     "name": "NextEra Energy",
-     "slug": "nextera-energy",
-     "description": "NextEra Energy, Inc. is a Fortune 500 American energy company and one of the largest electric utility holding companies in the United States. It is the world's largest generator of renewable energy from the wind and sun, and a world leader in battery storage. NextEra Energy operates principally through its two subsidiaries, Florida Power & Light (FPL) and NextEra Energy Resources. This repository captures the public-facing digital surface, corporate touchpoints, and any developer or data resources for NextEra Energy. No public REST APIs, developer portal, or machine-readable data feeds have been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextera-energy/refs/heads/main/screenshots/nextera-energy-2026-06-20T190258.png",
-     "score": 3.3,
+     "name": "DTE Energy",
+     "slug": "dte-energy",
+     "description": "DTE Energy is a Detroit-based diversified energy company involved in the development and management of energy-related businesses and services nationwide, with utility operations in Michigan.",
+     "score": 2.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 25.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 53
+    },
+    {
+     "name": "Duke Energy",
+     "slug": "duke-energy",
+     "description": "Duke Energy is one of the largest electric power holding companies in the United States, supplying electricity and natural gas to millions of customers across the Southeast and Midwest.",
+     "score": 2.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 54
+    },
+    {
+     "name": "FirstEnergy",
+     "slug": "firstenergy",
+     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
+     "score": 2.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2741,99 +2827,13 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 53
-    },
-    {
-     "name": "DTE Energy",
-     "slug": "dte-energy",
-     "description": "DTE Energy is a Detroit-based diversified energy company involved in the development and management of energy-related businesses and services nationwide, with utility operations in Michigan.",
-     "score": 2.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Utilities & Retailers",
-     "rank": 54
-    },
-    {
-     "name": "Duke Energy",
-     "slug": "duke-energy",
-     "description": "Duke Energy is one of the largest electric power holding companies in the United States, supplying electricity and natural gas to millions of customers across the Southeast and Midwest.",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Utilities & Retailers",
      "rank": 55
     },
     {
-     "name": "FirstEnergy",
-     "slug": "firstenergy",
-     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
+     "name": "NRG Energy",
+     "slug": "nrg-energy",
+     "description": "NRG Energy is a Fortune 500 American energy company. This repository captures the APIs, developer tools, and machine-readable API artifacts for NRG Energy. No public APIs have been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nrg-energy/refs/heads/main/screenshots/nrg-energy-2026-06-20T190455.png",
      "score": 2.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2845,7 +2845,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2879,57 +2879,6 @@
      },
      "tier": "Utilities & Retailers",
      "rank": 56
-    },
-    {
-     "name": "NRG Energy",
-     "slug": "nrg-energy",
-     "description": "NRG Energy is a Fortune 500 American energy company. This repository captures the APIs, developer tools, and machine-readable API artifacts for NRG Energy. No public APIs have been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nrg-energy/refs/heads/main/screenshots/nrg-energy-2026-06-20T190455.png",
-     "score": 2.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Utilities & Retailers",
-     "rank": 57
     }
    ]
   }

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 3
 apis:
 - description: The Adobe Commerce (Magento 2) storefront GraphQL API instantiated on Watchmaker Genomics' own host. Fully introspectable without credentials — 636 types, 54 root query fields and 99 mutations coverin
@@ -178,7 +178,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

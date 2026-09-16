@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 34
 apis:
 - description: KPN Grip is a KPN identity and access management solution that acts as a central identity hub, letting developers integrate user registration, authentication and authorization (SAML 2.0, OpenID Connec
@@ -1136,7 +1136,7 @@ score:
     regime_id: telecommunications
     score: 78.5
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

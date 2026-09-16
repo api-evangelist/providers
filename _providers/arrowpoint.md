@@ -32,7 +32,7 @@ created: '2026-07-17'
 description: 'ArrowPoint Communications, Inc. (NASDAQ: ARPT) was a networking company based in Acton, Massachusetts that built content switches — Layer 4-7 "web switches" that inspected HTTP content, cookies and URLs to route and load-balance traffic across web server farms, CDNs and hosting providers. Founded in 1997 and backed by Matrix Partners, North Bridge Venture Partners and Accel Partners, it IPO''d in early 2000 and was acquired by Cisco Systems in a stock deal announced 2000-05-05 and completed 2000-06-23, valued at roughly $5.7 billion. Its CSS 11000 series and WebNS software became a Cisco product line that has since reached end-of-life and been retired. ArrowPoint no longer operates as an independent company: it publishes no developer portal, no documentation, no APIs and no SDKs, and the arrowpoint.com domain — still delegated to Cisco nameservers — serves no live web or API surface. This profile is retained as a historical record of a Matrix Partners portfolio exit.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arrowpoint.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: ArrowPoint
 nav: Providers
 network: true
@@ -53,4 +53,5 @@ tags:
 - Load Balancing
 - Acquired
 - Historical
+- Defunct
 ---

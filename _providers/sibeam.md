@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: 'SiBEAM, Inc. was a fabless semiconductor company that pioneered 60GHz millimeter-wave (mmWave) wireless technology and helped drive the WirelessHD standard for uncompressed wireless HD video and multi-gigabit data links. It was surfaced as a portfolio company of Lux Capital and added to the API Evangelist network as a stub for enrichment (sector: semiconductors). The enrichment pass found no independent public surface: SiBEAM was acquired by Silicon Image in 2011, and Silicon Image was in turn acquired by Lattice Semiconductor in 2015, so there is no live SiBEAM website, developer portal, documentation, SDKs, or API surface to catalog.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sibeam.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Sibeam
 nav: Providers
 network: true
@@ -29,4 +29,5 @@ tags:
 - Millimeter Wave
 - Wireless
 - Chipsets
+- Defunct
 ---

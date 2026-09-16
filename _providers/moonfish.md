@@ -20,16 +20,17 @@ created: '2026-07-17'
 description: 'Moonfish is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moonfish.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-15'
 name: Moonfish
 nav: Providers
 network: true
-overview: Moonfish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
+overview: Moonfish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, and Defunct.
 random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonfish/refs/heads/main/screenshots/moonfish-2026-08-07T184240.png
 slug: moonfish
 tags:
 - Company
 - Consumer
+- Defunct
 website: https://moonfish.com/
 ---

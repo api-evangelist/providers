@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 3
 apis:
 - description: Bulk-create WhatsApp contacts inside a Chatfuel automation. POST a list of up to 1,000 E.164 phone numbers plus a contact_data.properties map of custom attributes applied to every contact in the reque
@@ -219,7 +219,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

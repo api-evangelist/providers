@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: Hamptons Lane is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hamptons-lane.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Hamptons Lane
 nav: Providers
 network: true

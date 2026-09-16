@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: EQRx was a biopharmaceutical company based in Cambridge, Massachusetts, founded in 2020 by Alexis Borisy with a mission to develop and deliver innovative, patent-protected medicines at radically lower prices. The company went public in 2021 through a SPAC merger with CM Life Sciences III and built an oncology and immunology pipeline anchored by in-licensed candidates such as aumolertinib and sugemalimab. In 2023 EQRx wound down its drug-development programs and was acquired by Revolution Medicines in an all-stock transaction. It was surfaced in the API Evangelist network as a portfolio-company lead (backed by a16z and GV); it never operated a public developer platform or API, and its web presence is no longer live.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eqrx.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: EQRx
 nav: Providers
 network: true
@@ -45,5 +45,6 @@ tags:
 - Drug Development
 - Life Sciences
 - Healthcare
+- Defunct
 website: https://eqrx.com
 ---

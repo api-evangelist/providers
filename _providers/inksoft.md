@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 4
 apis:
 - description: Retrieve a web store's product catalog for building custom catalog and product-detail pages. Documented API 2 methods include GetProductCategoryList (all categories and subcategories in a store with c
@@ -139,7 +139,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 16.6
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

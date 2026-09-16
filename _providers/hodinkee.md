@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: 'The agent-callable commerce surface of HODINKEE Shop. Two Model Context Protocol endpoints are served from shop.hodinkee.com and answered a real tools/list anonymously on 2026-08-22: /api/ucp/mcp impl'
@@ -218,7 +218,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

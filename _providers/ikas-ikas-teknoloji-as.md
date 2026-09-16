@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
@@ -166,17 +166,17 @@ created: '2026-07-17'
 description: ikas (IKAS Teknoloji AS) is an all-in-one e-commerce platform, headquartered in Turkey and backed by 500 Global, that lets merchants build online stores, manage products, inventory, orders, customers, and campaigns, and sell across multiple sales channels. For developers and partners, ikas exposes a public GraphQL Admin API at api.myikas.com that covers products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhooks. Apps authenticate with OAuth 2.0 (client_credentials for private/store apps and authorization_code for public admin apps) using scoped permissions such as read_products/write_products and read_orders/write_orders. ikas also ships a TypeScript SDK, an ikas CLI, an App Bridge for embedded dashboard apps, a theme development kit, and an official MCP server for its code components.
 image: https://ikas.dev/img/logo.svg
 layout: provider
-modified: '2026-07-19'
-name: Ikas, IKAS Teknoloji AS
+modified: '2026-09-15'
+name: Ikas
 nav: Providers
 network: true
-overview: 'Ikas, IKAS Teknoloji AS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Storefront, and Order.
+overview: 'Ikas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Storefront, and Order.
 
 
-  The Ikas, IKAS Teknoloji AS catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Ikas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ikas, IKAS Teknoloji AS''s developer surface includes documentation, getting-started guide, sandbox, pricing, authentication, CLI, and 19 more developer resources.'
+  Ikas'' developer surface includes documentation, getting-started guide, sandbox, pricing, authentication, CLI, and 19 more developer resources.'
 random_paper: 7
 scopes:
 - name: Ikas Ikas Teknoloji As Scopes
@@ -207,7 +207,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

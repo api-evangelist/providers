@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: Orgspace, Inc. was a B2B people-operations software company offering org design, staffing, and workforce analytics tools that integrated alongside existing HR/HRIS systems. Its product let teams create team configurations, propose org charts, visualize cost projections, and build headcount plans framed around assigning people into roles rather than tracking open positions. Surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist network as a lead. As of this enrichment pass the orgspace.io domain no longer resolves (no DNS records) and the company appears defunct; no public API, developer portal, SDKs, or documentation surface could be found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orgspace.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Orgspace
 nav: Providers
 network: true

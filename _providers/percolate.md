@@ -36,7 +36,7 @@ created: '2026-07-17'
 description: Percolate was a New York-based content marketing and marketing-orchestration platform, backed by Lightspeed Venture Partners and Slow Ventures, that helped enterprise marketing teams plan, create, and distribute campaign content. The company was acquired by Seismic in 2019 and the product has been folded into the Seismic marketing-enablement platform. As of this enrichment pass percolate.com serves only a "Percolate is now a part of the Seismic platform" landing page with a product login; all former developer, documentation, and API endpoints (developer/docs/api subdomains) no longer resolve, so there is no independent, active API surface to catalog for this provider.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/percolate.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Percolate
 nav: Providers
 network: true
@@ -56,5 +56,6 @@ tags:
 - Marketing Technology
 - Marketing Enablement
 - Acquired
+- Defunct
 website: https://percolate.com
 ---

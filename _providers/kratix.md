@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: 'Kratix is an open-source framework for building internal developer platforms using Kubernetes. Platform teams author Promises that wrap complex services into self-service APIs delivered as Kubernetes '
@@ -146,7 +146,7 @@ score:
     score: 50.0
   previous_composite: 22.5
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

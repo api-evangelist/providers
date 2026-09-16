@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: TellApart was a predictive-marketing and cross-device retargeting technology company founded in 2009 by former Google AdWords-API engineers Josh McFarland and Mark Ayzenshtat. Its cloud-based customer data platform unified shopper profiles across channels and devices and used machine-learning scoring to power dynamic product ads and direct-response retargeting for retailers such as Neiman Marcus, Wayfair, Sur La Table and Pottery Barn. TellApart was acquired by Twitter in April 2015 for roughly $533M in stock and folded into Twitter's advertising business; it no longer operates as an independent company and the tellapart.com domain is now parked with no live developer or API surface. Surfaced as a Greylock portfolio company and added to the API Evangelist network as a stub for enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tellapart.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: TellApart
 nav: Providers
 network: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: The Jakarta Faces specification for building component-based web user interfaces in Java applications. Defines a UI component model, state management, event handling, validation, navigation, and Facel
@@ -103,7 +103,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

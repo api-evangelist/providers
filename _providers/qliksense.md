@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-09-14'
-api_count: 82
+  scored_at: '2026-09-15'
+api_count: 90
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
   name: Qlik Engine API
@@ -443,7 +443,31 @@ apis:
   description: Automations in Qlik Automate are no-code workflows which connect applications together.
   name: Qlik Automations API
   slug: workflows-automations-api
-artifact_total: 149
+- description: WebSocket-based API for interacting with the Qlik Associative Engine, including data modeling, selections, and visualizations.
+  name: Qlik Sense Engine API
+  slug: qlik-sense-engine-api
+- description: REST API for managing Qlik Sense repository objects including apps, streams, users, and security rules.
+  name: Qlik Sense Repository API
+  slug: qlik-sense-repository-api
+- description: REST API for session management and authentication through the Qlik Sense Proxy Service.
+  name: Qlik Sense Proxy API
+  slug: qlik-sense-proxy-api
+- description: REST API for managing data integration tasks, connections, and data pipelines.
+  name: Qlik Data Integration API
+  slug: qlik-data-integration-api
+- description: JavaScript API for embedding Qlik Sense visualizations and mashups into web applications.
+  name: Qlik Embedding API
+  slug: qlik-embedding-api
+- description: Manage Qlik Sense analytics applications including creating, copying, importing, exporting, publishing, and retrieving app metadata.
+  name: Qlik Sense Apps API
+  slug: qlik-sense-apps-api
+- description: Trigger and manage data reloads for apps to refresh data from connected sources.
+  name: Qlik Sense Reloads API
+  slug: qlik-sense-reloads-api
+- description: Manage spaces, which are logical containers within a tenant that control access for users and groups through role-based assignments.
+  name: Qlik Sense Spaces API
+  slug: qlik-sense-spaces-api
+artifact_total: 157
 asyncapis:
 - description: ''
   name: Qliksense Asyncapi Index
@@ -842,17 +866,17 @@ mcp_servers:
 - description: Qlik ships a first-party REMOTE MCP server as part of Qlik Cloud. It reached general availability on 2026-02-10 and is listed as an included capability from the Starter plan upward on https://www.qlik
   name: Qlik MCP Server
   slug: qlik-mcp-server
-modified: '2026-08-29'
-name: Qlik Sense APIs
+modified: '2026-09-15'
+name: Qlik Sense
 nav: Providers
 network: true
-overview: 'Qlik Sense APIs publishes 80 APIs on the [APIs.io](https://apis.io/) network, including Qlik Cloud System Events, Qlik MCP Server, Qlik Apps API, and 77 more. Tagged areas include Agents, Analytics, Artificial Intelligence, Business Intelligence, and Cloud.
+overview: 'Qlik Sense publishes 83 APIs on the [APIs.io](https://apis.io/) network, including Qlik Cloud System Events, Qlik MCP Server, Qlik Apps API, and 80 more. Tagged areas include Agents, Analytics, Artificial Intelligence, Business Intelligence, and Cloud.
 
 
-  The Qlik Sense APIs catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Qlik Sense catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Qlik Sense APIs'' developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 44 more developer resources.'
+  Qlik Sense''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 44 more developer resources.'
 plans:
 - name: Qliksense Plans Pricing
   plan_count: 5
@@ -896,7 +920,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

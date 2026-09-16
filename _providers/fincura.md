@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ apis:
   slug: fincura-tenantsettings-api
 - baseURL: https://api.fincura.com
   baseurl_source: declared
-  description: '## Supported Events The following are events you can listen to via webhooks. | Event&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | | --------------------------------------------- | ---------'
+  description: '## Supported Events The following are events you can listen to via webhooks. | Event Type | Description | | --------------------------------------------- | -------------------------- | | GlobalCashflo'
   name: Fincura Webhooks API
   slug: fincura-webhooks-api
 arazzos:
@@ -372,7 +372,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

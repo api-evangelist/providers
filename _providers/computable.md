@@ -49,7 +49,7 @@ created: '2026-07-17'
 description: Computable (Computable Labs) was a Pantera Capital-backed crypto startup that built the Computable Protocol, a decentralized data-market and "Datatrust" system letting participants create Fair, Free-Access (FFA) markets to pool, price, and share datasets on Ethereum. The project shipped developer client libraries (computable.js for JavaScript, computable.py for Python), a Datatrust API reference implementation, Computable Improvement Proposals (CIPs), and a protocol specification ("The Computable Book"). The GitHub organization and its repositories are archived and inactive (last activity 2022-2023) and the company's websites (computable.io and computablelabs.com) no longer resolve to a live property, so this profile documents the surviving open-source developer surface rather than a running service.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/computable.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Computable
 nav: Providers
 network: true
@@ -65,5 +65,6 @@ tags:
 - Decentralized
 - Web3
 - Smart Contracts
+- Defunct
 website: https://computable.io/
 ---

@@ -52,7 +52,7 @@ description: 'Adludio was an AI-powered interactive mobile advertising company f
   scope (interactive ad-runtime building blocks, not API clients), none released since 2019.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adludio.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-15'
 name: adludio
 nav: Providers
 network: true
@@ -73,5 +73,6 @@ tags:
 - Marketing Technology
 - Interactive Advertising
 - Creative
+- Defunct
 website: https://adludio.com/
 ---

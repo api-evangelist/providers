@@ -32,18 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 0
 artifact_total: 0
 created: '2026-05-05'
-description: Profile for Park Hotels &amp; Resorts in the API Evangelist network. Fortune F1000 (rank 817).
+description: Profile for Park Hotels & Resorts in the API Evangelist network. Fortune F1000 (rank 817).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/park-hotels-and-resorts.png
 layout: provider
 modified: '2026-05-05'
-name: Park Hotels &amp; Resorts
+name: Park Hotels & Resorts
 nav: Providers
 network: true
-overview: Park Hotels &amp; Resorts is profiled on the [APIs.io](https://apis.io/) network.
+overview: Park Hotels & Resorts is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 3
 score:
   band: minimal
@@ -76,7 +76,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

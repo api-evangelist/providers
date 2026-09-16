@@ -33,11 +33,11 @@ created: '2026-05-28'
 description: Cryptocurrency data
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cryptingup.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-09-15'
 name: CryptingUp
 nav: Providers
 network: true
-overview: CryptingUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
+overview: CryptingUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Public APIs, and Defunct.
 random_paper: 17
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptingup/refs/heads/main/screenshots/cryptingup-2026-06-20T175306.png
 security:
@@ -49,5 +49,6 @@ slug: cryptingup
 tags:
 - Cryptocurrency
 - Public APIs
+- Defunct
 website: https://www.cryptingup.com/apidoc/#introduction
 ---

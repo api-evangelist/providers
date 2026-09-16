@@ -43,7 +43,7 @@ created: '2026-07-17'
 description: Rome Tools, Inc. was the company behind Rome, a unified, Rust-based developer toolchain for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS, intended to consolidate the roles of a formatter, linter, compiler, and bundler (replacing tools like Babel, ESLint, webpack, and Prettier) into a single fast tool. Rome shipped as a command-line tool and VS Code extension rather than as a hosted web service, so it has no REST/HTTP API, OpenAPI, webhook, or event surface. The project's GitHub repository (github.com/rome/tools) was archived on 2026-07-21 as read-only, the rome.tools domain no longer resolves, and the effort has been succeeded by the community-maintained Biome project (biomejs.dev). Rome Tools was surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist network as a stub; enrichment confirms it is a defunct open-source CLI toolchain with no API surface to catalog.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rome-tools.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Rome Tools
 nav: Providers
 network: true

@@ -77,7 +77,7 @@ integrations:
 - description: Extensive distribution partnerships for delivery of plastic compounds and masterbatches to manufacturers globally.
   name: Global Distribution Network
 layout: provider
-modified: '2026-08-29'
+modified: '2026-09-15'
 name: A. Schulman
 nav: Providers
 network: true
@@ -121,6 +121,7 @@ tags:
 - Automotive
 - Packaging
 - Electronics
+- Defunct
 use_cases:
 - description: Lightweight, high-strength plastic compounds for interior and exterior automotive components, replacing metals to reduce vehicle weight.
   name: Automotive Parts Manufacturing

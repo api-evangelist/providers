@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -171,7 +171,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

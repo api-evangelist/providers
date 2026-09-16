@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,11 +57,11 @@ created: '2026-07-17'
 description: Spext (Spext Labs) is an AI-powered audio and video editing platform that lets users edit recordings by trimming an auto-generated transcript rather than a waveform — a text-first "recording management system" for podcasts, interviews and other spoken-word media. Backed by 500 Global, the company operates from a Framer-hosted marketing site (spext.co) and a web application (app.spext.co). As of this enrichment pass Spext exposes no public developer surface — no documented API, developer portal, SDKs, OpenAPI, or well-known discovery endpoints were found; the profile is retained as a network company record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spext-labs-spext.png
 layout: provider
-modified: '2026-07-21'
-name: Spext Labs, Spext
+modified: '2026-09-15'
+name: Spext Labs
 nav: Providers
 network: true
-overview: Spext Labs, Spext is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Video, Transcription, and Media.
+overview: Spext Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Video, Transcription, and Media.
 random_paper: 19
 score:
   band: minimal
@@ -83,7 +83,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.7
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -237,6 +237,10 @@ common:
   title: ''
   type: FinOps
   url: finops/helius-finops.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.helius.dev/contact
 created: '2026-05-08'
 description: Helius is a Solana developer platform offering Solana JSON-RPC, the Digital Asset Standard (DAS) API for NFTs/tokens, Enhanced Transactions, Webhooks, LaserStream gRPC streaming, Sender (transaction routing), Photon RPC, and Dedicated Nodes.
 finops:
@@ -255,7 +259,7 @@ overview: 'Helius publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Helius catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Helius'' developer surface includes authentication and 10 more developer resources.'
+  Helius'' developer surface includes authentication, support, and 10 more developer resources.'
 plans:
 - name: Helius Plans Pricing
   plan_count: 5
@@ -279,7 +283,7 @@ rules:
   slug: helius-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 33.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 50.5
@@ -287,12 +291,12 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 62.3
-    developer_ergonomics: 21.4
+    developer_ergonomics: 26.2
     discoverability: 68.5
     operational_transparency: 10.5
   previous_composite: 32.2
@@ -304,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

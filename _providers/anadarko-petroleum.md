@@ -47,7 +47,7 @@ created: '2026-04-19'
 description: Anadarko Petroleum Corporation was one of the world's largest independent oil and natural gas exploration and production companies, with operations across the United States, the deepwater Gulf of Mexico, and international locations including Mozambique and Ghana. Anadarko was acquired by Occidental Petroleum in August 2019 in a $55 billion transaction. The company was known for its operations in the Wattenberg Gas Field in Colorado, the Delaware Basin in Texas, and major deepwater projects. Anadarko did not offer public developer APIs; its technology integrations were primarily through enterprise systems for partners and joint venture operators.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anadarko-petroleum.png
 layout: provider
-modified: '2026-09-02'
+modified: '2026-09-15'
 name: Anadarko Petroleum
 nav: Providers
 network: true

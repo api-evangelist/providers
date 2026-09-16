@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: Pardes Biosciences was a clinical-stage biopharmaceutical company focused on discovering, developing, and commercializing novel therapeutics to treat and prevent viral diseases. Founded in 2020 and based in Carlsbad, California, it used structure-based drug design and a tunable, reversible covalent chemistry platform. Its lead candidate, PBI-0451, was an oral direct-acting antiviral for SARS-CoV-2. The company was acquired in 2023 and no longer operates independently. It has no public API, developer program, or technical integration surface, and its former domain (pardesbio.com) is now a parked/registrar page.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pardes-bio.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Pardes Bio
 nav: Providers
 network: true
@@ -29,4 +29,5 @@ tags:
 - Drug Discovery
 - Antivirals
 - Life Sciences
+- Defunct
 ---

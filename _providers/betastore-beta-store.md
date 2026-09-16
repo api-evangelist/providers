@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,11 +55,11 @@ description: BetaStore (legal entity SimpleMarket Inc., trading as BetaStore.co)
   -- both the apex and www hosts answer every path with a blanket Cloudflare 301 to unrelated third-party domains, and no api/app/docs subdomain resolves.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/betastore-beta-store.png
 layout: provider
-modified: '2026-07-20'
-name: BetaStore, Beta Store
+modified: '2026-09-15'
+name: BetaStore
 nav: Providers
 network: true
-overview: BetaStore, Beta Store is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B Marketplace, Retail, FMCG, and Supply Chain.
+overview: BetaStore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B Marketplace, Retail, FMCG, and Supply Chain.
 random_paper: 12
 score:
   band: minimal
@@ -86,7 +86,7 @@ score:
     - africa
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

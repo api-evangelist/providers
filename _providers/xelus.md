@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: Xelus was a service parts planning and optimization software company founded in 1972 and headquartered in Fairport, New York, providing inventory management and supply chain solutions for the telecommunications, aerospace and defense, and high-tech industries. An Insight Venture Partners portfolio company, Xelus was acquired by Click Commerce on May 27, 2005, and no longer operates independently. Its website (xelus.com) is defunct and the company publishes no public API surface, developer portal, SDKs, or packages.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xelus.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: XELUS
 nav: Providers
 network: true
@@ -28,4 +28,5 @@ tags:
 - Inventory Management
 - Logistics
 - Enterprise Software
+- Defunct
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 3
 apis:
 - description: Public-facing presence of the Defense Intelligence Agency, providing organizational information, leadership, careers, news, and links to mission-specific programs. The website is the primary public su
@@ -135,7 +135,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

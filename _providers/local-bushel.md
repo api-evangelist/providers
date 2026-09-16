@@ -20,15 +20,16 @@ created: '2026-07-17'
 description: Local Bushel is a company surfaced as a portfolio company of 500-global, battery-ventures and added to the API Evangelist network as a stub for enrichment. As of the 2026-07-20 enrichment pass the company appears defunct - its domain localbushel.com no longer hosts a website and is listed for sale on HugeDomains. No developer portal, documentation, or API surface could be found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/local-bushel.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Local Bushel
 nav: Providers
 network: true
-overview: Local Bushel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Local Bushel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
 random_paper: 14
 screenshot: https://raw.githubusercontent.com/api-evangelist/local-bushel/refs/heads/main/screenshots/local-bushel-2026-07-25T225418.png
 slug: local-bushel
 tags:
 - Company
+- Defunct
 website: https://localbushel.com
 ---

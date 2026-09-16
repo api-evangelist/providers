@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -681,7 +681,7 @@ apis:
   slug: pure-storage-volume-groups-api
 - baseURL: /
   baseurl_source: spec
-  description: Volume snapshots are immutable, point-in-time images of the contents of one or more volumes. There are two types of volume snapshots&#58; volume snapshots and protection group volume snapshots. A volu
+  description: 'Volume snapshots are immutable, point-in-time images of the contents of one or more volumes. There are two types of volume snapshots: volume snapshots and protection group volume snapshots. A volume s'
   name: Pure Storage Volume Snapshots API
   slug: pure-storage-volume-snapshots-api
 - baseURL: /
@@ -1654,7 +1654,7 @@ score:
       marker_coverage: 0.0
       total: 129
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 21
 apis:
 - description: Central campus API developer portal. Catalogs 37 campus APIs across six categories, renders each published contract with Swagger UI, and runs registration, App/consumer-key creation and the API Access
@@ -458,7 +458,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

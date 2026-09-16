@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,14 +73,14 @@ created: '2026-07-17'
 description: Herbie is an AI-powered estate planning platform and law firm that lets individuals and partner organizations create wills, trusts, and related legal documents online. Its agentic engine encodes the principles, laws, and practice of estate planning into a system that drafts and assembles documents at scale, paired with an AI copilot for natural-language guidance and optional attorney review through Herbie Legal. Herbie is offered directly to consumers and as an embeddable "estate planning as a service" offering for wealth management firms, insurance companies, and employers. Herbie was surfaced as a portfolio company of 500 Global and added to the API Evangelist network.
 image: https://framerusercontent.com/assets/5QDf50coNW3H1vSi6DYfOJLrUpY.png
 layout: provider
-modified: '2026-07-19'
-name: Herbie, Herbie Plan
+modified: '2026-09-15'
+name: Herbie
 nav: Providers
 network: true
-overview: 'Herbie, Herbie Plan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Legal Technology, Wills And Trusts, and Artificial Intelligence.
+overview: 'Herbie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Legal Technology, Wills And Trusts, and Artificial Intelligence.
 
 
-  Herbie, Herbie Plan''s developer surface includes pricing, engineering blog, signup flow, support, and 4 more developer resources.'
+  Herbie''s developer surface includes pricing, engineering blog, signup flow, support, and 4 more developer resources.'
 random_paper: 20
 score:
   band: emerging
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.4
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

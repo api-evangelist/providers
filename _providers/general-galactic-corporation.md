@@ -28,7 +28,7 @@ created: '2026-07-17'
 description: General Galactic Corporation was an early-stage web3 studio founded by Rob Mee (founder of Pivotal Labs) and backed by Bloomberg Beta. It built open-source Ethereum developer tooling published under the generalgalactic GitHub organization, including eip4361-tools for Sign-In With Ethereum (EIP-4361), the ERC721Sequential (ERC721S) gas-optimized NFT contract, an ENS registry (skyteller-ens-registry), and related SIWE authentication utilities. The company wound down its products and experiments in 2023; its site now runs as an ENS/IPFS page announcing the closure. This profile catalogs the remaining public open-source and package footprint. No hosted or public API is currently operated by the company.
 image: https://avatars.githubusercontent.com/u/68410640
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: General Galactic Corporation
 nav: Providers
 network: true

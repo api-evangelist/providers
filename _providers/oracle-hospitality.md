@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 59
 apis:
 - description: Provides information of Sales activities related to Accounts, Contacts, and Blocks for the selected Property. Compatible with OPERA Cloud RnA release 26.1.0.0. Read-only GraphQL subject area in the OP
@@ -1438,7 +1438,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

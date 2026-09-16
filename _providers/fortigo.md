@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: 'Fortigo Network Logistics Pvt. Ltd. (4TiGO) was a Bengaluru, India technology-enabled logistics and supply-chain network platform, founded in 2015, operating an online marketplace for freight/truck transportation alongside a Digital Supply Chain Control Tower SaaS. It was backed by Accel and Nandan Nilekani''s NRJN Family Trust, raising roughly $23.5M across five rounds. As of this enrichment pass the company appears deadpooled/defunct: its 4tigo.com site is unreachable (connection refused across all hosts) and no public developer portal, API documentation, or machine-readable API definition could be located. No API artifacts were enriched because there is no live developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fortigo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: Fortigo
 nav: Providers
 network: true

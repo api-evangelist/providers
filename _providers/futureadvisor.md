@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: FutureAdvisor was a Y Combinator-backed robo-advisor that provided automated, algorithm-driven investment management and portfolio recommendations to retail investors. It was acquired by BlackRock and folded into the firm's digital wealth offerings; the consumer FutureAdvisor product has since been wound down. As of this enrichment pass the domain futureadvisor.com is controlled by BlackRock (its nameservers resolve to blackrock.com) but publishes no live website, developer portal, API documentation, SDKs, or any public developer surface. No API artifacts could be searched, fetched, or derived — this remains an identity-only record for a defunct/absorbed provider.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/futureadvisor.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: Futureadvisor
 nav: Providers
 network: true

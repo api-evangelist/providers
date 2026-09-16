@@ -14,14 +14,15 @@ created: '2026-07-17'
 description: 'Zephyr Health * is a company surfaced as a portfolio company of gv and added to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zephyr-health.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Zephyr Health *
 nav: Providers
 network: true
-overview: Zephyr Health * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Life Sciences.
+overview: Zephyr Health * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, and Defunct.
 random_paper: 5
 slug: zephyr-health
 tags:
 - Company
 - Life Sciences
+- Defunct
 ---

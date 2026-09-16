@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: Camiant, Inc. was a policy control and application-assurance technology vendor for broadband and mobile service providers, founded in 2003 in Marlborough, Massachusetts (originally Chameleon Solutions). Its Multimedia Policy Engine implemented 3GPP Release 8/9 Policy and Charging Rules Function (PCRF) capabilities and was deployed by operators including Verizon, Vodafone, Sprint, Comcast, and Cox. Tekelec acquired Camiant in 2010 for approximately $130 million, and the business was later folded into Oracle Communications. Camiant no longer operates as an independent company and publishes no developer portal, API, or documentation; its former domain (camiant.com) is parked. Surfaced as a matrix-partners portfolio lead, this profile records verified public history rather than a live API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/camiant.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Camiant
 nav: Providers
 network: true
@@ -29,4 +29,5 @@ tags:
 - PCRF
 - Broadband
 - Acquired
+- Defunct
 ---

@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: RTFKT (pronounced "artifact") was a digital-fashion and collectibles studio founded in 2020 by Benoit Pagotto, Chris Le, and Steven Vasilev, known for NFT-based virtual sneakers, wearables, and the CloneX avatar collection created with artist Takashi Murakami. Backed by an a16z-led seed round, the company was acquired by Nike in December 2021 and operated as a Web3 / metaverse brand. Nike announced it was winding RTFKT down in December 2024, with operations ceasing by the end of January 2025. RTFKT was a consumer/collectibles brand and never published a public developer platform, API, SDK, or documentation surface; its remaining web presence is a frozen static archive page. This profile records that verified absence of an API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtfkt.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: RTFKT
 nav: Providers
 network: true
@@ -46,5 +46,6 @@ tags:
 - Metaverse
 - Nike
 - Consumer Brand
+- Defunct
 website: https://rtfkt.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: Beamy provides a SaaS governance platform with browser extension-based discovery, SSO integration, spend analytics, user lifecycle management, and compliance reporting. Organizations use Beamy to achi
@@ -131,7 +131,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

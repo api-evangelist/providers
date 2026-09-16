@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: MCA Solutions was a service parts planning and optimization software company founded in 1999 in Philadelphia, Pennsylvania. Its Service Planning and Optimization (SPO) suite helped aerospace and defense, high-tech, and capital-equipment firms reduce spare-parts inventory, lower support costs, and improve service levels across the service supply chain. Backed by Battery Ventures and Longworth Venture Partners, the company was acquired by Marlin Equity Partners in March 2012 and merged into Servigistics (later part of PTC). It no longer operates as an independent company and publishes no live website, developer portal, or API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mca-solutions.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: MCA Solutions
 nav: Providers
 network: true
@@ -28,4 +28,5 @@ tags:
 - Inventory Optimization
 - Aerospace and Defense
 - Enterprise Software
+- Defunct
 ---

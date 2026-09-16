@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 6
 apis:
 - description: The DOJ News API exposes press releases and blog entries from the Office of Public Affairs as a JSON web service. The api_v1 reference documents four resources — list and detail views for press_releas
@@ -302,7 +302,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

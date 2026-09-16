@@ -1,41 +1,42 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
+  confidence: high
+  label: Paid · 14-day free trial · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: paid
   public: false
   source:
-  - plans
-  - authentication
-  - security
-  trial: false
+  - https://www.apimatic.io/pricing
+  - plans/apimatic-plans-pricing.yml
+  - authentication/apimatic-authentication.yml
+  trial: true
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-09-14'
+  score: 50.9
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -92,7 +93,7 @@ arazzos:
 - description: List existing API entities and regenerate an SDK for the first one.
   name: APIMatic Regenerate SDK for Existing Entity
   slug: apimatic-list-entities-generate-sdk-workflow
-artifact_total: 53
+artifact_total: 55
 collections:
 - collection_type: postman
   name: APIMatic Platform API
@@ -233,6 +234,173 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/apimatic/skills
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/packages/apimatic-packages.yml
+  title: ''
+  type: Packages
+  url: packages/apimatic-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/packages/apimatic-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/apimatic-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/well-known/apimatic-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/apimatic-well-known.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/mcp/apimatic-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/apimatic-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/mcp/apimatic-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/apimatic-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/llms/apimatic-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/apimatic-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/overlays/apimatic-apis-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apimatic-apis-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/overlays/apimatic-portals-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apimatic-portals-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/overlays/apimatic-sdk-generation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apimatic-sdk-generation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/overlays/apimatic-transformation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apimatic-transformation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/overlays/apimatic-validation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apimatic-validation-api-overlay.yaml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/conformance/apimatic-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/apimatic-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/errors/apimatic-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/apimatic-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/lifecycle/apimatic-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/apimatic-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.apimatic.io/web-dashboard-retired/
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/scopes/apimatic-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/apimatic-scopes.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/authentication/apimatic-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/apimatic-authentication.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/conventions/apimatic-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/apimatic-conventions.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/changelog/apimatic-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/apimatic-changelog.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/cli/apimatic-cli.yml
+  title: ''
+  type: CLI
+  url: cli/apimatic-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/components/apimatic-components.yml
+  title: ''
+  type: Components
+  url: components/apimatic-components.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/data-model/apimatic-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/apimatic-data-model.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/sandbox/apimatic-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/apimatic-sandbox.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/plans/apimatic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apimatic-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/rate-limits/apimatic-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apimatic-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/finops/apimatic-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apimatic-finops.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/vocabulary/apimatic-vocabulary.yaml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/apimatic-vocabulary.yaml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/rules/apimatic-jsonschema-spectral-rules.yml
+  title: ''
+  type: SpectralRules
+  url: rules/apimatic-jsonschema-spectral-rules.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/examples/apimatic-api-entity-example.json
+  title: ''
+  type: Examples
+  url: examples/apimatic-api-entity-example.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/examples/apimatic-sdk-generation-example.json
+  title: ''
+  type: Examples
+  url: examples/apimatic-sdk-generation-example.json
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/postman/apimatic-platform-api.postman_collection.json
+  title: ''
+  type: PostmanCollection
+  url: postman/apimatic-platform-api.postman_collection.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.apimatic.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.apimatic.io/platform-api/
 created: '2025-01-08'
 description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languages with CI/CD integration for automating the developer experience suite.
 examples:
@@ -293,7 +461,10 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+- description: ''
+  name: APIMatic MCP servers (hosted Integration Agent + local validator)
+  slug: apimatic-mcp-servers-hosted-integration-agent-local-validator
+modified: '2026-09-15'
 name: APIMatic
 nav: Providers
 network: true
@@ -303,14 +474,14 @@ overview: 'APIMatic publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The APIMatic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  APIMatic''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, changelog, and 20 more developer resources.'
+  APIMatic''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, changelog, and 54 more developer resources.'
 plans:
 - name: Apimatic Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: apimatic-plans-pricing
 random_paper: 0
 rate_limits:
-- limit_count: 5
+- limit_count: 7
   name: Apimatic Rate Limits
   slug: apimatic-rate-limits
 rules:
@@ -324,35 +495,43 @@ rules:
     info: 2
     warn: 3
   slug: apimatic-jsonschema-spectral-rules
+scopes:
+- name: Apimatic Scopes
+  scope_count: 1
+  slug: apimatic-scopes
+  summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 49.6
+  band: exemplar
+  composite: 70.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 67.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 47.8
+    artifact_dirs: 34
+    catalog_earned: 90.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 24.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 20.4
   facets:
-    access_clarity: 53.9
-    contract_governance: 9.8
-    contract_quality: 67.5
-    developer_ergonomics: 56.0
-    discoverability: 68.5
-    operational_transparency: 26.3
+    access_clarity: 77.6
+    contract_governance: 43.2
+    contract_quality: 70.2
+    developer_ergonomics: 86.9
+    discoverability: 75.9
+    operational_transparency: 57.9
   previous_composite: 49.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: first-party
+    skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
-  trend: flat
+  scored_at: '2026-09-15'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -361,7 +540,7 @@ security:
 - kind: authentication
   name: Apimatic Authentication
   slug: apimatic-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Apimatic Domain Security
   slug: apimatic-domain-security

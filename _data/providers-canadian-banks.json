@@ -1,6 +1,6 @@
 {
- "total": 42,
- "shown": 42,
+ "total": 41,
+ "shown": 41,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -78,7 +78,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -129,7 +129,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -191,7 +191,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -242,7 +242,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -293,7 +293,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -355,7 +355,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -406,7 +406,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -457,7 +457,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -508,7 +508,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -559,7 +559,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -610,7 +610,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -660,7 +660,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -711,7 +711,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -762,7 +762,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -813,7 +813,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -864,7 +864,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -906,8 +906,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 25,
-   "shown": 25,
+   "count": 24,
+   "shown": 24,
    "providers": [
     {
      "name": "National Bank of Canada",
@@ -925,7 +925,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -976,7 +976,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1027,7 +1027,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1078,7 +1078,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1129,7 +1129,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1180,7 +1180,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1231,7 +1231,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1282,7 +1282,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1333,7 +1333,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1384,7 +1384,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1435,7 +1435,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1486,7 +1486,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1537,7 +1537,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1588,7 +1588,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1624,57 +1624,6 @@
      "rank": 31
     },
     {
-     "name": "TD Bank Group",
-     "slug": "td-bank-group",
-     "description": "TD Bank Group (The Toronto-Dominion Bank) is one of Canada's Big Six chartered banks — a federally regulated Schedule I bank headquartered in Toronto and listed on the TSX and NYSE under the ticker TD. It is among North America's largest banks by assets, serving roughly 27 million customers worldwide across Canadian Personal & Commercial Banking (TD Canada Trust), U.S. Retail (TD Bank, N.A. — America's Most Convenient Bank, a separately profiled entity), and Wholesale Banking (TD Securities). Like the rest of Canada's banking sector, TD's open-finance posture is voluntary: Canada's Consumer-Driven Banking framework was legislated in 2024 (Consumer-Driven Banking Act) but is not yet operational, so the Canadian parent exposes no first-party public developer API. Consumer financial-data access today is aggregator-based — TD signed a North American data-access agreement with Plaid in December 2023 — while payments run over the shared Canadian rails (Interac e-Transfer and Payments Canada's Real-Time Rail, with Interac as the RTR exchange solution provider). The FDX-aligned, Akoya-based open-banking API suite published at developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this Canadian entity.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/td-bank-group/refs/heads/main/screenshots/td-bank-group-2026-09-02T162634.png",
-     "score": 5.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 12.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Big Six",
-     "rank": 32
-    },
-    {
      "name": "Prospera Credit Union",
      "slug": "prospera-credit-union",
      "description": "Prospera Credit Union is a member-owned cooperative financial institution headquartered in British Columbia, Canada, formed on January 1, 2020 through the merger of the original Prospera Credit Union and Westminster Savings Credit Union — the largest credit-union merger in Canadian history. With roughly CA$9 billion in assets under management, about 120,000 members, and some 900 employees across branches in Metro Vancouver, the Fraser Valley, and the Okanagan, it is the third largest credit union in British Columbia and among the six largest in Canada. As a provincially regulated cooperative (credit unions in BC are overseen by BC Financial Services Authority and deposits are protected by the Credit Union Deposit Insurance Corporation of BC), Prospera serves personal and business members with chequing and savings accounts, credit cards, mortgages, loans, and Interac e-Transfer. On the open-finance side, Prospera runs NO public first-party developer portal or documented API — none of developer/api/developers.prospera.ca resolve — and Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and overseen by the FCAC, is not yet operational. Like most Canadian credit unions, Prospera reaches national payment rails and consumer data-sharing through shared credit-union-system infrastructure rather than a proprietary API, and third-party data access today is aggregator/screen-scraping based (e.g. Flinks, Plaid). This is an honest identity-only profile with no public API surface to catalog.",
@@ -1690,7 +1639,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1723,7 +1672,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Equitable Bank",
@@ -1741,7 +1690,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1774,7 +1723,7 @@
       "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Brim Financial",
@@ -1792,7 +1741,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1825,7 +1774,7 @@
       "agentic_commerce": false
      },
      "tier": "Fintech & Challenger",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Vancity",
@@ -1842,7 +1791,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1875,7 +1824,7 @@
       "agentic_commerce": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Canadian Western Bank",
@@ -1893,7 +1842,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1926,7 +1875,7 @@
       "agentic_commerce": false
      },
      "tier": "Schedule I (Domestic)",
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "First West Credit Union",
@@ -1944,7 +1893,58 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Credit Union & Caisse",
+     "rank": 37
+    },
+    {
+     "name": "Meridian Credit Union",
+     "slug": "meridian-credit-union",
+     "description": "Meridian Credit Union is Ontario's largest credit union and one of the largest in Canada — a member-owned financial cooperative headquartered in St. Catharines and Toronto, serving more than 365,000 members with roughly CAD $31 billion in assets under management, over 2,200 employees, and more than 75 years of history. Formed in 2005 through the merger of Niagara Credit Union and HEPCOE Credit Union, Meridian offers personal, business, and wealth banking and owns Meridian OneCap Credit Corp. (commercial equipment leasing and financing); it previously operated the federally chartered digital bank motusbank, which was wound down in 2023. As a provincially regulated Ontario credit union — overseen by the Financial Services Regulatory Authority of Ontario (FSRA), with member deposits insured under Ontario's credit-union deposit-insurance scheme — Meridian is a cooperative, not a Schedule I or Schedule II bank. It publishes no first-party public developer API and no downloadable OpenAPI specification. Consumer-permissioned account-data access today is aggregator-mediated rather than first-party: Plaid maintains a Meridian institution connector, and the Central 1 / Flinks Outbound seam provides API-based data sharing for member credit unions. Canada's federal Consumer-Driven Banking framework (legislated in 2024 with the Financial Consumer Agency of Canada / FCAC as overseer) is not yet operational, so Meridian's open-finance participation remains voluntary and aggregator-based.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meridian-credit-union/refs/heads/main/screenshots/meridian-credit-union-2026-08-07T172600.png",
+     "score": 2.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1980,22 +1980,22 @@
      "rank": 38
     },
     {
-     "name": "Meridian Credit Union",
-     "slug": "meridian-credit-union",
-     "description": "Meridian Credit Union is Ontario's largest credit union and one of the largest in Canada — a member-owned financial cooperative headquartered in St. Catharines and Toronto, serving more than 365,000 members with roughly CAD $31 billion in assets under management, over 2,200 employees, and more than 75 years of history. Formed in 2005 through the merger of Niagara Credit Union and HEPCOE Credit Union, Meridian offers personal, business, and wealth banking and owns Meridian OneCap Credit Corp. (commercial equipment leasing and financing); it previously operated the federally chartered digital bank motusbank, which was wound down in 2023. As a provincially regulated Ontario credit union — overseen by the Financial Services Regulatory Authority of Ontario (FSRA), with member deposits insured under Ontario's credit-union deposit-insurance scheme — Meridian is a cooperative, not a Schedule I or Schedule II bank. It publishes no first-party public developer API and no downloadable OpenAPI specification. Consumer-permissioned account-data access today is aggregator-mediated rather than first-party: Plaid maintains a Meridian institution connector, and the Central 1 / Flinks Outbound seam provides API-based data sharing for member credit unions. Canada's federal Consumer-Driven Banking framework (legislated in 2024 with the Financial Consumer Agency of Canada / FCAC as overseer) is not yet operational, so Meridian's open-finance participation remains voluntary and aggregator-based.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meridian-credit-union/refs/heads/main/screenshots/meridian-credit-union-2026-08-07T172600.png",
-     "score": 2.2,
+     "name": "Laurentian Bank of Canada",
+     "slug": "laurentian-bank",
+     "description": "Laurentian Bank of Canada (Banque Laurentienne du Canada) is a Montreal-headquartered Schedule I chartered bank, founded in 1846 as the Montreal City and District Savings Bank and listed on the Toronto Stock Exchange as LB. With roughly CA$47 billion in assets, about 3,000 employees, and approximately 1.5 million clients, it serves personal, commercial, and capital-markets customers - concentrated in Quebec with commercial offices across Canada - through subsidiaries including B2B Bank, Laurentian Bank Securities, and LBC Capital. The bank operates no public developer portal and exposes no first-party or FDX-style data-access API; consumer data access is aggregator-mediated today (screen-scraping via providers such as Flinks and Plaid), and Canada's federal Consumer-Driven Banking framework remains legislated but not yet operational, so participation is voluntary. In December 2025 the bank announced a proposed sale to Fairstone Bank of Canada, with National Bank of Canada acquiring its retail operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurentian-bank/refs/heads/main/screenshots/laurentian-bank-2026-07-25T224628.png",
+     "score": 2.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2027,15 +2027,15 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Credit Union & Caisse",
+     "tier": "Schedule I (Domestic)",
      "rank": 39
     },
     {
-     "name": "Laurentian Bank of Canada",
-     "slug": "laurentian-bank",
-     "description": "Laurentian Bank of Canada (Banque Laurentienne du Canada) is a Montreal-headquartered Schedule I chartered bank, founded in 1846 as the Montreal City and District Savings Bank and listed on the Toronto Stock Exchange as LB. With roughly CA$47 billion in assets, about 3,000 employees, and approximately 1.5 million clients, it serves personal, commercial, and capital-markets customers - concentrated in Quebec with commercial offices across Canada - through subsidiaries including B2B Bank, Laurentian Bank Securities, and LBC Capital. The bank operates no public developer portal and exposes no first-party or FDX-style data-access API; consumer data access is aggregator-mediated today (screen-scraping via providers such as Flinks and Plaid), and Canada's federal Consumer-Driven Banking framework remains legislated but not yet operational, so participation is voluntary. In December 2025 the bank announced a proposed sale to Fairstone Bank of Canada, with National Bank of Canada acquiring its retail operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurentian-bank/refs/heads/main/screenshots/laurentian-bank-2026-07-25T224628.png",
-     "score": 2.0,
+     "name": "B2B Bank",
+     "slug": "b2b-bank",
+     "description": "B2B Bank is a Schedule I Canadian bank, headquartered in Toronto and wholly owned by Laurentian Bank of Canada (Laurentian Bank Financial Group). It operates a business-to-business, intermediary-only model: rather than serving retail consumers directly, it manufactures and distributes banking products through a network of roughly 27,000 financial professionals — financial advisors and their dealerships, deposit and mortgage brokers and their firms, mutual fund and insurance manufacturers, and CIRO (formerly MFDA/IIROC) members. Its product lines include investment loans, RSP and TFSA loans, broker deposits (GICs and high-interest savings/investment accounts), broker mortgages, and investment and banking accounts. The bank became a Schedule I bank and adopted the B2B Bank name in 2012, consolidating predecessor trust businesses (North American Trust, Sun Life Trust), and its deposits are CDIC insured. On open finance, B2B Bank publishes no first-party developer portal or public API: developer.b2bbank.com and api.b2bbank.com do not resolve, and the public site exposes only gated advisor/broker applications (Advisor Access, EASE online loans, Group Access, Investor Access, online banking). Canada's Consumer-Driven Banking framework is legislated but not yet operational, and the bank documents no FDX participation, Interac data-sharing API, or aggregator program of its own — consistent with an intermediary bank whose digital surface is partner-gated rather than developer-facing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b2b-bank/refs/heads/main/screenshots/b2b-bank-2026-07-25T202139.png",
+     "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2043,10 +2043,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2082,10 +2082,10 @@
      "rank": 40
     },
     {
-     "name": "B2B Bank",
-     "slug": "b2b-bank",
-     "description": "B2B Bank is a Schedule I Canadian bank, headquartered in Toronto and wholly owned by Laurentian Bank of Canada (Laurentian Bank Financial Group). It operates a business-to-business, intermediary-only model: rather than serving retail consumers directly, it manufactures and distributes banking products through a network of roughly 27,000 financial professionals — financial advisors and their dealerships, deposit and mortgage brokers and their firms, mutual fund and insurance manufacturers, and CIRO (formerly MFDA/IIROC) members. Its product lines include investment loans, RSP and TFSA loans, broker deposits (GICs and high-interest savings/investment accounts), broker mortgages, and investment and banking accounts. The bank became a Schedule I bank and adopted the B2B Bank name in 2012, consolidating predecessor trust businesses (North American Trust, Sun Life Trust), and its deposits are CDIC insured. On open finance, B2B Bank publishes no first-party developer portal or public API: developer.b2bbank.com and api.b2bbank.com do not resolve, and the public site exposes only gated advisor/broker applications (Advisor Access, EASE online loans, Group Access, Investor Access, online banking). Canada's Consumer-Driven Banking framework is legislated but not yet operational, and the bank documents no FDX participation, Interac data-sharing API, or aggregator program of its own — consistent with an intermediary bank whose digital surface is partner-gated rather than developer-facing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b2b-bank/refs/heads/main/screenshots/b2b-bank-2026-07-25T202139.png",
+     "name": "Manulife Bank",
+     "slug": "manulife-bank",
+     "description": "Manulife Bank of Canada is a Schedule I federally chartered bank and a wholly-owned subsidiary of The Manufacturers Life Insurance Company, part of Manulife Financial Corporation. Launched in 1993 as Canada's first branchless (direct) bank — and the first federally regulated bank opened by an insurance company in Canada — it operates entirely through online banking, a mobile app, and telephone banking, with no physical branches. It is best known for the Manulife One all-in-one account, the Advantage Account, GICs, mortgages, and lines of credit that connect everyday banking and borrowing with long-term financial planning. Manulife Bank publishes no first-party public developer portal or downloadable API specifications; no developer.manulifebank.ca host resolves, and the public site is bot-protected. Canada's Consumer-Driven Banking (open-banking) framework — legislated in Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer — is legislated but not yet operational, so consumer financial data access today is voluntary and occurs through financial-data aggregators (Plaid, Flinks, MX) rather than a first-party bank API. Interac e-Transfer is offered as a consumer feature but is not exposed as a documented public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/manulife-bank/refs/heads/main/screenshots/manulife-bank-2026-07-25T230113.png",
      "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2097,7 +2097,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2131,57 +2131,6 @@
      },
      "tier": "Schedule I (Domestic)",
      "rank": 41
-    },
-    {
-     "name": "Manulife Bank",
-     "slug": "manulife-bank",
-     "description": "Manulife Bank of Canada is a Schedule I federally chartered bank and a wholly-owned subsidiary of The Manufacturers Life Insurance Company, part of Manulife Financial Corporation. Launched in 1993 as Canada's first branchless (direct) bank — and the first federally regulated bank opened by an insurance company in Canada — it operates entirely through online banking, a mobile app, and telephone banking, with no physical branches. It is best known for the Manulife One all-in-one account, the Advantage Account, GICs, mortgages, and lines of credit that connect everyday banking and borrowing with long-term financial planning. Manulife Bank publishes no first-party public developer portal or downloadable API specifications; no developer.manulifebank.ca host resolves, and the public site is bot-protected. Canada's Consumer-Driven Banking (open-banking) framework — legislated in Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer — is legislated but not yet operational, so consumer financial data access today is voluntary and occurs through financial-data aggregators (Plaid, Flinks, MX) rather than a first-party bank API. Interac e-Transfer is offered as a consumer feature but is not exposed as a documented public API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/manulife-bank/refs/heads/main/screenshots/manulife-bank-2026-07-25T230113.png",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Schedule I (Domestic)",
-     "rank": 42
     }
    ]
   }

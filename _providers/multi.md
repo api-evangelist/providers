@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: Multi (originally launched as Remotion in 2019) was a macOS-native multiplayer collaboration application for software teams, offering multi-person screensharing for up to ten participants, shared cursor and keyboard control with sub-100ms latency, session recording, and AI-generated summaries and action items. Backed by Greylock and First Round Capital, the company was acqui-hired by OpenAI in June 2024; the product was shut down and user data deleted, with the founding team joining OpenAI's ChatGPT desktop group. The multi.app site remains live as a static marketing page but exposes no public developer API, SDK, or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/multi.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Multi
 nav: Providers
 network: true

@@ -28,16 +28,17 @@ created: '2026-05-28'
 description: Make A Free A.I Brain
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brainshop-ai.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-09-15'
 name: Brainshop.ai
 nav: Providers
 network: true
-overview: Brainshop.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
+overview: Brainshop.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development, Public APIs, and Defunct.
 random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainshop-ai/refs/heads/main/screenshots/brainshop-ai-2026-08-07T162741.png
 slug: brainshop-ai
 tags:
 - Development
 - Public APIs
+- Defunct
 website: https://brainshop.ai/
 ---

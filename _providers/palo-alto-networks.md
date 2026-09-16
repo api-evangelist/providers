@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -2394,7 +2394,7 @@ apis:
   slug: palo-alto-networks-httpsprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: 'Prisma Cloud identity and access management (IAM) security provides: * Visiblity&mdash;Query all relevant IAM entities * Gonvernance&mdash;Monitor your cloud environment for overly-used permissions * '
+  description: 'Prisma Cloud identity and access management (IAM) security provides: * Visiblity—Query all relevant IAM entities * Gonvernance—Monitor your cloud environment for overly-used permissions * Response—Aut'
   name: Palo Alto Networks IAM API
   slug: palo-alto-networks-iam-api
 - baseURL: https://{firewall}/api/
@@ -8768,7 +8768,7 @@ score:
       marker_coverage: 0.0
       total: 652
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

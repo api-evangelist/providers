@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: Shoppr was a Malaysia-based consumer fashion-discovery mobile app (launched May 2015, often described as the "Tinder of fashion") that let shoppers swipe through personalized clothing recommendations. The founding team, led by Kendrick Wong, subsequently pivoted the business into Omnilytics, a B2B fashion retail market-intelligence and analytics platform serving brands and retailers. As of this enrichment pass the associated domain omnilytics.co is a parked domain (nameservers lander.d.parity.domains) and neither Shoppr nor Omnilytics exposes any public developer API, documentation, SDK, or developer portal. This entry originated as a 500 Global portfolio lead and is retained for record; it has no API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shoppr.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Shoppr
 nav: Providers
 network: true

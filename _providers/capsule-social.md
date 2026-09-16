@@ -49,7 +49,7 @@ description: 'Capsule Social was a decentralized-innovation company founded in e
   website. There is no hosted REST API: Blogchain is a client-side web3 dApp (Vue frontend, NEAR smart contracts, IPFS).'
 image: https://avatars.githubusercontent.com/u/77242000?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Capsule Social
 nav: Providers
 network: true
@@ -68,5 +68,6 @@ tags:
 - NEAR Protocol
 - IPFS
 - Cryptocurrency
+- Defunct
 website: https://capsule.social
 ---

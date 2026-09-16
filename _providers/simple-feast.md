@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: Simple Feast was a Danish plant-based, ready-to-eat meal company surfaced as a portfolio company of balderton-capital and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the consumer app host food.simplefeast.com no longer resolves and the root domain simplefeast.com is parked on one.com nameservers, so the company appears defunct. No developer portal, API, documentation, or other machine-readable API surface could be discovered during enrichment; this profile is retained as a historical portfolio lead.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simple-feast.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Simple Feast
 nav: Providers
 network: true
@@ -43,5 +43,6 @@ tags:
 - Meal Delivery
 - Plant-Based
 - E-Commerce
+- Defunct
 website: https://food.simplefeast.com/en?
 ---

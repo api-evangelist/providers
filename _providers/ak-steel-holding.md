@@ -76,7 +76,7 @@ finops:
   slug: ak-steel-holding-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ak-steel-holding.png
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-15'
 name: AK Steel Holding
 nav: Providers
 network: true
@@ -120,6 +120,7 @@ tags:
 - Steel
 - Metals
 - Fortune 500
+- Defunct
 use_cases:
 - description: Steel suppliers and automotive OEMs source advanced high-strength steel for vehicle body structures and components.
   name: Automotive Manufacturing

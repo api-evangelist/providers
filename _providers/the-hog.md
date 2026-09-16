@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -268,6 +268,10 @@ common:
   title: ''
   type: SDKs
   url: packages/the-hog-packages.yml
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@thehog.ai
 created: '2026-07-17'
 description: The Hog is a real-time web intelligence API for AI agents and go-to-market teams, founded in 2025 (Y Combinator F25) by Hudson Liao and Paulo Nascimento in San Francisco. One credit-based REST API unifies company and people search, contact enrichment, LLM-powered deep research, multi-platform web and social scraping (LinkedIn, X, Reddit, Instagram, TikTok, YouTube, Facebook), SEO intelligence, and recurring signal monitors. Fast calls return synchronously; long-running jobs run asynchronously with polling, organization-scoped idempotency keys, cursor pagination, request-id tracing, and a consistent JSON error envelope. A hosted OAuth MCP server and a local stdio MCP package expose the same capabilities to agents.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-hog.png
@@ -283,7 +287,7 @@ network: true
 overview: 'The Hog publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Company Search API, Deep Research API, Enrichments API, and 5 more. Tagged areas include Company, GTM Intelligence, Sales Intelligence, Data Enrichment, and Web Scraping.
 
 
-  The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
+  The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
 plans:
 - name: The Hog Plans Pricing
   plan_count: 2
@@ -300,7 +304,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.3
+  composite: 49.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 53.0
@@ -308,12 +312,12 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 57.8
-    developer_ergonomics: 64.3
+    developer_ergonomics: 69.0
     discoverability: 75.9
     operational_transparency: 23.7
   previous_composite: 48.3
@@ -328,7 +332,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

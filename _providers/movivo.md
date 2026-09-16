@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: Movivo was a London-based mobile rewards startup (500 Startups / Distro Dojo, HQ London) whose consumer app let users cover the cost of their mobile airtime and data by completing surveys, crowdsourced micro-tasks, and app installs, working with mobile operators across emerging markets. The company was surfaced as a portfolio lead of 500 Global and added to the API Evangelist network as a stub. As of this enrichment pass the company appears defunct — movivo.com resolves to a parked GoDaddy for-sale domain, and no public developer portal, API reference, OpenAPI definition, SDK, or GitHub organization could be found. This profile is retained as a network record with no API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/movivo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Movivo
 nav: Providers
 network: true
@@ -28,4 +28,5 @@ tags:
 - Rewards
 - Telecommunications
 - Emerging Markets
+- Defunct
 ---

@@ -19,15 +19,16 @@ created: '2026-07-17'
 description: Verifi Media is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verifi-media.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Verifi Media
 nav: Providers
 network: true
-overview: Verifi Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Verifi Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
 random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifi-media/refs/heads/main/screenshots/verifi-media-2026-09-02T165714.png
 slug: verifi-media
 tags:
 - Company
+- Defunct
 website: https://verifi.media
 ---

@@ -24,11 +24,11 @@ created: '2026-07-17'
 description: 'FTX Exchange was a cryptocurrency exchange (ftx.com / ftx.us) that collapsed in November 2022 and filed for Chapter 11 bankruptcy. As of the 2026-07-19 enrichment probe, all FTX web and docs domains (ftx.com, ftx.us, docs.ftx.com, docs.ftx.us) return 301 redirects to the FTX bankruptcy claims portal at claims.ftx.com; the former developer/API surface no longer exists. This profile was surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a web3 stub. It is DEFUNCT: there is no live exchange, developer portal, documentation, OpenAPI, or API to enrich. The enrichment pipeline verified this and captured only real, probeable domain-security DNS/TLS data.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ftx-exchange.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: FTX Exchange
 nav: Providers
 network: true
-overview: FTX Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Web3.
+overview: FTX Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, and Defunct.
 random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ftx-exchange/refs/heads/main/screenshots/ftx-exchange-2026-07-25T215245.png
 security:
@@ -40,5 +40,6 @@ slug: ftx-exchange
 tags:
 - Company
 - Web3
+- Defunct
 website: https://claims.ftx.com/
 ---

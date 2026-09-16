@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: 'Neoteris was a Sunnyvale, California networking-security company backed by Battery Ventures and New Enterprise Associates, best known for its SSL VPN / Instant Virtual Extranet (IVE) appliances. It was acquired by NetScreen Technologies in 2003, and subsequently rolled into Juniper Networks when Juniper acquired NetScreen in 2004. The company no longer operates as an independent entity: the neoteris.com domain is registered but parked with no live host (nameserver records only, no A/AAAA/MX), and there is no developer portal, documentation, or public API surface to enrich. This profile is retained as a historical portfolio-lead record; enrichment found no live API to catalog.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neoteris.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Neoteris
 nav: Providers
 network: true
@@ -28,4 +28,5 @@ tags:
 - Networking
 - Enterprise
 - Acquired
+- Defunct
 ---

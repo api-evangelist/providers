@@ -23,7 +23,7 @@ created: '2026-07-17'
 description: Makeably was an online marketplace for custom-made and handmade goods (apparel, jewelry, furniture, household items, wedding and arts products), later pivoting to a "remixes" model that let shoppers request variations of reference products rather than fully bespoke commissions. It raised roughly $650K in seed funding in 2013 from Great Oaks Venture Capital, 500 Startups (now 500 Global) and others. The company appears to be defunct — its domain no longer resolves and no developer or API surface exists. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makeably.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Makeably
 nav: Providers
 network: true
@@ -38,4 +38,5 @@ tags:
 - Custom Goods
 - Handmade
 - Startup
+- Defunct
 ---

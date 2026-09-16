@@ -20,7 +20,7 @@ created: '2026-07-17'
 description: GammaStar (GammaStar Medical Group) is a Shanghai-based medical-device company backed by Qiming Venture Partners that develops, manufactures, and services precision radiotherapy and oncotherapy equipment, including rotary cobalt-60 gamma-ray radiosurgery systems, and operates a network of oncotherapy and psychosurgery centers. It is a medical-hardware manufacturer rather than an API provider; enrichment found no public developer portal, API documentation, OpenAPI, SDK, or MCP surface, and the gammastar.com domain currently resolves to a parked "for sale" listing on Atom.com rather than a corporate site.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gammastar.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: gammastar
 nav: Providers
 network: true
@@ -36,5 +36,6 @@ tags:
 - Oncology
 - Medical Equipment
 - China
+- Defunct
 website: https://gammastar.com
 ---

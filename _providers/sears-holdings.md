@@ -162,7 +162,7 @@ description: Sears Holdings was the American holding company behind the Sears an
   an HMAC-SHA256 authorization header rather than OAuth. There is no OpenAPI, GraphQL, MCP server or A2A agent card on any Sears, Kmart or Transformco host.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sears-holdings.png
 layout: provider
-modified: '2026-08-28'
+modified: '2026-09-15'
 name: Sears Holdings
 nav: Providers
 network: true
@@ -224,5 +224,6 @@ tags:
 - Product Catalog
 - Seller Integration
 - XML
+- Defunct
 website: https://www.sears.com/
 ---

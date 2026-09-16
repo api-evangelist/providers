@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: Greenfield Online, Inc. (Nasdaq SRVY) was an independent provider of Internet-based survey solutions and online market-research panels, headquartered in Wilton, Connecticut. Founded in 1994, it pioneered online panel sampling and data collection for the marketing-research industry, went public in 2004, and grew by acquiring sampling firms worldwide (including European comparison-shopping service Ciao). Microsoft acquired the company in 2008 for roughly $486 million to obtain Ciao, then divested the survey and sampling assets to Toluna in 2009. Greenfield Online no longer operates as an independent entity and publishes no developer program, public API, or live web presence today. This record is retained as a portfolio-lead profile surfaced from the Insight Partners portfolio.
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/api-evangelist/apievangelist-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Greenfield Online
 nav: Providers
 network: true
@@ -29,4 +29,5 @@ tags:
 - Data Collection
 - Consumer Insights
 - Acquired
+- Defunct
 ---

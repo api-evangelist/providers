@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: Pliant Technology, Inc. was a data-center storage company that pioneered the introduction of high-performance enterprise solid-state drives (SSDs) into mission-critical data-center environments. Backed by Lightspeed Venture Partners, the company was acquired by SanDisk in 2011 and its product line was folded into SanDisk's enterprise storage solutions. The company operated as a hardware/semiconductor storage vendor and published no public developer API, SDK, or programmatic developer surface; its former domain now redirects to SanDisk. This profile is retained in the API Evangelist network as a portfolio-lead record with no API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pliant-technology.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Pliant Technology
 nav: Providers
 network: true

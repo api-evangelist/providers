@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.6
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 18
 apis:
 - description: First-party remote Model Context Protocol server exposing 35 tools across Email, SMS, WhatsApp, Web Push, Mobile App and Architect — 28 read-only and 7 that create drafts for human review. Authenticat
@@ -560,7 +560,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

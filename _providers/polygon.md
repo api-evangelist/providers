@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -402,6 +402,24 @@ apis:
   description: The us_stocks_reference API from Polygon — 3 operation(s) for us_stocks_reference.
   name: Polygon Us Stocks Reference API
   slug: polygon-us-stocks-reference-api
+- description: 'Real-time and historical US equity market data including aggregates (minute/hour/day bars), trades, NBBO quotes, snapshots, ticker reference, splits, dividends, and financials. Available via REST and '
+  name: Polygon.io Stocks API
+  slug: polygonio-stocks-api
+- description: 'OPRA-licensed options market data via REST and WebSocket: aggregates, trades, quotes, snapshots, contract reference, and option chains.'
+  name: Polygon.io Options API
+  slug: polygonio-options-api
+- description: Real-time and historical index values for major US and global indices via REST and WebSocket.
+  name: Polygon.io Indices API
+  slug: polygonio-indices-api
+- description: Real-time and historical FX prices for 1,000+ currency pairs via REST and WebSocket.
+  name: Polygon.io Forex API
+  slug: polygonio-forex-api
+- description: Aggregates, trades, snapshots, level-2 books, and L2 streaming for crypto pairs across major exchanges.
+  name: Polygon.io Crypto API
+  slug: polygonio-crypto-api
+- description: Real-time and historical futures market data including aggregates, trades, quotes, and snapshots.
+  name: Polygon.io Futures API
+  slug: polygonio-futures-api
 arazzos:
 - description: Resolve a ticker, then list its stock splits and dividends history.
   name: Polygon Corporate Actions Review
@@ -439,7 +457,7 @@ arazzos:
 - description: Resolve a ticker's details, pull recent news, and read its previous close.
   name: Polygon Ticker News Context
   slug: polygon-ticker-news-context-workflow
-artifact_total: 162
+artifact_total: 168
 asyncapis:
 - description: 'Polygon real-time market data WebSocket clusters. Each asset class (stocks, options, indices, forex, crypto) has its own dedicated cluster at `wss://socket.polygon.io/{cluster}`. Clients authenticate '
   name: Polygon WebSocket Streaming API
@@ -554,6 +572,10 @@ collections:
   name: Polygon Crypto REST Aggregates Tickers API
   slug: open-polygon-tickers-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://polygon.io
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-openapi-original.json
   title: ''
@@ -902,17 +924,17 @@ mcp_servers:
 - description: ''
   name: Massive MCP server — remote https://mcp.massive.com (OAuth) + open-source mcp_massive (stdio)
   slug: massive-mcp-server-remote-httpsmcpmassivecom-oauth-open-source-mcp-massive-stdio
-modified: '2026-07-22'
+modified: '2026-09-15'
 name: Polygon
 nav: Providers
 network: true
-overview: 'Polygon publishes 71 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Aggregates API, Books API, and 68 more. Tagged areas include Finance, Fintech, Market Data, Stocks, and Options.
+overview: 'Polygon publishes 77 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Aggregates API, Books API, and 74 more. Tagged areas include Finance, Fintech, Market Data, Stocks, and Options.
 
 
   The Polygon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Polygon''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, signup flow, and 51 more developer resources.'
+  Polygon''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, signup flow, and 52 more developer resources.'
 plans:
 - name: Polygon Plans Pricing
   plan_count: 12
@@ -996,7 +1018,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false
@@ -1045,5 +1067,5 @@ use_cases:
   name: Analytics dashboards
 - description: Drive options Greeks, volatility surfaces, and FX hedging models with reliable feeds.
   name: Quant pipelines
-website: https://polygon.io/
+website: https://polygon.io
 ---

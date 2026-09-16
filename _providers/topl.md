@@ -95,7 +95,7 @@ description: 'Topl was an impact-technology company founded in 2017 out of Rice 
   messages, still downloadable from the Buf Schema Registry, plus the published SDKs and container images.'
 image: https://raw.githubusercontent.com/Topl/Knowledge-Base/main/static/img/apparatus-logo.svg
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-15'
 name: Topl
 nav: Providers
 network: true
@@ -131,4 +131,5 @@ tags:
 - Impact
 - Tokenization
 - Wound Down
+- Defunct
 ---

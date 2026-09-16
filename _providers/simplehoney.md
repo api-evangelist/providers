@@ -20,15 +20,16 @@ created: '2026-07-17'
 description: SimpleHoney is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplehoney.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-15'
 name: SimpleHoney
 nav: Providers
 network: true
-overview: SimpleHoney is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: SimpleHoney is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
 random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplehoney/refs/heads/main/screenshots/simplehoney-2026-09-02T155538.png
 slug: simplehoney
 tags:
 - Company
+- Defunct
 website: https://iwanthoney.com
 ---

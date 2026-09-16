@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: A set of ~37 static JSON/CSV endpoints under /data/public/ covering daily market digest, T+1 quotes, disclosures, rankings, screening, earnings, per-stock data and history, plus dated archives. Docume
@@ -186,7 +186,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

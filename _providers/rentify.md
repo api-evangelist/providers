@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: Rentify was a London-based property technology (PropTech) startup founded in 2011 that built an online lettings and property-management platform for landlords, letting them list, market, price, and manage rental properties directly without a traditional high-street agent. It raised a Series A from Balderton Capital and later a crowdfunding round before ceasing operations. Surfaced as a balderton-capital portfolio company and added to the API Evangelist network for enrichment; the enrichment pass found no live developer portal, documentation, or public API surface (the company is no longer operating and rentify.com no longer serves an application).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rentify.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: rentify
 nav: Providers
 network: true

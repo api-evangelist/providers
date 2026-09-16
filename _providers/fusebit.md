@@ -117,7 +117,7 @@ finops:
   slug: fusebit-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fusebit.png
 layout: provider
-modified: '2026-09-10'
+modified: '2026-09-15'
 name: Fusebit
 nav: Providers
 network: true

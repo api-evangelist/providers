@@ -20,7 +20,7 @@ created: '2026-07-17'
 description: GTR (Global Top Round) was a mobile game accelerator program that annually selected roughly ten indie mobile game studios, providing them global publishing connections, real global game-market and network access, mentorship, and fundraising support through a six-month accelerator program and the Global Top Round global mobile game conference. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub. As of enrichment (July 2026) the company website globaltopround.com no longer resolves (no DNS A/NS records) and GTR appears to be defunct; it exposes no public API, developer platform, documentation, or SDK, so there is no API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gtr.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: GTR
 nav: Providers
 network: true
@@ -35,5 +35,6 @@ tags:
 - Game Publishing
 - Startups
 - Venture
+- Defunct
 website: https://globaltopround.com
 ---

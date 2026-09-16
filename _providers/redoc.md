@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: ReDoc is an open-source API documentation renderer for OpenAPI specifications, originally created by Rebilly and now maintained by Redocly. It generates a responsive three-panel documentation layout f
@@ -120,6 +120,10 @@ common:
   title: ''
   type: Blog
   url: https://redocly.com/blog/feed.xml
+- group: operate
+  title: ''
+  type: Support
+  url: https://redocly.com/contact-us
 created: '2026-03-18'
 description: ReDoc is an open-source API documentation renderer for OpenAPI specifications by Redocly. It generates a responsive three-panel documentation layout from OpenAPI 3.1, 3.0, and Swagger 2.0 definitions. The left panel provides a search bar and navigation menu, the central panel displays documentation content, and the right panel shows request and response examples. ReDoc is available as a CLI tool, HTML custom element, React component, and Docker image. It supports vendor extensions for logos, tag groups, custom code samples, and internal operations.
 examples:
@@ -161,7 +165,7 @@ overview: 'ReDoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The ReDoc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ReDoc''s developer surface includes documentation, GitHub presence, getting-started guide, CLI, changelog, engineering blog, and 13 more developer resources.'
+  ReDoc''s developer surface includes documentation, GitHub presence, getting-started guide, CLI, changelog, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Redoc Plans Pricing
   plan_count: 3
@@ -184,7 +188,7 @@ rules:
   slug: redoc-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.1
+  composite: 28.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 60.3
@@ -192,17 +196,17 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 14.7
-    developer_ergonomics: 38.1
+    developer_ergonomics: 42.9
     discoverability: 59.3
     operational_transparency: 28.9
   previous_composite: 27.1
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

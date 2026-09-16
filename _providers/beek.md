@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: 'Beek was a Spanish-language audiobook and ebook streaming platform serving Latin America and Spain, backed by Accel and Lightspeed Venture Partners. At its peak it reached over 4 million users who streamed nearly 200 million minutes of audio content, including its exclusive Beek Originals catalog. The service has since shut down: Amazon''s Audible acquired a significant portion of the Beek Originals catalog, and Beek now redirects listeners to Audible to continue their libraries. Beek ran a private backend service (api.beek.io) but published no public developer program, OpenAPI specification, SDKs, or developer documentation, so it has no consumable API surface to enrich.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beek.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Beek
 nav: Providers
 network: true
@@ -47,5 +47,6 @@ tags:
 - Entertainment
 - Spanish Language
 - Latin America
+- Defunct
 website: https://beek.io/
 ---

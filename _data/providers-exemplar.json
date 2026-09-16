@@ -1,12 +1,12 @@
 {
- "total": 321,
+ "total": 319,
  "bands": [
   {
    "band": "exemplar",
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 321,
+   "count": 319,
    "providers": [
     {
      "name": "Airwallex",
@@ -26,7 +26,7 @@
       "developer_ergonomics": 95.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -89,7 +89,7 @@
       "developer_ergonomics": 96.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -141,7 +141,7 @@
       "developer_ergonomics": 95.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 75.0,
      "agent_band": "agent-native",
@@ -186,7 +186,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +238,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -297,7 +297,7 @@
       "developer_ergonomics": 94.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 91.4,
      "agent_band": "agent-native",
@@ -342,7 +342,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 49.6,
      "agent_band": "agent-ready",
@@ -387,7 +387,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -439,7 +439,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -491,7 +491,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-native",
@@ -536,7 +536,7 @@
       "developer_ergonomics": 92.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.9,
      "agent_band": "agent-ready",
@@ -581,7 +581,7 @@
       "developer_ergonomics": 88.7,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.8,
      "agent_band": "agent-ready",
@@ -626,7 +626,7 @@
       "developer_ergonomics": 91.1,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.5,
      "agent_band": "agent-ready",
@@ -671,7 +671,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 54.7,
      "agent_band": "agent-ready",
@@ -716,7 +716,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -768,7 +768,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -827,7 +827,7 @@
       "developer_ergonomics": 85.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -879,7 +879,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 47.3,
      "agent_band": "agent-native",
@@ -924,7 +924,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -976,7 +976,7 @@
       "developer_ergonomics": 96.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1021,7 +1021,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1073,7 +1073,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1125,7 +1125,7 @@
       "developer_ergonomics": 91.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 46.5,
      "agent_band": "agent-native",
@@ -1170,7 +1170,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1222,7 +1222,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1274,7 +1274,7 @@
       "developer_ergonomics": 79.2,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1326,7 +1326,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.6,
      "agent_band": "agent-native",
@@ -1371,7 +1371,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1406,51 +1406,6 @@
      "rank": 28
     },
     {
-     "name": "Honeycomb",
-     "slug": "honeycomb-io",
-     "url": "https://providers.apis.io/providers/honeycomb-io/",
-     "type": "API Provider",
-     "description": "Honeycomb is an observability platform for understanding complex distributed systems through high-cardinality, high-dimensional telemetry. Founded in 2016 by Charity Majors and Christine Yen and headquartered in San Francisco, it stores traces, logs and metrics as wide events and lets engineers query arbitrarily across every field at interactive speed, rather than pre-defining dashboards and thresholds. Honeycomb is OpenTelemetry-native: OTLP is the documented ingest path and the company has moved its own proprietary Beelines and distributions to End of Life in favour of upstream OpenTelemetry SDKs. The public REST API is described by a single OpenAPI 3.1 contract covering 89 operations across 22 resource groups - events, datasets, columns, calculated fields, queries, query data, boards, triggers, SLOs, burn alerts, markers, recipients, service maps, environments, API keys and anomaly detection signals - split across US and EU regions. Honeycomb also runs a first-party OAuth-protected Model Context Protocol server at mcp.honeycomb.io, publishes A2A and Agent Skills discovery documents from its docs host, and ships an official agent-skills plugin, making it one of the more complete agent-facing surfaces in the observability category. Products include the core observability platform, Refinery tail-based sampling, Telemetry Pipeline, and Canvas AI-assisted investigations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png",
-     "score": 80.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 73.2,
-      "contract_governance": 31.8,
-      "operational_transparency": 94.7,
-      "developer_ergonomics": 96.4,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 47.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 29
-    },
-    {
      "name": "Tabby",
      "slug": "tabby",
      "url": "https://providers.apis.io/providers/tabby/",
@@ -1468,7 +1423,7 @@
       "developer_ergonomics": 92.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1500,7 +1455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Appwrite",
@@ -1520,7 +1475,7 @@
       "developer_ergonomics": 86.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 54.5,
      "agent_band": "agent-ready",
@@ -1545,7 +1500,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Braze",
@@ -1565,7 +1520,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1597,7 +1552,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Svix",
@@ -1617,7 +1572,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1649,7 +1604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Stannp",
@@ -1669,7 +1624,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1701,7 +1656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "OneSignal",
@@ -1721,7 +1676,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1753,7 +1708,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Power Query",
@@ -1773,7 +1728,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1805,7 +1760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "SendGrid",
@@ -1825,7 +1780,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 39.5,
      "agent_band": "agent-ready",
@@ -1850,7 +1805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Boom Ai",
@@ -1870,7 +1825,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1902,7 +1857,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Stripe",
@@ -1922,7 +1877,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1961,7 +1916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Leadping",
@@ -1981,7 +1936,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2013,7 +1968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Losant",
@@ -2033,7 +1988,7 @@
       "developer_ergonomics": 91.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 62.3,
      "agent_band": "agent-ready",
@@ -2058,7 +2013,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Upstox",
@@ -2077,7 +2032,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2109,7 +2064,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Datadog APM",
@@ -2129,7 +2084,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -2154,7 +2109,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Klaviyo",
@@ -2174,7 +2129,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2217,7 +2172,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Confluent",
@@ -2237,7 +2192,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 49.4,
      "agent_band": "agent-ready",
@@ -2262,7 +2217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Close",
@@ -2282,7 +2237,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2325,7 +2280,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Adobe",
@@ -2345,7 +2300,7 @@
       "developer_ergonomics": 95.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.8,
      "agent_band": "agent-ready",
@@ -2370,52 +2325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
-    },
-    {
-     "name": "Amazon Web Services (AWS)",
-     "slug": "amazon-web-services-aws",
-     "url": "https://providers.apis.io/providers/amazon-web-services-aws/",
-     "type": "API Provider",
-     "description": "Amazon Web Services is the cloud computing arm of Amazon and the largest public cloud provider in the world, offering more than 200 services across compute, storage, databases, networking, analytics, machine learning, security and developer tooling from data centers in dozens of Regions. Nearly every service is API-first: capacity is created, configured and destroyed through signed HTTPS calls, and the console, the AWS CLI and the CloudFormation and CDK toolchains are all clients of the same control plane. Requests are authenticated with AWS Signature Version 4 and authorized by IAM policy rather than by OAuth scope, versioned with a dated API version parameter instead of a URL path, and paginated uniformly with MaxResults and NextToken. Pricing is usage-based per service with a credit-capped Free Tier for new accounts rather than API request plans.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/screenshots/amazon-web-services-aws-2026-06-20T171847.png",
-     "score": 78.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 71.1,
-      "contract_governance": 44.7,
-      "operational_transparency": 97.4,
-      "developer_ergonomics": 86.9,
-      "access_clarity": 89.5
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 37.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Clarivate",
@@ -2435,7 +2345,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2467,7 +2377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "The Things Network / The Things Stack",
@@ -2487,7 +2397,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
@@ -2512,7 +2422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "LaunchDarkly",
@@ -2532,7 +2442,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 50.5,
      "agent_band": "agent-ready",
@@ -2557,7 +2467,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 49
     },
     {
      "name": "Microsoft Entra ID (formerly Azure AD)",
@@ -2577,7 +2487,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
@@ -2602,7 +2512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 50
     },
     {
      "name": "Anthropic",
@@ -2622,7 +2532,7 @@
       "developer_ergonomics": 96.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 37.7,
      "agent_band": "agent-ready",
@@ -2647,7 +2557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 51
     },
     {
      "name": "Mailchimp",
@@ -2667,7 +2577,7 @@
       "developer_ergonomics": 83.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2699,7 +2609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 52
     },
     {
      "name": "Mux",
@@ -2719,7 +2629,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 38.8,
      "agent_band": "agent-ready",
@@ -2744,7 +2654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 53
     },
     {
      "name": "Optimizely",
@@ -2764,7 +2674,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.5,
      "agent_band": "agent-ready",
@@ -2789,7 +2699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 54
     },
     {
      "name": "MailerLite",
@@ -2809,7 +2719,7 @@
       "developer_ergonomics": 88.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2848,7 +2758,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 55
     },
     {
      "name": "Regal",
@@ -2868,7 +2778,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2900,7 +2810,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 56
     },
     {
      "name": "Listrak",
@@ -2920,7 +2830,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2963,7 +2873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 57
     },
     {
      "name": "athenahealth",
@@ -2983,7 +2893,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3015,7 +2925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Elastic Stack (ELK Stack)",
@@ -3035,7 +2945,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.8,
      "agent_band": "agent-native",
@@ -3060,7 +2970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "Didomi",
@@ -3080,7 +2990,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -3105,7 +3015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 60
     },
     {
      "name": "Nylas",
@@ -3125,7 +3035,7 @@
       "developer_ergonomics": 92.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 59.3,
      "agent_band": "agent-native",
@@ -3150,7 +3060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 61
     },
     {
      "name": "Microsoft Power Platform APIs",
@@ -3170,7 +3080,7 @@
       "developer_ergonomics": 83.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3202,7 +3112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 62
     },
     {
      "name": "PAY.JP",
@@ -3222,7 +3132,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3254,7 +3164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Amazon SES",
@@ -3274,7 +3184,7 @@
       "developer_ergonomics": 86.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
@@ -3299,7 +3209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 64
     },
     {
      "name": "Klarna",
@@ -3318,7 +3228,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3350,7 +3260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "RudderStack",
@@ -3370,7 +3280,7 @@
       "developer_ergonomics": 100.0,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
@@ -3395,7 +3305,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Drippay",
@@ -3415,7 +3325,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3454,7 +3364,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 67
     },
     {
      "name": "Harness",
@@ -3474,7 +3384,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 56.0,
      "agent_band": "agent-ready",
@@ -3499,7 +3409,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "Swetrix",
@@ -3519,7 +3429,7 @@
       "developer_ergonomics": 83.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -3544,7 +3454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "Acquia",
@@ -3564,7 +3474,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 53.0,
      "agent_band": "agent-ready",
@@ -3589,7 +3499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "Zoho CRM",
@@ -3609,7 +3519,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
@@ -3634,7 +3544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "1upHealth",
@@ -3654,7 +3564,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3693,7 +3603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "Arcade",
@@ -3713,7 +3623,7 @@
       "developer_ergonomics": 88.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -3738,7 +3648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 73
     },
     {
      "name": "Ghost",
@@ -3758,7 +3668,7 @@
       "developer_ergonomics": 86.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -3783,7 +3693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 74
     },
     {
      "name": "Square",
@@ -3803,7 +3713,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3835,7 +3745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 75
     },
     {
      "name": "Adobe Suite",
@@ -3855,7 +3765,7 @@
       "developer_ergonomics": 89.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 62.3,
      "agent_band": "agent-native",
@@ -3880,7 +3790,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 76
     },
     {
      "name": "MX Technologies",
@@ -3900,7 +3810,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3932,7 +3842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 77
     },
     {
      "name": "Veeva",
@@ -3952,7 +3862,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3984,7 +3894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 78
     },
     {
      "name": "Infobip",
@@ -4004,7 +3914,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4043,7 +3953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 79
     },
     {
      "name": "Stax",
@@ -4063,7 +3973,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4095,7 +4005,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 80
     },
     {
      "name": "Cvent",
@@ -4115,7 +4025,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -4140,7 +4050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 81
     },
     {
      "name": "Birdeye",
@@ -4160,7 +4070,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 63.3,
      "agent_band": "agent-ready",
@@ -4185,7 +4095,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 82
     },
     {
      "name": "Adobe Campaign",
@@ -4205,7 +4115,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4237,7 +4147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 83
     },
     {
      "name": "Thanx",
@@ -4257,7 +4167,7 @@
       "developer_ergonomics": 84.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.0,
      "agent_band": "agent-native",
@@ -4282,7 +4192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 84
     },
     {
      "name": "Mapp Marketing Cloud",
@@ -4302,7 +4212,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4353,7 +4263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 85
     },
     {
      "name": "ActiveCampaign",
@@ -4373,7 +4283,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -4398,7 +4308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 86
     },
     {
      "name": "CData",
@@ -4418,7 +4328,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 64.0,
      "agent_band": "agent-ready",
@@ -4443,7 +4353,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 87
     },
     {
      "name": "OpenSanctions",
@@ -4463,7 +4373,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4495,7 +4405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 88
     },
     {
      "name": "Plunk",
@@ -4515,7 +4425,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.3,
      "agent_band": "agent-native",
@@ -4540,7 +4450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 89
     },
     {
      "name": "Redocly",
@@ -4560,7 +4470,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
@@ -4585,7 +4495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 90
     },
     {
      "name": "Kraken",
@@ -4605,7 +4515,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4637,7 +4547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 91
     },
     {
      "name": "SendPulse",
@@ -4657,7 +4567,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4696,7 +4606,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 92
     },
     {
      "name": "Talon.One",
@@ -4716,7 +4626,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 46.9,
      "agent_band": "agent-native",
@@ -4741,7 +4651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 93
     },
     {
      "name": "GetResponse",
@@ -4761,7 +4671,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4800,7 +4710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 94
     },
     {
      "name": "Treasure Data",
@@ -4820,7 +4730,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.8,
      "agent_band": "agent-native",
@@ -4845,7 +4755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 95
     },
     {
      "name": "CarsXE",
@@ -4865,7 +4775,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 68.5,
      "agent_band": "agent-ready",
@@ -4890,7 +4800,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 96
     },
     {
      "name": "eClinicalWorks",
@@ -4910,7 +4820,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4942,7 +4852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 97
     },
     {
      "name": "Virto Commerce",
@@ -4962,7 +4872,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4994,7 +4904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 98
     },
     {
      "name": "Attentive",
@@ -5014,7 +4924,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5057,7 +4967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 99
     },
     {
      "name": "Squarespace",
@@ -5077,7 +4987,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5109,7 +5019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 100
     },
     {
      "name": "Vital",
@@ -5129,7 +5039,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5168,7 +5078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 101
     },
     {
      "name": "LinkedIn",
@@ -5188,7 +5098,7 @@
       "developer_ergonomics": 85.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -5213,7 +5123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 102
     },
     {
      "name": "Pluralsight",
@@ -5233,7 +5143,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5265,7 +5175,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 103
     },
     {
      "name": "Canvas",
@@ -5285,7 +5195,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5317,7 +5227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 104
     },
     {
      "name": "Diffbot",
@@ -5337,7 +5247,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -5362,59 +5272,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
-    },
-    {
-     "name": "Vapi",
-     "slug": "vapi-ai",
-     "url": "https://providers.apis.io/providers/vapi-ai/",
-     "type": "API Provider",
-     "description": "Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for tools/function calling, multi-agent squads, outbound campaigns, persistent sessions, structured outputs, recording artifacts, evaluation scorecards, and a full REST API plus official SDKs in TypeScript, Python, C#, Ruby, PHP, and client SDKs for Web, React Native, iOS, and Python. Vapi is a Y Combinator company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png",
-     "score": 73.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 77.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 75.0,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 108
+     "rank": 105
     },
     {
      "name": "Outbrain",
      "slug": "outbrain",
      "url": "https://providers.apis.io/providers/outbrain/",
      "type": "API Provider",
-     "description": "Outbrain Inc. (NASDAQ&#58; OB), which closed its acquisition of Teads in early 2025 and now operates publicly as Teads, is one of the largest open-internet advertising platforms — reaching 2 billion+ consumers per month across 50+ markets, with 20,000+ direct advertisers and 10,000+ premium media properties. The combined company spans open-web native (Outbrain Amplify), premium video, display, and Connected TV (Teads), powered by a Predictive AI engine and an omnichannel data graph. Developer surface area centers on the Amplify API (campaign management + reporting), the Engage API (publisher content recommendations and the JS Widget / Mobile SDK), and a server-side Conversion API for cookieless measurement and optimization.",
+     "description": "Outbrain Inc. (NASDAQ: OB), which closed its acquisition of Teads in early 2025 and now operates publicly as Teads, is one of the largest open-internet advertising platforms — reaching 2 billion+ consumers per month across 50+ markets, with 20,000+ direct advertisers and 10,000+ premium media properties. The combined company spans open-web native (Outbrain Amplify), premium video, display, and Connected TV (Teads), powered by a Predictive AI engine and an omnichannel data graph. Developer surface area centers on the Amplify API (campaign management + reporting), the Engage API (publisher content recommendations and the JS Widget / Mobile SDK), and a server-side Conversion API for cookieless measurement and optimization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/screenshots/outbrain-2026-06-20T191227.png",
      "score": 73.4,
      "band": "exemplar",
@@ -5427,7 +5292,7 @@
       "developer_ergonomics": 83.9,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
@@ -5452,7 +5317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 106
     },
     {
      "name": "Amazon VPN",
@@ -5472,7 +5337,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 34.5,
      "agent_band": "agent-ready",
@@ -5497,7 +5362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 107
     },
     {
      "name": "Availity",
@@ -5517,7 +5382,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5549,7 +5414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 108
     },
     {
      "name": "Microsoft Azure",
@@ -5569,7 +5434,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 46.2,
      "agent_band": "agent-ready",
@@ -5594,7 +5459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 109
     },
     {
      "name": "Twelve Data",
@@ -5614,7 +5479,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5653,7 +5518,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 110
     },
     {
      "name": "AWeber",
@@ -5673,7 +5538,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5705,7 +5570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 111
     },
     {
      "name": "iOS",
@@ -5725,7 +5590,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5757,7 +5622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 112
     },
     {
      "name": "Amazon CodeGuru Profiler",
@@ -5777,7 +5642,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-native",
@@ -5802,7 +5667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 113
     },
     {
      "name": "Dust",
@@ -5822,7 +5687,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -5847,7 +5712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 114
     },
     {
      "name": "Iterable",
@@ -5867,7 +5732,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5899,7 +5764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 115
     },
     {
      "name": "Acronis",
@@ -5919,7 +5784,7 @@
       "developer_ergonomics": 86.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.9,
      "agent_band": "agent-native",
@@ -5944,7 +5809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 116
     },
     {
      "name": "Confluent | the Data Streaming Platform",
@@ -5964,7 +5829,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 49.4,
      "agent_band": "agent-ready",
@@ -5989,7 +5854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 117
     },
     {
      "name": "Twilio",
@@ -6009,7 +5874,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6041,7 +5906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 118
     },
     {
      "name": "0xArchive",
@@ -6061,7 +5926,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6093,7 +5958,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 119
     },
     {
      "name": "Outreach",
@@ -6113,7 +5978,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 54.4,
      "agent_band": "agent-ready",
@@ -6138,7 +6003,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 120
     },
     {
      "name": "Remote",
@@ -6158,7 +6023,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -6183,7 +6048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 121
     },
     {
      "name": "Surfe",
@@ -6203,7 +6068,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -6228,7 +6093,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 122
     },
     {
      "name": "Postman",
@@ -6248,7 +6113,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 44.2,
      "agent_band": "agent-ready",
@@ -6273,7 +6138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 123
     },
     {
      "name": "Flexpa",
@@ -6293,7 +6158,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6325,7 +6190,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 124
     },
     {
      "name": "Relevance AI",
@@ -6345,7 +6210,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.3,
      "agent_band": "agent-native",
@@ -6370,7 +6235,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 125
     },
     {
      "name": "Salla",
@@ -6390,7 +6255,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6422,7 +6287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 126
     },
     {
      "name": "Zoom Phone",
@@ -6442,7 +6307,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6474,7 +6339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 127
     },
     {
      "name": "Efí Pay (Gerencianet)",
@@ -6494,7 +6359,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6526,7 +6391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 128
     },
     {
      "name": "Azure Kubernetes Service",
@@ -6546,7 +6411,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -6571,7 +6436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 129
     },
     {
      "name": "Mailboxlayer",
@@ -6591,7 +6456,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -6616,7 +6481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 130
     },
     {
      "name": "Adobe Launch",
@@ -6636,7 +6501,7 @@
       "developer_ergonomics": 91.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -6661,7 +6526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 131
     },
     {
      "name": "Blnk Finance",
@@ -6681,7 +6546,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6720,7 +6585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 132
     },
     {
      "name": "Highnote",
@@ -6740,7 +6605,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6772,7 +6637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 133
     },
     {
      "name": "ThriveCart",
@@ -6792,7 +6657,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6824,7 +6689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 134
     },
     {
      "name": "Canvas LMS",
@@ -6844,7 +6709,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6876,7 +6741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 135
     },
     {
      "name": "Gitea",
@@ -6896,7 +6761,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.9,
      "agent_band": "agent-ready",
@@ -6921,7 +6786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 136
     },
     {
      "name": "Qonto",
@@ -6941,7 +6806,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6984,7 +6849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 137
     },
     {
      "name": "SMTP2GO",
@@ -7004,7 +6869,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7036,7 +6901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 138
     },
     {
      "name": "Knock",
@@ -7056,7 +6921,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7095,7 +6960,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 139
     },
     {
      "name": "Plaid",
@@ -7115,7 +6980,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7158,7 +7023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 140
     },
     {
      "name": "Punchh",
@@ -7178,7 +7043,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7210,7 +7075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 141
     },
     {
      "name": "Soda",
@@ -7230,7 +7095,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.9,
      "agent_band": "agent-ready",
@@ -7255,7 +7120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 142
     },
     {
      "name": "Aembit",
@@ -7274,7 +7139,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
@@ -7299,7 +7164,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 143
     },
     {
      "name": "Akuity",
@@ -7319,7 +7184,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 28.2,
      "agent_band": "agent-aware",
@@ -7344,7 +7209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 144
     },
     {
      "name": "Algolia",
@@ -7364,7 +7229,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 61.5,
      "agent_band": "agent-ready",
@@ -7389,7 +7254,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 145
     },
     {
      "name": "Google Ads",
@@ -7409,7 +7274,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -7434,7 +7299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 146
     },
     {
      "name": "MoEngage",
@@ -7454,7 +7319,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7497,7 +7362,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 147
     },
     {
      "name": "Paubox",
@@ -7517,7 +7382,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7564,7 +7429,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 148
     },
     {
      "name": "MethodFi",
@@ -7584,7 +7449,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7616,7 +7481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 149
     },
     {
      "name": "Paystack",
@@ -7636,7 +7501,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7668,7 +7533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 150
     },
     {
      "name": "Postmark",
@@ -7688,7 +7553,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 40.4,
      "agent_band": "agent-ready",
@@ -7713,7 +7578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 151
     },
     {
      "name": "Sendcloud",
@@ -7733,7 +7598,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7765,7 +7630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 152
     },
     {
      "name": "Snyk",
@@ -7785,7 +7650,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 43.7,
      "agent_band": "agent-ready",
@@ -7810,7 +7675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 153
     },
     {
      "name": "beehiiv",
@@ -7830,7 +7695,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
@@ -7855,7 +7720,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 154
     },
     {
      "name": "ThousandEyes",
@@ -7875,7 +7740,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -7900,7 +7765,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 155
     },
     {
      "name": "ZnanyLekarz",
@@ -7919,7 +7784,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7951,7 +7816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 156
     },
     {
      "name": "Checkly",
@@ -7971,7 +7836,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.0,
      "agent_band": "agent-ready",
@@ -7996,7 +7861,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 157
     },
     {
      "name": "Novu",
@@ -8016,7 +7881,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8048,7 +7913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 158
     },
     {
      "name": "Oracle Cloud Infrastructure",
@@ -8068,7 +7933,7 @@
       "developer_ergonomics": 83.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.5,
      "agent_band": "agent-native",
@@ -8093,7 +7958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 159
     },
     {
      "name": "Palo Alto Networks",
@@ -8113,7 +7978,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
@@ -8138,7 +8003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 160
     },
     {
      "name": "Calico",
@@ -8158,7 +8023,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8190,7 +8055,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 161
     },
     {
      "name": "Canopy Connect",
@@ -8210,7 +8075,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8242,7 +8107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 162
     },
     {
      "name": "KonbiniAPI",
@@ -8262,7 +8127,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8294,7 +8159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 163
     },
     {
      "name": "SAP Emarsys",
@@ -8314,7 +8179,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8353,7 +8218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 164
     },
     {
      "name": "PayTabs",
@@ -8373,7 +8238,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8405,7 +8270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 165
     },
     {
      "name": "Unit",
@@ -8425,7 +8290,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8457,7 +8322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 166
     },
     {
      "name": "Commerce Layer",
@@ -8477,7 +8342,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8509,7 +8374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 167
     },
     {
      "name": "Mirakl",
@@ -8529,7 +8394,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -8554,7 +8419,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 168
     },
     {
      "name": "PayMongo",
@@ -8574,7 +8439,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8606,7 +8471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 169
     },
     {
      "name": "6sense",
@@ -8626,7 +8491,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 55.6,
      "agent_band": "agent-ready",
@@ -8651,7 +8516,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 170
     },
     {
      "name": "AlphaAI",
@@ -8671,7 +8536,7 @@
       "developer_ergonomics": 88.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8703,7 +8568,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 171
     },
     {
      "name": "Instacart",
@@ -8723,7 +8588,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -8748,7 +8613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 172
     },
     {
      "name": "Ortto",
@@ -8768,7 +8633,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8811,10 +8676,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 173
     },
     {
-     "name": "Qlik Sense APIs",
+     "name": "Qlik Sense",
      "slug": "qliksense",
      "url": "https://providers.apis.io/providers/qliksense/",
      "type": "API Provider",
@@ -8831,7 +8696,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -8856,7 +8721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 174
     },
     {
      "name": "dotCMS",
@@ -8876,7 +8741,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -8901,7 +8766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 175
     },
     {
      "name": "Guidewire",
@@ -8921,7 +8786,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8953,7 +8818,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 176
     },
     {
      "name": "NextGen Healthcare",
@@ -8973,7 +8838,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9005,7 +8870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 177
     },
     {
      "name": "8x8",
@@ -9025,7 +8890,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9057,7 +8922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 178
     },
     {
      "name": "BigPanda",
@@ -9077,7 +8942,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -9102,7 +8967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 179
     },
     {
      "name": "DeBounce",
@@ -9122,7 +8987,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.8,
      "agent_band": "agent-native",
@@ -9147,7 +9012,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 180
     },
     {
      "name": "Fireflies.ai",
@@ -9167,7 +9032,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.4,
      "agent_band": "agent-ready",
@@ -9192,7 +9057,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 181
     },
     {
      "name": "Lightspark",
@@ -9212,7 +9077,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9244,7 +9109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 182
     },
     {
      "name": "Act! CRM",
@@ -9264,7 +9129,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -9289,7 +9154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 183
     },
     {
      "name": "Atlassian Compass",
@@ -9309,7 +9174,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 94.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 50.2,
      "agent_band": "agent-ready",
@@ -9334,7 +9199,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 184
     },
     {
      "name": "Meltwater",
@@ -9354,7 +9219,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.6,
      "agent_band": "agent-ready",
@@ -9379,7 +9244,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 185
     },
     {
      "name": "Omnisend",
@@ -9399,7 +9264,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.3,
      "agent_band": "agent-ready",
@@ -9424,7 +9289,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 186
     },
     {
      "name": "Bolt Financial",
@@ -9444,7 +9309,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9476,7 +9341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 187
     },
     {
      "name": "Jitterbit",
@@ -9496,7 +9361,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -9521,7 +9386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 188
     },
     {
      "name": "lemlist",
@@ -9541,7 +9406,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 65.8,
      "agent_band": "agent-ready",
@@ -9566,7 +9431,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 189
     },
     {
      "name": "Orange Business",
@@ -9586,7 +9451,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9618,7 +9483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 190
     },
     {
      "name": "Spade",
@@ -9638,7 +9503,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9677,7 +9542,52 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 191
+    },
+    {
+     "name": "APIMatic",
+     "slug": "apimatic",
+     "url": "https://providers.apis.io/providers/apimatic/",
+     "type": "API Provider",
+     "description": "APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languages with CI/CD integration for automating the developer experience suite.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/screenshots/apimatic-2026-07-25T200631.png",
+     "score": 70.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 70.2,
+      "contract_governance": 43.2,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 86.9,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 50.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 192
     },
     {
      "name": "Campaign Monitor",
@@ -9697,7 +9607,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9736,7 +9646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 193
     },
     {
      "name": "Cvent Event Cloud",
@@ -9756,7 +9666,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 46.1,
      "agent_band": "agent-ready",
@@ -9781,7 +9691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 194
     },
     {
      "name": "Hunter",
@@ -9801,7 +9711,7 @@
       "developer_ergonomics": 60.7,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 53.4,
      "agent_band": "agent-native",
@@ -9826,7 +9736,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 195
     },
     {
      "name": "Jefferson Health",
@@ -9846,7 +9756,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9878,7 +9788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 196
     },
     {
      "name": "Lusha",
@@ -9898,7 +9808,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 63.1,
      "agent_band": "agent-ready",
@@ -9923,7 +9833,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 197
     },
     {
      "name": "Peach Payments",
@@ -9943,7 +9853,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9975,7 +9885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 198
     },
     {
      "name": "Densify",
@@ -9995,7 +9905,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 43.7,
      "agent_band": "agent-ready",
@@ -10020,7 +9930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 199
     },
     {
      "name": "DOKU",
@@ -10040,7 +9950,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10072,7 +9982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 200
     },
     {
      "name": "Exec",
@@ -10092,7 +10002,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10124,7 +10034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 201
     },
     {
      "name": "Givebutter",
@@ -10144,7 +10054,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10176,7 +10086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 202
     },
     {
      "name": "Hint Health",
@@ -10196,7 +10106,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10228,7 +10138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 203
     },
     {
      "name": "MATLAB",
@@ -10248,7 +10158,7 @@
       "developer_ergonomics": 88.1,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -10273,7 +10183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 204
     },
     {
      "name": "Stoplight",
@@ -10293,7 +10203,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -10318,7 +10228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 205
     },
     {
      "name": "Benchling",
@@ -10338,7 +10248,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10381,7 +10291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 206
     },
     {
      "name": "Metriport",
@@ -10401,7 +10311,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10440,7 +10350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 207
     },
     {
      "name": "Oracle Platforms",
@@ -10460,7 +10370,7 @@
       "developer_ergonomics": 87.5,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.0,
      "agent_band": "agent-native",
@@ -10485,7 +10395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 208
     },
     {
      "name": "Vidyard",
@@ -10505,7 +10415,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -10530,7 +10440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 209
     },
     {
      "name": "Blueshift",
@@ -10550,7 +10460,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10582,7 +10492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 210
     },
     {
      "name": "Oracle Hospitality",
@@ -10602,7 +10512,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -10627,7 +10537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 211
     },
     {
      "name": "Authentik",
@@ -10647,7 +10557,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -10672,7 +10582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 212
     },
     {
      "name": "Browser Use",
@@ -10692,7 +10602,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 58.3,
      "agent_band": "agent-ready",
@@ -10717,7 +10627,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 213
     },
     {
      "name": "Immutable",
@@ -10737,7 +10647,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10769,7 +10679,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 214
     },
     {
      "name": "LINE",
@@ -10789,7 +10699,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 44.9,
      "agent_band": "agent-native",
@@ -10814,7 +10724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 215
     },
     {
      "name": "Loops",
@@ -10834,7 +10744,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 62.9,
      "agent_band": "agent-native",
@@ -10859,7 +10769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 216
     },
     {
      "name": "Google Analytics",
@@ -10879,7 +10789,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 40.3,
      "agent_band": "agent-ready",
@@ -10904,7 +10814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 217
     },
     {
      "name": "Convoy",
@@ -10924,7 +10834,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -10949,7 +10859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 218
     },
     {
      "name": "Prismic",
@@ -10969,7 +10879,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -10994,7 +10904,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 219
     },
     {
      "name": "SignalWire",
@@ -11014,7 +10924,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11046,7 +10956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 220
     },
     {
      "name": "Tvarka ATK API",
@@ -11066,7 +10976,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 46.2,
      "agent_band": "agent-native",
@@ -11091,7 +11001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 221
     },
     {
      "name": "Zoho Campaigns",
@@ -11111,7 +11021,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11143,7 +11053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 222
     },
     {
      "name": "Candid Health",
@@ -11163,7 +11073,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11195,7 +11105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 223
     },
     {
      "name": "Mailosaur",
@@ -11215,7 +11125,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -11240,7 +11150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 224
     },
     {
      "name": "Sigma Computing",
@@ -11260,7 +11170,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.5,
      "agent_band": "agent-native",
@@ -11285,7 +11195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 225
     },
     {
      "name": "ClickHouse",
@@ -11305,7 +11215,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.6,
      "agent_band": "agent-ready",
@@ -11330,7 +11240,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 226
     },
     {
      "name": "Constant Contact",
@@ -11350,7 +11260,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11382,7 +11292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 227
     },
     {
      "name": "Awin",
@@ -11402,7 +11312,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -11427,7 +11337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 228
     },
     {
      "name": "Enphase Energy",
@@ -11447,7 +11357,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11479,7 +11389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 229
     },
     {
      "name": "Microsoft Azure Functions",
@@ -11499,7 +11409,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -11524,7 +11434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 230
     },
     {
      "name": "Salesforce Service Cloud APIs",
@@ -11544,7 +11454,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 47.2,
      "agent_band": "agent-native",
@@ -11569,7 +11479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 231
     },
     {
      "name": "Hubble Network",
@@ -11589,7 +11499,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -11614,7 +11524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 232
     },
     {
      "name": "Jira",
@@ -11634,7 +11544,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 56.6,
      "agent_band": "agent-ready",
@@ -11659,7 +11569,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 233
     },
     {
      "name": "X",
@@ -11679,7 +11589,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 61.8,
      "agent_band": "agent-native",
@@ -11704,7 +11614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 234
     },
     {
      "name": "HERE",
@@ -11724,7 +11634,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 55.9,
      "agent_band": "agent-native",
@@ -11749,7 +11659,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 235
     },
     {
      "name": "Impact Radius",
@@ -11769,7 +11679,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -11794,7 +11704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 236
     },
     {
      "name": "Microsoft Dynamics 365 Sales",
@@ -11814,7 +11724,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -11839,7 +11749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 237
     },
     {
      "name": "Coresignal",
@@ -11859,7 +11769,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -11884,7 +11794,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 238
     },
     {
      "name": "NVIDIA NIM",
@@ -11904,7 +11814,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -11929,7 +11839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 239
     },
     {
      "name": "Polygon",
@@ -11949,7 +11859,7 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11981,7 +11891,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 240
     },
     {
      "name": "AlphaLoops FMCSA Carrier Data API",
@@ -12001,7 +11911,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12033,7 +11943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 241
     },
     {
      "name": "Braiins",
@@ -12053,7 +11963,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12085,7 +11995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 242
     },
     {
      "name": "Crypto.com",
@@ -12105,7 +12015,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12137,7 +12047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 243
     },
     {
      "name": "Health Gorilla",
@@ -12157,7 +12067,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12189,7 +12099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 244
     },
     {
      "name": "Healthie",
@@ -12209,7 +12119,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12241,7 +12151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 245
     },
     {
      "name": "Impact",
@@ -12261,7 +12171,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 44.5,
      "agent_band": "agent-ready",
@@ -12286,7 +12196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 246
     },
     {
      "name": "Lightfield",
@@ -12306,7 +12216,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 65.6,
      "agent_band": "agent-native",
@@ -12331,7 +12241,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 247
     },
     {
      "name": "OneTrust",
@@ -12351,7 +12261,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 51.6,
      "agent_band": "agent-ready",
@@ -12376,7 +12286,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 248
     },
     {
      "name": "New Relic",
@@ -12396,7 +12306,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 40.3,
      "agent_band": "agent-ready",
@@ -12421,7 +12331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 249
     },
     {
      "name": "Edge Impulse",
@@ -12441,7 +12351,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.5,
      "agent_band": "agent-ready",
@@ -12466,7 +12376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 250
     },
     {
      "name": "Pirsch",
@@ -12486,7 +12396,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.0,
      "agent_band": "agent-ready",
@@ -12511,7 +12421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 251
     },
     {
      "name": "Uphold",
@@ -12531,7 +12441,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12563,7 +12473,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 252
     },
     {
      "name": "Heroic Labs",
@@ -12583,7 +12493,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -12608,7 +12518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 253
     },
     {
      "name": "Lev",
@@ -12628,7 +12538,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12660,7 +12570,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 254
     },
     {
      "name": "Canvas Medical",
@@ -12680,7 +12590,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12723,7 +12633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 255
     },
     {
      "name": "ClickFunnels",
@@ -12743,7 +12653,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12775,7 +12685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 256
     },
     {
      "name": "Confluence",
@@ -12795,7 +12705,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 51.6,
      "agent_band": "agent-ready",
@@ -12820,7 +12730,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 257
     },
     {
      "name": "Infor",
@@ -12840,7 +12750,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.6,
      "agent_band": "agent-ready",
@@ -12865,7 +12775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 258
     },
     {
      "name": "Tapfiliate",
@@ -12885,7 +12795,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 54.4,
      "agent_band": "agent-ready",
@@ -12910,7 +12820,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 259
     },
     {
      "name": "Eliq",
@@ -12930,7 +12840,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12969,7 +12879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 260
     },
     {
      "name": "Factset",
@@ -12989,7 +12899,7 @@
       "developer_ergonomics": 83.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13021,7 +12931,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 261
     },
     {
      "name": "Vibes Platform",
@@ -13041,7 +12951,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13073,7 +12983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 262
     },
     {
      "name": "Bitly",
@@ -13093,7 +13003,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
@@ -13118,7 +13028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 263
     },
     {
      "name": "Cisco Catalyst SD-WAN",
@@ -13138,7 +13048,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13170,7 +13080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 264
     },
     {
      "name": "fal",
@@ -13190,7 +13100,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
@@ -13215,7 +13125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 265
     },
     {
      "name": "HitPay",
@@ -13235,7 +13145,7 @@
       "developer_ergonomics": 69.6,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13267,7 +13177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 266
     },
     {
      "name": "Oracle Siebel",
@@ -13287,7 +13197,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
@@ -13312,7 +13222,52 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 267
+    },
+    {
+     "name": "TextQL",
+     "slug": "textql",
+     "url": "https://providers.apis.io/providers/textql/",
+     "type": "API Provider",
+     "description": "TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboards, scheduled reports (Playbooks) and long-running monitors (Agents) on top of a governed Ontology semantic layer. TextQL ships a public REST platform API in two generations — a v1 Connect-RPC surface and a REST-native v2 — plus an OAuth-authorized remote MCP server that exposes Ana to Claude, Cursor, ChatGPT, Copilot and any MCP-compatible client. First-party TypeScript and Python SDKs, embeddable iframe surfaces for Ana, dashboards and data apps, SAML/OIDC single sign-on with SCIM 2.0 provisioning, and self-hosted Helm deployment into a customer VPC round out the developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/screenshots/textql-2026-09-02T163306.png",
+     "score": 67.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 54.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 78.6,
+      "access_clarity": 71.1
+     },
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 63.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 268
     },
     {
      "name": "Toast",
@@ -13332,7 +13287,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -13357,7 +13312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "Wappalyzer",
@@ -13377,7 +13332,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -13402,7 +13357,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "WorkRamp",
@@ -13422,7 +13377,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13454,7 +13409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "Frontegg",
@@ -13474,7 +13429,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -13499,7 +13454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "IPinfo",
@@ -13519,7 +13474,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13551,7 +13506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "Telr",
@@ -13571,7 +13526,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13610,7 +13565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "Airbyte",
@@ -13630,7 +13585,7 @@
       "developer_ergonomics": 92.9,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.6,
      "agent_band": "agent-ready",
@@ -13655,7 +13610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "Azure DevOps",
@@ -13675,7 +13630,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -13700,7 +13655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Dremio | Intelligent Lakehouse Platform",
@@ -13720,7 +13675,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 49.9,
      "agent_band": "agent-native",
@@ -13745,7 +13700,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Taboola",
@@ -13765,7 +13720,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -13790,7 +13745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 278
     },
     {
      "name": "Tealium",
@@ -13810,7 +13765,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
@@ -13835,7 +13790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "UserGems",
@@ -13855,7 +13810,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
@@ -13880,7 +13835,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Buttondown",
@@ -13900,7 +13855,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13932,7 +13887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "GitHub",
@@ -13952,7 +13907,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 50.7,
      "agent_band": "agent-ready",
@@ -13977,7 +13932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "Leadspace",
@@ -13997,7 +13952,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -14022,7 +13977,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Netlify",
@@ -14042,7 +13997,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 62.2,
      "agent_band": "agent-ready",
@@ -14067,7 +14022,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "Amigo",
@@ -14087,7 +14042,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14134,7 +14089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Bloomreach",
@@ -14154,7 +14109,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 63.7,
      "agent_band": "agent-ready",
@@ -14179,7 +14134,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "Segmind",
@@ -14199,7 +14154,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -14224,7 +14179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Shodan",
@@ -14244,7 +14199,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.8,
      "agent_band": "agent-aware",
@@ -14269,7 +14224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Agorapulse",
@@ -14289,7 +14244,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
@@ -14314,7 +14269,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Canva",
@@ -14334,7 +14289,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -14359,7 +14314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Citizens Financial Group",
@@ -14379,7 +14334,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14411,7 +14366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Solana",
@@ -14431,7 +14386,7 @@
       "developer_ergonomics": 84.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
@@ -14456,7 +14411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "APILayer",
@@ -14476,7 +14431,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 66.5,
      "agent_band": "agent-native",
@@ -14501,7 +14456,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "Bindbee",
@@ -14521,7 +14476,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14553,7 +14508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Independence Blue Cross",
@@ -14573,7 +14528,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14605,7 +14560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "Microsoft Azure API Management",
@@ -14625,7 +14580,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
@@ -14650,7 +14605,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "SimilarWeb",
@@ -14670,7 +14625,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -14695,7 +14650,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Adobe Workfront",
@@ -14715,7 +14670,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -14740,7 +14695,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "API Evangelist",
@@ -14760,7 +14715,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 64.6,
      "agent_band": "agent-ready",
@@ -14785,7 +14740,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "Hightouch",
@@ -14805,7 +14760,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
@@ -14830,7 +14785,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Ontraport",
@@ -14850,7 +14805,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14882,7 +14837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Rewardful",
@@ -14902,7 +14857,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -14927,7 +14882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Swell",
@@ -14947,7 +14902,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14979,7 +14934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Unify",
@@ -14999,7 +14954,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.0,
      "agent_band": "agent-ready",
@@ -15024,7 +14979,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Finix",
@@ -15044,7 +14999,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15076,7 +15031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Google Search Console",
@@ -15096,7 +15051,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -15121,7 +15076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "Cogny",
@@ -15141,7 +15096,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.1,
      "agent_band": "agent-ready",
@@ -15166,7 +15121,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Matomo",
@@ -15186,7 +15141,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 39.5,
      "agent_band": "agent-ready",
@@ -15211,7 +15166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Plinth US Grants Data",
@@ -15231,7 +15186,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15263,7 +15218,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Triple Whale",
@@ -15283,7 +15238,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 59.2,
      "agent_band": "agent-native",
@@ -15308,7 +15263,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "Asana",
@@ -15328,7 +15283,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 39.6,
      "agent_band": "agent-ready",
@@ -15353,7 +15308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "CloudBees",
@@ -15373,7 +15328,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -15398,7 +15353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Financial Modeling Prep",
@@ -15418,7 +15373,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15450,7 +15405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "Lucidya Ltd",
@@ -15470,7 +15425,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -15495,52 +15450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
-    },
-    {
-     "name": "TextQL",
-     "slug": "textql",
-     "url": "https://providers.apis.io/providers/textql/",
-     "type": "API Provider",
-     "description": "TextQL is an enterprise AI data platform built around Ana, an AI data scientist that connects to a company's warehouses, databases, BI tools and SaaS APIs and answers questions in plain language. Ana writes SQL, runs Python in a managed gVisor sandbox, searches the web, and produces charts, dashboards, scheduled reports (Playbooks) and long-running monitors (Agents) on top of a governed Ontology semantic layer. TextQL ships a public REST platform API in two generations — a v1 Connect-RPC surface and a REST-native v2 — plus an OAuth-authorized remote MCP server that exposes Ana to Claude, Cursor, ChatGPT, Copilot and any MCP-compatible client. First-party TypeScript and Python SDKs, embeddable iframe surfaces for Ana, dashboards and data apps, SAML/OIDC single sign-on with SCIM 2.0 provisioning, and self-hosted Helm deployment into a customer VPC round out the developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/screenshots/textql-2026-09-02T163306.png",
-     "score": 66.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 54.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 73.8,
-      "access_clarity": 71.1
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 63.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 316
+     "rank": 314
     },
     {
      "name": "WhoisFreaks",
@@ -15560,7 +15470,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -15585,7 +15495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 315
     },
     {
      "name": "DoiT",
@@ -15605,7 +15515,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 74.4,
      "agent_band": "agent-native",
@@ -15630,7 +15540,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 316
     },
     {
      "name": "EDF Energy",
@@ -15650,7 +15560,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15689,7 +15599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 317
     },
     {
      "name": "Showpad",
@@ -15709,7 +15619,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -15734,7 +15644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 318
     },
     {
      "name": "University of Waterloo",
@@ -15754,7 +15664,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15786,7 +15696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 319
     }
    ],
    "open": true

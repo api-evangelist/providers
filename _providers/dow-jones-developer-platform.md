@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 9
 apis:
 - description: The Dow Jones Developer Platform is the umbrella developer surface for Dow Jones' news, business intelligence, market data and risk-and-compliance products. It covers three API families — Factiva, New
@@ -316,7 +316,7 @@ score:
     regime_id: securities_market_data
     score: 86.7
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

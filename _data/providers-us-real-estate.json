@@ -1,6 +1,6 @@
 {
- "total": 43,
- "shown": 43,
+ "total": 42,
+ "shown": 42,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -122,7 +122,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -173,7 +173,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -217,7 +217,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -261,7 +261,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 18.3,
      "agent_band": "agent-aware",
@@ -305,7 +305,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -356,7 +356,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -400,7 +400,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -444,7 +444,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -480,8 +480,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 17,
-   "shown": 17,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Keller Williams",
@@ -499,7 +499,7 @@
       "developer_ergonomics": 19.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -535,57 +535,6 @@
      "rank": 11
     },
     {
-     "name": "Blend Labs",
-     "slug": "blend-labs",
-     "description": "Blend Labs, Inc. (NYSE: BLND) is a cloud banking platform, founded in 2012 and headquartered in the San Francisco Bay Area, that powers digital lending and account opening for banks, credit unions, and mortgage lenders. The Blend API lets integrators drive the full home-lending lifecycle — creating and exporting mortgage applications (with MISMO 3.3.1 and Fannie 3.2 export), managing parties, documents and disclosures, e-signature packages, and electronic/RON closings — as well as consumer lending, deposit account opening, verification of income/employment/assets, tax transcripts, lender user management, reporting, and event notifications. Requests authenticate with an OAuth token, HTTP bearer, or basic credentials plus a mandatory blend-target-instance tenant header, against production (api.blendlabs.com) or beta (api.beta.blendlabs.com).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blend-labs/refs/heads/main/screenshots/blend-labs-2026-07-25T203310.png",
-     "score": 37.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 41.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 43.4,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 21.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mortgage Proptech",
-     "rank": 12
-    },
-    {
      "name": "dotloop",
      "slug": "dotloop",
      "description": "dotloop is a real estate transaction management platform (owned by Zillow Group) that lets agents, teams, and brokerages create and manage transactions - called \"loops\" - end to end, including documents, e-signatures, tasks, participants, and compliance workflows. The dotloop Public API v2 is a documented, OAuth2-secured JSON REST API at https://api-gateway.dotloop.com/public/v2 that exposes accounts, profiles, loops and loop details, folders, documents, participants, tasks, activities, contacts, loop templates, and webhook subscriptions, plus a Loop-It facade for one-call loop creation.",
@@ -601,7 +550,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -627,7 +576,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Yardi",
@@ -645,7 +594,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -671,7 +620,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Reonomy",
@@ -689,7 +638,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -715,7 +664,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Zillow",
@@ -733,7 +682,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -766,7 +715,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "HouseCanary",
@@ -784,7 +733,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -810,7 +759,7 @@
       "agentic_commerce": false
      },
      "tier": "Valuation & AVM",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Bridge Interactive",
@@ -828,7 +777,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -854,7 +803,7 @@
       "agentic_commerce": false
      },
      "tier": "Listing Data Infrastructure",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "SkySlope",
@@ -872,7 +821,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -898,7 +847,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "CBRE",
@@ -916,7 +865,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -942,7 +891,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Encompass",
@@ -960,7 +909,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -986,7 +935,7 @@
       "agentic_commerce": false
      },
      "tier": "Mortgage Proptech",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Offerpad",
@@ -1004,7 +953,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1037,7 +986,7 @@
       "agentic_commerce": false
      },
      "tier": "iBuyers & Instant Offers",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Entrata",
@@ -1055,7 +1004,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1088,7 +1037,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Clear Capital",
@@ -1106,7 +1055,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -1132,7 +1081,7 @@
       "agentic_commerce": false
      },
      "tier": "Valuation & AVM",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "National Association of REALTORS",
@@ -1150,7 +1099,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1176,7 +1125,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "RealPage",
@@ -1194,7 +1143,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -1220,7 +1169,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Opendoor",
@@ -1238,7 +1187,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1264,7 +1213,7 @@
       "agentic_commerce": false
      },
      "tier": "iBuyers & Instant Offers",
-     "rank": 27
+     "rank": 26
     }
    ],
    "open": true
@@ -1292,7 +1241,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1318,7 +1267,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Homes.com",
@@ -1336,7 +1285,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1369,7 +1318,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Qualia",
@@ -1387,7 +1336,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1420,7 +1369,7 @@
       "agentic_commerce": false
      },
      "tier": "Title, Escrow & Closing",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Zumper",
@@ -1438,7 +1387,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1464,7 +1413,7 @@
       "agentic_commerce": false
      },
      "tier": "Rentals & Listings",
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "CoStar Group",
@@ -1482,7 +1431,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1508,7 +1457,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "RE/MAX",
@@ -1526,7 +1475,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1559,7 +1508,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Follow Up Boss",
@@ -1577,7 +1526,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1603,7 +1552,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Apartments.com",
@@ -1621,7 +1570,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1647,7 +1596,7 @@
       "agentic_commerce": false
      },
      "tier": "Rentals & Listings",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "AppFolio",
@@ -1665,7 +1614,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1698,7 +1647,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Buildium",
@@ -1716,7 +1665,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1742,7 +1691,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Douglas Elliman",
@@ -1760,7 +1709,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1793,7 +1742,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 38
+     "rank": 37
     }
    ]
   },
@@ -1821,7 +1770,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1854,7 +1803,7 @@
       "agentic_commerce": false
      },
      "tier": "Title, Escrow & Closing",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Compass",
@@ -1871,7 +1820,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1904,7 +1853,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "eXp World Holdings",
@@ -1922,7 +1871,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1955,7 +1904,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Realtor.com",
@@ -1972,7 +1921,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2005,7 +1954,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Fidelity National Financial",
@@ -2023,7 +1972,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2056,7 +2005,7 @@
       "agentic_commerce": false
      },
      "tier": "Title, Escrow & Closing",
-     "rank": 43
+     "rank": 42
     }
    ]
   }

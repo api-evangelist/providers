@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: 'Renoviso is a company surfaced as a portfolio company of bessemer-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/renoviso.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Renoviso
 nav: Providers
 network: true
@@ -36,5 +36,6 @@ tags:
 - Doors
 - Flooring
 - Boston
+- Defunct
 website: https://renoviso.com/
 ---

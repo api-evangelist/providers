@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -126,6 +126,10 @@ common:
   title: ''
   type: Blog
   url: https://scrapfly.io/blog/rss/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:sales@scrapfly.io
 created: '2025-02-08'
 description: 'Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering. One API key unlocks five APIs: Web Scraping (anti-bot unblocker), Cloud Browser (CDP), Screenshot, Extraction, and Crawler. Scrapfly operates globally with proxies across 190+ countries.'
 examples:
@@ -170,7 +174,7 @@ overview: 'Scrapfly publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The Scrapfly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scrapfly''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  Scrapfly''s developer surface includes authentication, engineering blog, support, and 7 more developer resources.'
 plans:
 - name: Scrapfly Plans Pricing
   plan_count: 6
@@ -204,7 +208,7 @@ rules:
   slug: scrapfly-rules
 score:
   band: thin
-  composite: 34.6
+  composite: 35.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 59.5
@@ -212,12 +216,12 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 63.3
-    developer_ergonomics: 23.8
+    developer_ergonomics: 28.6
     discoverability: 66.7
     operational_transparency: 13.2
   previous_composite: 34.6
@@ -229,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

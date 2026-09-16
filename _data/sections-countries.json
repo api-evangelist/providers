@@ -19,8 +19,8 @@
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 365,
-  "by_tag": 356,
+  "count": 363,
+  "by_tag": 354,
   "by_hq": 9
  },
  {
@@ -35,8 +35,8 @@
   "slug": "germany",
   "name": "Germany",
   "flag": "🇩🇪",
-  "count": 227,
-  "by_tag": 217,
+  "count": 226,
+  "by_tag": 216,
   "by_hq": 10
  },
  {
@@ -51,8 +51,8 @@
   "slug": "canada",
   "name": "Canada",
   "flag": "🇨🇦",
-  "count": 177,
-  "by_tag": 172,
+  "count": 176,
+  "by_tag": 171,
   "by_hq": 5
  },
  {
@@ -75,8 +75,8 @@
   "slug": "mexico",
   "name": "Mexico",
   "flag": "🇲🇽",
-  "count": 119,
-  "by_tag": 113,
+  "count": 118,
+  "by_tag": 112,
   "by_hq": 6
  },
  {
@@ -115,8 +115,8 @@
   "slug": "saudi-arabia",
   "name": "Saudi Arabia",
   "flag": "🇸🇦",
-  "count": 78,
-  "by_tag": 77,
+  "count": 77,
+  "by_tag": 76,
   "by_hq": 1
  },
  {

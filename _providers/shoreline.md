@@ -68,7 +68,7 @@ finops:
   slug: shoreline-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shoreline.png
 layout: provider
-modified: '2026-08-29'
+modified: '2026-09-15'
 name: Shoreline
 nav: Providers
 network: true
@@ -101,4 +101,5 @@ tags:
 - Remediation
 - Observability
 - Terraform
+- Defunct
 ---

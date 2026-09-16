@@ -48,7 +48,7 @@ description: 'Sears Hometown and Outlet Stores, Inc. (NASDAQ: SHOS) was a nation
   so there is no API surface, documentation, or /.well-known/ document left to profile.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sears-hometown-and-outlet-stores.png
 layout: provider
-modified: '2026-08-28'
+modified: '2026-09-15'
 name: Sears Hometown and Outlet Stores
 nav: Providers
 network: true
@@ -79,4 +79,5 @@ tags:
 - Lawn and Garden
 - Franchise Retail
 - Defunct Company
+- Defunct
 ---

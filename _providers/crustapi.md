@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: REST API for structured Google and public LinkedIn data, key-authenticated, with a published OpenAPI spec and an x402 agent-payment endpoint. Includes bulk/batch LinkedIn processing with webhook deliv
@@ -126,7 +126,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

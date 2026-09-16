@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 6
 apis:
 - description: Unified API gateway for NTT Communications / NTT DOCOMO BUSINESS enterprise services. Catalogs APIs across Network, Cloud, Voice, App, Management, and Core categories — including Arcstar Universal One
@@ -200,7 +200,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

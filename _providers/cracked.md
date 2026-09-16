@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: REST/HTTP API to discover, inspect, run and poll third-party agent tools, with smart-run capabilities, leaderboards, wallet balance and agent self-registration. Exposes OpenAPI 3.1, two hosted MCP ser
@@ -213,6 +213,10 @@ common:
   title: ''
   type: Postman
   url: https://cracked.ai/postman/cracked.postman_collection.json
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:support@cracked.ai
 created: '2026-09-03'
 description: 'Cracked is a tool router for AI agents: one API key and one prepaid balance to discover, inspect, run and poll thousands of third-party tools. It exposes 9,521 endpoints from 1,183 providers plus 50,000+ Apify actors, publishing measured success rate, median latency and per-call price per tool.'
 image: https://cracked.ai/brand/icon.png
@@ -237,7 +241,7 @@ overview: 'Cracked API publishes 1 API on the [APIs.io](https://apis.io/) networ
   The Cracked API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cracked API''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, pricing, and 31 more developer resources.'
+  Cracked API''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, pricing, and 32 more developer resources.'
 plans:
 - name: Cracked Plans Pricing
   plan_count: 3
@@ -254,7 +258,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.0
+  composite: 64.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -262,12 +266,12 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 49.8
-    developer_ergonomics: 83.3
+    developer_ergonomics: 88.1
     discoverability: 75.9
     operational_transparency: 81.6
   previous_composite: 64.0
@@ -281,7 +285,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

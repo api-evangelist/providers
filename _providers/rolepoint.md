@@ -23,7 +23,7 @@ created: '2026-07-17'
 description: RolePoint was an employee referral, internal mobility, and talent-acquisition software company that helped recruitment teams source, refer, and redeploy talent through referral programs and internal mobility marketplaces, with a "Connect" API layer for integrating into ATS/HRIS systems such as iCIMS. The company was acquired by Jobvite in 2019 and folded into the Jobvite Talent Acquisition Suite; the standalone rolepoint.com domain no longer resolves and no independent developer portal or API surface remains reachable. It is tracked here as a 500 Global portfolio company.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rolepoint.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: RolePoint
 nav: Providers
 network: true
@@ -39,5 +39,6 @@ tags:
 - Human Resources
 - HR Technology
 - Acquired
+- Defunct
 website: https://rolepoint.com
 ---

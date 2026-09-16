@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ created: '2026-07-17'
 description: Blue Studios Labs is a family-focused technology company operating under the tagline "Where Families Flourish." It builds consumer digital products that help couples and families explore, learn, and grow together. Its portfolio includes Wallio, a shared financial-management app for couples and families; Blue Studios EDU, an entertainment-based educational streaming service; and Blue Studios Entertainment, a media-production studio creating family-oriented narratives and content. The company reports more than 400 million digital views, 350,000 game plays, and 4,000+ classes delivered. Blue Studios is a Techstars portfolio company. As of this profile it publishes no public API, developer portal, or SDKs.
 image: https://cdn.prod.website-files.com/662b21566777537ca03f2369/662c43c6c197518b9c38c618_Blue%20Studios%20Labs%20Logo%20White.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-15'
 name: Blue Studios
 nav: Providers
 network: true
@@ -96,7 +96,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

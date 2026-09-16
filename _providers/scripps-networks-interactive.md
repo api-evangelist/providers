@@ -37,7 +37,7 @@ created: '2026-03-24'
 description: 'Scripps Networks Interactive, Inc. (NASDAQ: SNI) was a Knoxville, Tennessee lifestyle media company that owned HGTV, Food Network, Travel Channel, DIY Network, Great American Country and Cooking Channel, plus digital properties including ulive. Discovery Communications completed its $14.6B acquisition on 2018-03-06 and renamed itself Discovery, Inc.; the brands now sit inside Warner Bros. Discovery. Scripps Networks Interactive no longer operates as an independent company and publishes no developer program, API or machine-readable contract. Its former corporate domain, scrippsnetworksinteractive.com, has since been re-registered by an unrelated party and now serves an Australian online-gambling affiliate site, so it must not be linked as a company property.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scripps-networks-interactive.png
 layout: provider
-modified: '2026-08-28'
+modified: '2026-09-15'
 name: Scripps Networks Interactive
 nav: Providers
 network: true
@@ -68,4 +68,5 @@ tags:
 - Cable Networks
 - Fortune 1000
 - Acquired
+- Defunct
 ---

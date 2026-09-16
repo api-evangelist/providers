@@ -27,7 +27,7 @@ created: '2026-07-17'
 description: Looly's PBC (doing business as WeTheTrillions) was a San Francisco public benefit corporation founded in 2013 by Lamiaa Bounahmidi that reengineered preventative healthcare through microbiome science, evidence-based clinical research, telemedicine, and plant-based food. It delivered fresh, ready-to-eat plant-based meal and snack bundles targeted at chronic conditions such as IBS/SIBO, diabetes and PCOS, plus a fertility program. Backed by 500 Global and part of the API Evangelist network as a VC-portfolio lead, the company is a consumer food and health business with no public API surface. Its primary domain (wethetrillions.com) no longer resolves and the venture appears to be defunct/deadpooled.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loolys.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Looly's
 nav: Providers
 network: true
@@ -42,5 +42,6 @@ tags:
 - Plant-Based
 - Preventative Healthcare
 - Consumer
+- Defunct
 website: https://wethetrillions.com
 ---

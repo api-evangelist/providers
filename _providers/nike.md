@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: Nike provides APIs for product catalog access, inventory, store locations, and e-commerce integration. The platform supports partners and developers building experiences around Nike products.
@@ -110,7 +110,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

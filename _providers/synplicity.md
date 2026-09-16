@@ -27,7 +27,7 @@ created: '2026-07-17'
 description: Synplicity, Inc. was a supplier of software for the design of programmable logic devices (FPGAs, PLDs and CPLDs) used in communications, military/aerospace, consumer, semiconductor and computer systems. Its tools provided logic synthesis, physical synthesis, ASIC prototyping and verification for FPGA and DSP designers (Synplify, Synplify Pro, Identify). Synplicity was acquired by Synopsys for approximately $227 million, with the transaction completed on 2008-05-15, and no longer operates as an independent company. The legacy domain synplicity.com now 301-redirects to synopsys.com. This profile was surfaced as a portfolio company of Norwest Venture Partners; it has no independent public API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synplicity.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Synplicity
 nav: Providers
 network: true
@@ -42,5 +42,6 @@ tags:
 - Semiconductors
 - Logic Synthesis
 - Acquired
+- Defunct
 website: https://synplicity.com
 ---

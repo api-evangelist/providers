@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -442,6 +442,7 @@ common:
   title: ''
   type: Compliance
   url: ''
+description: Covalent provides multi-chain blockchain data infrastructure, published as the GoldRush APIs. Its API covers token balances, transactions, transfers, ABIs, NFTs, DeFi positions and cross-chain queries across supported networks, including Bitcoin and Hyperliquid.
 examples:
 - key_count: 2
   name: Covalent Balances Example
@@ -474,7 +475,7 @@ jsonld:
   property_count: 9
   slug: covalent-context
 layout: provider
-modified: 2026-06-14
+modified: '2026-09-15'
 name: Covalent
 nav: Providers
 network: true
@@ -518,21 +519,21 @@ rules:
   slug: covalent-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.2
+  composite: 63.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 83.5
+    catalog_earned: 88.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.5
+    catalog_gap: 26.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 71.1
     developer_ergonomics: 63.1
-    discoverability: 59.3
+    discoverability: 68.5
     operational_transparency: 68.4
   previous_composite: 62.2
   provenance:
@@ -543,7 +544,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

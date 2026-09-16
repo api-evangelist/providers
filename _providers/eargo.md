@@ -10,31 +10,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
@@ -112,7 +87,7 @@ created: '2026-08-12'
 description: 'Eargo was a San Jose, California direct-to-consumer medical device company that designed and sold rechargeable, virtually invisible in-canal hearing aids for adults with mild to moderate hearing loss, founded in 2010 as Aria Innovations and listed on Nasdaq in 2020. In 2025 Eargo merged with South Africa''s hearX Group to form LXE Hearing, combining Eargo''s direct-to-consumer platform with the Lexie and Go Hearing over-the-counter brands. In 2026 LXE Hearing began winding down its US operations after restructuring efforts failed, and the eargo.com website has been reduced to a single wind-down notice page. Eargo never operated a public developer program, developer portal, or documented API: the hearing aids paired with a consumer mobile application backed by a private, undocumented service host at api.eargo.com.'
 image: https://www.eargo.com/assets/content/dam/eargo/samples/logo_white.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-15'
 name: Eargo
 nav: Providers
 network: true
@@ -129,38 +104,6 @@ rate_limits:
 - limit_count: 0
   name: Eargo Rate Limits
   slug: eargo-rate-limits
-score:
-  band: minimal
-  composite: 5.0
-  coverage:
-    artifact_dirs: 8
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 57.4
-    operational_transparency: 0.0
-  previous_composite: 5.0
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Health
-    regime_id: health
-    score: 7.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-14'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/eargo/refs/heads/main/screenshots/eargo-2026-09-02T145316.png
 security:
 - kind: domain-security

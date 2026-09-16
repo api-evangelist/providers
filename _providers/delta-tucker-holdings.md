@@ -41,7 +41,7 @@ created: '2024-12-03'
 description: Delta Tucker Holdings was the holding company for DynCorp International, a provider of specialized mission-critical professional and support services to government and commercial customers, including aviation services, logistics, and training. DynCorp's operations were acquired and integrated into Amentum in 2020. Delta Tucker Holdings does not publish public APIs; this profile is preserved as a corporate-history index.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/delta-tucker-holdings.png
 layout: provider
-modified: '2026-09-06'
+modified: '2026-09-15'
 name: Delta Tucker Holdings
 nav: Providers
 network: true
@@ -72,4 +72,5 @@ tags:
 - Logistics
 - Mission Support
 - Private Company
+- Defunct
 ---

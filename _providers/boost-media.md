@@ -31,7 +31,7 @@ description: Boost Media (formerly BoostCTR) was a digital-advertising creative-
   enrich — the Internet Archive record of boostmedia.com shows a WordPress marketing site and blog only, with no developer, docs, or API path ever published.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boost-media.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-15'
 name: Boost Media
 nav: Providers
 network: true

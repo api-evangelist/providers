@@ -20,7 +20,7 @@ created: '2026-07-17'
 description: Xtract was a social-intelligence analytics company (xtract.fi / xtract.com) that refined social interaction, behaviour, and demographic data from telecom operators into detailed subscriber profiles through its Social Links platform, powering churn prevention, product marketing, customer acquisition, and demographics prediction. A Creandum portfolio company now listed as exited; its websites are offline and no public API surface exists.
 image: https://images.ctfassets.net/vx9l0f5sup17/zDqOptEBOkWf2N7FZofhA/833c50139e9aa65dc91f81a2aa4f9317/Xtract.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Xtract
 nav: Providers
 network: true

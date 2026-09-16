@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 1
 apis:
 - description: gigstack API v2 — REST API for CFDI 4.0 invoicing, payments, collections, clients, services, receipts, retentions, webhooks and SAT catalogs in Mexico. Bearer JWT authentication; cursor pagination; st
@@ -230,7 +230,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

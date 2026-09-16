@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: 'Makelog was a product changelog and release-notes platform that helped software and product teams collect, curate, and publish product updates to communicate releases with customers and internal stakeholders. It was surfaced as a portfolio company of Accel and added to the API Evangelist network as a stub for enrichment (sector: productivity). As of this enrichment pass the makelog.com domain no longer resolves (DNS NXDOMAIN) and no live web, developer, or API surface could be reached, indicating the product has been discontinued.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makelog.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Makelog
 nav: Providers
 network: true

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 7
 apis:
 - baseURL: https://reporting.pypestream.com/api/v2/
@@ -416,7 +416,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 2
 apis:
 - description: Ginnie Mae's security- and loan-level disclosure for its mortgage-backed securities — daily, weekly, monthly and factor files covering single-family MBS, HMBS, Multifamily, REMIC and Platinum, plus th
@@ -174,7 +174,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

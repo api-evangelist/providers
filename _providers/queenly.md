@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: Queenly is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/queenly.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Queenly
 nav: Providers
 network: true
@@ -27,4 +27,5 @@ tags:
 - Fashion
 - E-Commerce
 - Resale
+- Defunct
 ---

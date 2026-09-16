@@ -1,6 +1,6 @@
 {
- "total": 169,
- "shown": 169,
+ "total": 168,
+ "shown": 168,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -177,7 +177,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.5,
      "agent_band": "agent-native",
@@ -220,7 +220,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -270,7 +270,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -313,7 +313,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -367,7 +367,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -417,7 +417,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 37.5,
      "agent_band": "agent-ready",
@@ -460,7 +460,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -510,7 +510,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -553,7 +553,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -596,7 +596,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -646,7 +646,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -745,7 +745,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -788,7 +788,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
@@ -831,7 +831,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -900,7 +900,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -950,7 +950,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -993,7 +993,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1036,7 +1036,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1079,7 +1079,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -1122,7 +1122,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -1165,7 +1165,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.8,
      "agent_band": "agent-aware",
@@ -1208,7 +1208,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1251,7 +1251,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -1294,7 +1294,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 29.4,
      "agent_band": "agent-ready",
@@ -1337,7 +1337,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
@@ -1380,7 +1380,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -1423,7 +1423,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -1477,7 +1477,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1520,7 +1520,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1563,7 +1563,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1606,7 +1606,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.3,
      "agent_band": "agent-aware",
@@ -1649,7 +1649,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -1692,7 +1692,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1735,7 +1735,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1778,7 +1778,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
@@ -1821,7 +1821,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1864,7 +1864,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -1907,7 +1907,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1957,7 +1957,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -2000,7 +2000,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2043,7 +2043,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2086,7 +2086,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2129,7 +2129,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2179,7 +2179,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2222,7 +2222,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2272,7 +2272,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.0,
      "agent_band": "agent-ready",
@@ -2315,7 +2315,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2358,7 +2358,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 18.1,
      "agent_band": "agent-aware",
@@ -2401,7 +2401,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2451,7 +2451,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2501,7 +2501,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2551,7 +2551,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2585,8 +2585,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 54,
-   "shown": 54,
+   "count": 53,
+   "shown": 53,
    "providers": [
     {
      "name": "Infraspeak",
@@ -2604,7 +2604,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2647,7 +2647,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2697,7 +2697,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2740,7 +2740,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2783,7 +2783,7 @@
       "developer_ergonomics": 31.5,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -2825,7 +2825,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2875,7 +2875,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2918,7 +2918,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2961,7 +2961,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3004,7 +3004,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3047,7 +3047,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3097,7 +3097,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3140,7 +3140,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3183,7 +3183,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3226,7 +3226,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3269,7 +3269,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3312,7 +3312,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3355,7 +3355,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3398,7 +3398,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3441,7 +3441,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3484,7 +3484,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3527,7 +3527,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3570,7 +3570,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3613,7 +3613,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3641,49 +3641,6 @@
      "rank": 80
     },
     {
-     "name": "Aquant.io",
-     "slug": "aquantio",
-     "description": "Aquant is an agentic AI platform purpose-built for organizations that build, sell, and service complex equipment. Founded in 2016 and headquartered in New York, the company turns service content — equipment manuals, service histories, parts and warranty data, and case notes — plus the expertise inside technicians' heads into AI agents that help field technicians, call-center staff, and self-service customers diagnose issues, surface verified troubleshooting steps, predict equipment failure, and act faster across the entire service lifecycle. Access is available by web, mobile, API, and voice. Aquant serves medical-device, industrial, food-equipment, high-tech, printing, and energy manufacturers, with customers including Siemens Healthineers, The Home Depot, Sysmex, and 3D Systems. The company has raised roughly $113M and is backed by Insight Partners and Lightspeed. It is tracked in the API Evangelist network as a company profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aquantio/refs/heads/main/screenshots/aquantio-2026-07-25T201028.png",
-     "score": 14.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 81
-    },
-    {
      "name": "ServiceMax",
      "slug": "servicemax",
      "description": "ServiceMax is asset-centric field service management (FSM) software that helps equipment manufacturers and service organizations maximize equipment uptime, optimize technician productivity, and streamline service delivery. Its cloud platform, built natively on the Salesforce platform (ServiceMax Core and Asset 360), spans work order and workflow management, scheduling and dispatch (Service Board), preventive and predictive maintenance, contract and entitlement management, parts and inventory, offline-capable mobile tools (ServiceMax Go), real-time technician collaboration (Zinc), and customer self-service (Engage). Founded in 2007 and acquired by PTC in 2023, ServiceMax integrates with PTC's IoT and PLM portfolio (ThingWorx, Windchill) and exposes its data and workflows through the underlying Salesforce API surface rather than a standalone public developer API.",
@@ -3699,7 +3656,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -3724,7 +3681,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Supermove",
@@ -3742,7 +3699,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 14.7,
      "agent_band": "agent-aware",
@@ -3767,7 +3724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "PreFix",
@@ -3785,7 +3742,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 83
+    },
+    {
+     "name": "MyBuilder",
+     "slug": "mybuilder",
+     "description": "MyBuilder is a UK online marketplace that connects homeowners with local, reviewed tradespeople for home improvement, repair and maintenance work. Founded in 2004 by stonemason Ryan Notz and headquartered in London, the platform lets homeowners post a job for free, review interested tradespeople by their profiles, work history and customer feedback, and shortlist the ones they want to hire. Tradespeople browse leads for free and pay a fee only when a customer shortlists them. MyBuilder was acquired by IAC's HomeAdvisor in 2017 and now operates as part of the Instapro Group of European home-services marketplaces. MyBuilder is a consumer-facing web platform and does not publish a public developer API; this profile captures its public identity, security and domain posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mybuilder/refs/heads/main/screenshots/mybuilder-2026-08-07T184510.png",
+     "score": 14.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3813,10 +3813,10 @@
      "rank": 84
     },
     {
-     "name": "MyBuilder",
-     "slug": "mybuilder",
-     "description": "MyBuilder is a UK online marketplace that connects homeowners with local, reviewed tradespeople for home improvement, repair and maintenance work. Founded in 2004 by stonemason Ryan Notz and headquartered in London, the platform lets homeowners post a job for free, review interested tradespeople by their profiles, work history and customer feedback, and shortlist the ones they want to hire. Tradespeople browse leads for free and pay a fee only when a customer shortlists them. MyBuilder was acquired by IAC's HomeAdvisor in 2017 and now operates as part of the Instapro Group of European home-services marketplaces. MyBuilder is a consumer-facing web platform and does not publish a public developer API; this profile captures its public identity, security and domain posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mybuilder/refs/heads/main/screenshots/mybuilder-2026-08-07T184510.png",
+     "name": "Swept",
+     "slug": "swept",
+     "description": "Swept (sweptworks.com) is workforce management software for commercial cleaning and janitorial businesses - scheduling, GPS-verified time tracking and payroll reporting, mobile crew messaging, quality inspections, supply requests, client portals, and one-time work order management. As of this catalog entry, Swept does NOT publish a documented, self-serve public or partner developer API. There is no developer portal, API reference, API key or OAuth signup, published OpenAPI/Swagger specification, or webhook documentation on sweptworks.com or in the Swept Support Center knowledge base. The only documented outbound data path is a one-way, manually-activated QuickBooks Online payroll sync set up per account by a Swept Customer Success Manager - not a self-serve developer integration. Swept's public GitHub organization contains only take-home coding-challenge repositories used for hiring, not a first-party API client, SDK, or spec. This entry is therefore an honest stub documenting the provider and its access model; no API definitions are asserted because none are publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swept/refs/heads/main/screenshots/swept-2026-09-02T161348.png",
      "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3824,11 +3824,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3856,22 +3856,22 @@
      "rank": 85
     },
     {
-     "name": "Swept",
-     "slug": "swept",
-     "description": "Swept (sweptworks.com) is workforce management software for commercial cleaning and janitorial businesses - scheduling, GPS-verified time tracking and payroll reporting, mobile crew messaging, quality inspections, supply requests, client portals, and one-time work order management. As of this catalog entry, Swept does NOT publish a documented, self-serve public or partner developer API. There is no developer portal, API reference, API key or OAuth signup, published OpenAPI/Swagger specification, or webhook documentation on sweptworks.com or in the Swept Support Center knowledge base. The only documented outbound data path is a one-way, manually-activated QuickBooks Online payroll sync set up per account by a Swept Customer Success Manager - not a self-serve developer integration. Swept's public GitHub organization contains only take-home coding-challenge repositories used for hiring, not a first-party API client, SDK, or spec. This entry is therefore an honest stub documenting the provider and its access model; no API definitions are asserted because none are publicly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swept/refs/heads/main/screenshots/swept-2026-09-02T161348.png",
-     "score": 14.0,
+     "name": "plancraft",
+     "slug": "plancraft",
+     "description": "plancraft is a German cloud-based business management software for craftspeople and trades businesses (Handwerk). It digitizes administrative workflows end to end — quote and estimate creation, project planning, time tracking, on-site documentation, material and labor costing, and invoicing — inside one integrated platform aimed at small and mid-sized construction and trade companies. plancraft supports DATEV export for tax/accounting workflows and DATANORM and GAEB catalog imports for material data and tender processing. It is a venture-backed SaaS company (portfolio company of Creandum). As of this enrichment pass plancraft publishes no public developer API, SDK, or OpenAPI surface — integrations are delivered as prebuilt connectors and standardized file-format import/export.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plancraft/refs/heads/main/screenshots/plancraft-2026-09-02T151424.png",
+     "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 31.6
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3899,49 +3899,6 @@
      "rank": 86
     },
     {
-     "name": "plancraft",
-     "slug": "plancraft",
-     "description": "plancraft is a German cloud-based business management software for craftspeople and trades businesses (Handwerk). It digitizes administrative workflows end to end — quote and estimate creation, project planning, time tracking, on-site documentation, material and labor costing, and invoicing — inside one integrated platform aimed at small and mid-sized construction and trade companies. plancraft supports DATEV export for tax/accounting workflows and DATANORM and GAEB catalog imports for material data and tender processing. It is a venture-backed SaaS company (portfolio company of Creandum). As of this enrichment pass plancraft publishes no public developer API, SDK, or OpenAPI surface — integrations are delivered as prebuilt connectors and standardized file-format import/export.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plancraft/refs/heads/main/screenshots/plancraft-2026-09-02T151424.png",
-     "score": 13.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 87
-    },
-    {
      "name": "Roofr",
      "slug": "roofr",
      "description": "Roofr is an all-in-one roofing software and CRM built for roofing contractors, bundling aerial roof measurement reports, an instant online estimator, digital proposals with e-signature, integrated payments, material ordering, a job calendar, and pipeline/CRM tooling into one platform to help roofers win, run, and close jobs. Roofr does not publish a public developer API or self-serve documentation: the only API key it issues (under Settings and Integrations) exists to connect Roofr to Zapier, and any broader programmatic access is sales-gated behind a demo. Automation for external systems is delivered primarily through Zapier triggers (new Instant Estimator lead, proposal signed, proposal marked lost) rather than a documented REST API. Roofr is a portfolio company of Bullpen Capital.",
@@ -3957,7 +3914,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3989,7 +3946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "Spiffy",
@@ -4007,7 +3964,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 88
+    },
+    {
+     "name": "Wecasa",
+     "slug": "wecasa",
+     "description": "Wecasa is a French on-demand home-services marketplace that connects households with vetted independent professionals who deliver the service at the customer's home. Its catalogue spans household cleaning and ironing, childcare and babysitting, mobile hairdressing, at-home beauty and nail care, massage and wellness, and personal fitness coaching. Customers book, schedule and pay through the Wecasa web site or the iOS/Android app; the professionals who fulfil the work run their business through the separate Wecasa Pro app. Founded in France and backed by Serena, the company operates in France, the United Kingdom, Germany, Austria and Switzerland. Wecasa publishes no public developer program, API reference or machine-readable contract — the platform is a consumer application and a partner-onboarding funnel, not a developer product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wecasa/refs/heads/main/screenshots/wecasa-2026-09-02T170541.png",
+     "score": 13.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4035,49 +4035,6 @@
      "rank": 89
     },
     {
-     "name": "Wecasa",
-     "slug": "wecasa",
-     "description": "Wecasa is a French on-demand home-services marketplace that connects households with vetted independent professionals who deliver the service at the customer's home. Its catalogue spans household cleaning and ironing, childcare and babysitting, mobile hairdressing, at-home beauty and nail care, massage and wellness, and personal fitness coaching. Customers book, schedule and pay through the Wecasa web site or the iOS/Android app; the professionals who fulfil the work run their business through the separate Wecasa Pro app. Founded in France and backed by Serena, the company operates in France, the United Kingdom, Germany, Austria and Switzerland. Wecasa publishes no public developer program, API reference or machine-readable contract — the platform is a consumer application and a partner-onboarding funnel, not a developer product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wecasa/refs/heads/main/screenshots/wecasa-2026-09-02T170541.png",
-     "score": 13.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 90
-    },
-    {
      "name": "Junk King",
      "slug": "junk-king",
      "description": "Junk King is a professional junk removal and hauling franchise operating across the United States and Canada as part of the Neighborly family of home service brands. Through locally owned and operated locations, Junk King provides full-service junk removal, self-service dumpster rental, and dumpster bag pickup for residential and commercial customers, handling appliance and furniture removal, estate and property cleanouts, construction debris, yard waste, and e-waste. The company emphasizes eco-friendly disposal, recycling, donating, and reusing as much collected material as possible. Junk King offers free estimates, same-day service in many markets, and online, phone, and text-based booking. It is a portfolio company associated with Norwest Venture Partners and is tracked in the API Evangelist network as a company profile; Junk King publishes no public API or developer platform.",
@@ -4093,7 +4050,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 90
+    },
+    {
+     "name": "Ergeon",
+     "slug": "ergeon",
+     "description": "Ergeon is a nationwide outdoor residential construction company that installs fencing (wood, vinyl, metal, and chain-link), artificial grass, wooden decks, and concrete driveways, patios, and walkways. It pairs a distributed workforce with technology — live video estimates, a 3D fence-quoting calculator at fencequoting.com, satellite site-plan tooling, and a customer portal — to deliver fast, accurate quotes plus managed installation with permit handling, financing (Wisetack), and workmanship warranties. Ergeon runs internal software and vendor integrations (Stripe, Twilio, Talkdesk, AWS, Lob) but does not publish a public developer API; this profile captures its public web, status, and open-source surface for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ergeon/refs/heads/main/screenshots/ergeon-2026-07-25T213604.png",
+     "score": 13.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4121,10 +4121,10 @@
      "rank": 91
     },
     {
-     "name": "Ergeon",
-     "slug": "ergeon",
-     "description": "Ergeon is a nationwide outdoor residential construction company that installs fencing (wood, vinyl, metal, and chain-link), artificial grass, wooden decks, and concrete driveways, patios, and walkways. It pairs a distributed workforce with technology — live video estimates, a 3D fence-quoting calculator at fencequoting.com, satellite site-plan tooling, and a customer portal — to deliver fast, accurate quotes plus managed installation with permit handling, financing (Wisetack), and workmanship warranties. Ergeon runs internal software and vendor integrations (Stripe, Twilio, Talkdesk, AWS, Lob) but does not publish a public developer API; this profile captures its public web, status, and open-source surface for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ergeon/refs/heads/main/screenshots/ergeon-2026-07-25T213604.png",
+     "name": "HelloTech",
+     "slug": "hellotech",
+     "description": "HelloTech is a consumer technology-services company providing in-home and online tech support across the United States through a nationwide network of vetted technicians. Services span computer and printer repair, WiFi and home-networking setup, mobile-device support, audio/video and home-theater installation, TV mounting, smart-home device installation, and home-security setup, offered on-demand or through a HelloTech Home membership plan. HelloTech operates as a consumer services brand and does not publish a public developer API; this profile tracks its public web properties for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hellotech/refs/heads/main/screenshots/hellotech-2026-07-25T220935.png",
      "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4132,11 +4132,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4164,10 +4164,9 @@
      "rank": 92
     },
     {
-     "name": "HelloTech",
-     "slug": "hellotech",
-     "description": "HelloTech is a consumer technology-services company providing in-home and online tech support across the United States through a nationwide network of vetted technicians. Services span computer and printer repair, WiFi and home-networking setup, mobile-device support, audio/video and home-theater installation, TV mounting, smart-home device installation, and home-security setup, offered on-demand or through a HelloTech Home membership plan. HelloTech operates as a consumer services brand and does not publish a public developer API; this profile tracks its public web properties for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hellotech/refs/heads/main/screenshots/hellotech-2026-07-25T220935.png",
+     "name": "LawnGuru",
+     "slug": "lawnguru",
+     "description": "LawnGuru is a lawn and landscape services marketplace that connects homeowners with vetted local service providers through a mobile-first platform. It offers instant pricing via aerial property mapping, real-time job tracking, and a satisfaction guarantee, spanning 17+ outdoor services including lawn mowing, snow clearing, yard cleanup, weeding, hedge trimming, gutter cleaning, tree work, seeding, aeration, mulch installation, pressure washing, sprinkler services, and junk removal. The company reports over 1,000,000 completed jobs. As of this enrichment pass, LawnGuru publishes no public developer API, developer portal, or API documentation.",
      "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4179,7 +4178,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4207,48 +4206,6 @@
      "rank": 93
     },
     {
-     "name": "LawnGuru",
-     "slug": "lawnguru",
-     "description": "LawnGuru is a lawn and landscape services marketplace that connects homeowners with vetted local service providers through a mobile-first platform. It offers instant pricing via aerial property mapping, real-time job tracking, and a satisfaction guarantee, spanning 17+ outdoor services including lawn mowing, snow clearing, yard cleanup, weeding, hedge trimming, gutter cleaning, tree work, seeding, aeration, mulch installation, pressure washing, sprinkler services, and junk removal. The company reports over 1,000,000 completed jobs. As of this enrichment pass, LawnGuru publishes no public developer API, developer portal, or API documentation.",
-     "score": 13.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 94
-    },
-    {
      "name": "Dandelion Energy",
      "slug": "dandelion-energy",
      "description": "Dandelion Energy is a residential geothermal heating and cooling company that designs, engineers, and installs ground-source heat pump systems for homeowners and new-home builders. Its systems tap the earth's stable subsurface temperature to heat and cool homes year-round, cutting utility bills and carbon emissions versus conventional fossil-fuel HVAC. Dandelion delivers end-to-end service from ground-loop drilling through turnkey installation, and offers a leasing program that removes the upfront cost for buyers. The company reports thousands of installations across the United States. Backed by GV (Google Ventures), it operates in the frontier-tech and climate sector; it currently exposes no public developer API.",
@@ -4264,7 +4221,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4296,7 +4253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Greenwork",
@@ -4314,7 +4271,50 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 95
+    },
+    {
+     "name": "NoBroker",
+     "slug": "nobroker",
+     "description": "NoBroker Technologies Solutions Pvt Ltd is an Indian proptech company, founded in 2013 and headquartered in Bengaluru, that operates a brokerage-free real estate marketplace connecting property owners directly with tenants and buyers across Indian metros. Beyond listings for flats, houses, villas, plots, PGs and commercial space, NoBroker sells adjacent home services — rental and lease agreement drafting, legal assistance, packers and movers, painting and cleaning, home loans and rent payments — and operates NoBrokerHood, a gated-community and housing-society management / ERP product covering visitor management, billing, accounting and complaints. NoBroker became India's first proptech unicorn in 2021. The company ships software only as an end-user web and mobile product: as of this profile it publishes no public developer program, no API reference and no machine-readable specification, and its application endpoints under /api/v1..v5 are explicitly disallowed in robots.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nobroker/refs/heads/main/screenshots/nobroker-2026-08-07T185407.png",
+     "score": 12.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4342,49 +4342,6 @@
      "rank": 96
     },
     {
-     "name": "NoBroker",
-     "slug": "nobroker",
-     "description": "NoBroker Technologies Solutions Pvt Ltd is an Indian proptech company, founded in 2013 and headquartered in Bengaluru, that operates a brokerage-free real estate marketplace connecting property owners directly with tenants and buyers across Indian metros. Beyond listings for flats, houses, villas, plots, PGs and commercial space, NoBroker sells adjacent home services — rental and lease agreement drafting, legal assistance, packers and movers, painting and cleaning, home loans and rent payments — and operates NoBrokerHood, a gated-community and housing-society management / ERP product covering visitor management, billing, accounting and complaints. NoBroker became India's first proptech unicorn in 2021. The company ships software only as an end-user web and mobile product: as of this profile it publishes no public developer program, no API reference and no machine-readable specification, and its application endpoints under /api/v1..v5 are explicitly disallowed in robots.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nobroker/refs/heads/main/screenshots/nobroker-2026-08-07T185407.png",
-     "score": 12.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 97
-    },
-    {
      "name": "Res",
      "slug": "res",
      "description": "Res (ResQ) is an AI-powered operations platform for the service economy, connecting restaurants, hospitality groups, and facilities-management teams with vetted trades vendors to manage repair-and-maintenance work orders end to end. The platform covers work-order intake and dispatch, vendor sourcing and communication, invoicing and payments, and reporting across trades such as HVAC, plumbing, refrigeration, and electrical. Backed by Homebrew and surfaced through the API Evangelist network, ResQ operates a web and mobile SaaS product; it publishes no public developer API, OpenAPI definitions, SDKs, or webhook surface at this time, so this profile captures company identity, website properties, and probed domain-security posture.",
@@ -4400,7 +4357,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -4425,7 +4382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Robby",
@@ -4443,7 +4400,50 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 98
+    },
+    {
+     "name": "Appify",
+     "slug": "appify",
+     "description": "Appify is an enterprise application platform that lets organizations build, extend, and migrate line-of-business software without traditional development. The company markets a model-driven, AI-native platform — apps are described in natural language and the platform generates the data model, UI, permissions, workflows, and analytics — plus an \"Unshackle\" AI agent that extends systems of record such as Salesforce, SAP, and Oracle, or replicates an existing SaaS application on Appify-owned infrastructure. Appify states 40+ enterprise integrations, 12+ industries in production, and 20M+ transactions processed, and its published pricing includes \"REST API access\" and \"unlimited apps, objects, endpoints\" as standard capabilities. No public developer portal, API reference, or machine-readable specification is published; the API surface sits behind the tenant login.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/appify/refs/heads/main/screenshots/appify-2026-08-07T161502.png",
+     "score": 12.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4471,49 +4471,6 @@
      "rank": 99
     },
     {
-     "name": "Appify",
-     "slug": "appify",
-     "description": "Appify is an enterprise application platform that lets organizations build, extend, and migrate line-of-business software without traditional development. The company markets a model-driven, AI-native platform — apps are described in natural language and the platform generates the data model, UI, permissions, workflows, and analytics — plus an \"Unshackle\" AI agent that extends systems of record such as Salesforce, SAP, and Oracle, or replicates an existing SaaS application on Appify-owned infrastructure. Appify states 40+ enterprise integrations, 12+ industries in production, and 20M+ transactions processed, and its published pricing includes \"REST API access\" and \"unlimited apps, objects, endpoints\" as standard capabilities. No public developer portal, API reference, or machine-readable specification is published; the API surface sits behind the tenant login.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/appify/refs/heads/main/screenshots/appify-2026-08-07T161502.png",
-     "score": 12.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 100
-    },
-    {
      "name": "Papernest",
      "slug": "papernest",
      "description": "Papernest is a French technology company, founded in 2015 and headquartered in Paris, that provides a digital platform for managing, switching, and cancelling household subscriptions — energy, telecom and internet, mobile plans, and home insurance — through a single interface. Built around the moment people move home, the service is free to end users and monetized through commissions from supplier partners across France, Spain, Italy, and the UK, having helped more than 3 million customers. Papernest does not publish a public developer API; it runs a private B2B partner integration program and maintains an official GitHub organization of archived open-source utilities.",
@@ -4529,7 +4486,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4561,7 +4518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "86 Repairs",
@@ -4578,7 +4535,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -4603,7 +4560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Bellhops",
@@ -4621,7 +4578,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 102
+    },
+    {
+     "name": "Con.doit",
+     "slug": "condoit",
+     "description": "Con.doit (condoit.io) is a digital platform for electrical contractors that turns field-captured electrical infrastructure data into recurring service revenue. Its mobile capture app collects on-site photos, thermal scans, and system data, then generates same-day infrared thermography reports, auto-updating single-line diagrams, asset tags, arc flash studies, and NFPA 70B preventive-maintenance programs. Con.doit is a FLIR Global Approved App and reports over 4.5 million electrical assets under management across 2,000+ critical facilities nationwide. No public API, developer portal, or OpenAPI specification is currently published; this profile is enriched from the public marketing surface only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/condoit/refs/heads/main/screenshots/condoit-2026-07-25T210226.png",
+     "score": 11.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4649,11 +4649,11 @@
      "rank": 103
     },
     {
-     "name": "Con.doit",
-     "slug": "condoit",
-     "description": "Con.doit (condoit.io) is a digital platform for electrical contractors that turns field-captured electrical infrastructure data into recurring service revenue. Its mobile capture app collects on-site photos, thermal scans, and system data, then generates same-day infrared thermography reports, auto-updating single-line diagrams, asset tags, arc flash studies, and NFPA 70B preventive-maintenance programs. Con.doit is a FLIR Global Approved App and reports over 4.5 million electrical assets under management across 2,000+ critical facilities nationwide. No public API, developer portal, or OpenAPI specification is currently published; this profile is enriched from the public marketing surface only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/condoit/refs/heads/main/screenshots/condoit-2026-07-25T210226.png",
-     "score": 11.9,
+     "name": "Casa",
+     "slug": "casa",
+     "description": "Casa is a home management membership service that helps homeowners handle maintenance and everyday household tasks through a mix of digital home documentation and professional services. A $199/month membership bundles a concierge for project research, vendor negotiation and scheduling, monthly handyman hours, an Autopilot maintenance care plan, a 3D home inventory (appliances, paint colors, safety systems), utility and property-tax tracking, package handling, and recurring-vendor management. Casa is available in the San Francisco Bay Area, Los Angeles, and Austin, and is backed by Forerunner Ventures and True Ventures. No public developer/API surface has been identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/casa/refs/heads/main/screenshots/casa-2026-07-25T204705.png",
+     "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -4661,10 +4661,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
+      "developer_ergonomics": 0.0,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4692,10 +4692,10 @@
      "rank": 104
     },
     {
-     "name": "Casa",
-     "slug": "casa",
-     "description": "Casa is a home management membership service that helps homeowners handle maintenance and everyday household tasks through a mix of digital home documentation and professional services. A $199/month membership bundles a concierge for project research, vendor negotiation and scheduling, monthly handyman hours, an Autopilot maintenance care plan, a 3D home inventory (appliances, paint colors, safety systems), utility and property-tax tracking, package handling, and recurring-vendor management. Casa is available in the San Francisco Bay Area, Los Angeles, and Austin, and is backed by Forerunner Ventures and True Ventures. No public developer/API surface has been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/casa/refs/heads/main/screenshots/casa-2026-07-25T204705.png",
+     "name": "Lawn Love",
+     "slug": "lawn-love",
+     "description": "Lawn Love is an on-demand lawn care and outdoor home services marketplace that matches homeowners with vetted, independent lawn care professionals across more than 120 US cities. Customers get instant online quotes and book mowing, fertilization, aeration, seeding, pre-emergent and general weed control, bush trimming, leaf removal, gutter cleaning, yard clean-up and snow removal, on either pay-as-you-go or recurring schedules, and manage jobs through the my.lawnlove.com customer app and iOS/Android apps; providers take and service work through pros.lawnlove.com and the Lawn Love for Providers apps. Lawn Love operates as part of LawnStarter. It publishes no public developer API, no developer portal and no API documentation - the api.lawnlove.com host is an undocumented, noindexed backend serving its own web and mobile clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawn-love/refs/heads/main/screenshots/lawn-love-2026-07-25T224637.png",
      "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4703,11 +4703,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 34.2
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4735,49 +4735,6 @@
      "rank": 105
     },
     {
-     "name": "Lawn Love",
-     "slug": "lawn-love",
-     "description": "Lawn Love is an on-demand lawn care and outdoor home services marketplace that matches homeowners with vetted, independent lawn care professionals across more than 120 US cities. Customers get instant online quotes and book mowing, fertilization, aeration, seeding, pre-emergent and general weed control, bush trimming, leaf removal, gutter cleaning, yard clean-up and snow removal, on either pay-as-you-go or recurring schedules, and manage jobs through the my.lawnlove.com customer app and iOS/Android apps; providers take and service work through pros.lawnlove.com and the Lawn Love for Providers apps. Lawn Love operates as part of LawnStarter. It publishes no public developer API, no developer portal and no API documentation - the api.lawnlove.com host is an undocumented, noindexed backend serving its own web and mobile clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawn-love/refs/heads/main/screenshots/lawn-love-2026-07-25T224637.png",
-     "score": 11.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 106
-    },
-    {
      "name": "Omnidian",
      "slug": "omnidian",
      "description": "Omnidian, Inc. is a Seattle-based clean energy performance assurance company, founded in 2015, that protects and accelerates investments in residential and commercial solar and battery storage. Its proprietary, machine-learning driven software platform continuously monitors distributed solar assets, diagnoses hardware, communication and environmental faults such as soiling, shading and snow, dispatches a nationwide field service technician network across 48 states, Washington D.C. and Puerto Rico, and underwrites a 95% energy production guarantee that reimburses owners for covered shortfalls. Omnidian serves installers, EPCs, developers, IPPs, solar financing providers, commercial real estate owners and asset investors, and is a Certified B Corporation and a member of the SunSpec Alliance. Its monitoring platform, client portal and field service partner portal are operated as private, authenticated systems; Omnidian publishes no public developer program, API documentation, or machine-readable API contract.",
@@ -4793,7 +4750,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4825,7 +4782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "24 FIX",
@@ -4842,7 +4799,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 107
+    },
+    {
+     "name": "HomeLane",
+     "slug": "homelane",
+     "description": "HomeLane is an Indian end-to-end interior design company that delivers customized home interiors — modular kitchens, wardrobes, storage, bedroom, living room, bathroom, and home-office designs — pairing in-house digital design and 3D visualization tools with material selection and professional installation, backed by a 45-day delivery guarantee on end-to-end modular interiors. Founded in Bangalore and backed by Accel, HomeLane operates across major Indian cities through design studios, a franchise/partner network, and a customer mobile app. HomeLane currently exposes no public developer API; this profile tracks its digital, security, and identity surface for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/homelane/refs/heads/main/screenshots/homelane-2026-07-25T221341.png",
+     "score": 11.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4870,49 +4870,6 @@
      "rank": 108
     },
     {
-     "name": "HomeLane",
-     "slug": "homelane",
-     "description": "HomeLane is an Indian end-to-end interior design company that delivers customized home interiors — modular kitchens, wardrobes, storage, bedroom, living room, bathroom, and home-office designs — pairing in-house digital design and 3D visualization tools with material selection and professional installation, backed by a 45-day delivery guarantee on end-to-end modular interiors. Founded in Bangalore and backed by Accel, HomeLane operates across major Indian cities through design studios, a franchise/partner network, and a customer mobile app. HomeLane currently exposes no public developer API; this profile tracks its digital, security, and identity surface for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/homelane/refs/heads/main/screenshots/homelane-2026-07-25T221341.png",
-     "score": 11.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 109
-    },
-    {
      "name": "Justlife",
      "slug": "justlife",
      "description": "Justlife is the Middle East's leading home-services super app, connecting customers with vetted professionals for on-demand cleaning, beauty and wellness, healthcare-at-home, laundry, and home maintenance. Founded in 2015 by Cagatay Ozcan and Kerem Kuyucu, the company operates across the UAE, Saudi Arabia, Kuwait, Qatar, Oman, and Bahrain through its consumer mobile apps and website. Justlife publishes no public developer API; this profile captures its public web, policy, security, and AI-agent (llms.txt) surface for the API Evangelist network.",
@@ -4928,7 +4885,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4960,7 +4917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     }
    ]
   },
@@ -4988,7 +4945,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 110
+    },
+    {
+     "name": "HelperGo",
+     "slug": "helpergo",
+     "description": "HelperGo is a Hong Kong-based on-demand home services marketplace that connects households with more than 5,000 vetted local helpers for domestic cleaning, air-conditioning and window cleaning, cooking, childcare and babysitting, postnatal doula and confinement care, elderly and nursing care, and medical escort services. Customers book through the HelperGo iOS and Android apps or the website, with instant helper matching, ratings and reviews, and a satisfaction guarantee. HelperGo is a portfolio company of 500 Global and operates across Hong Kong and Singapore. The company is a consumer-facing service marketplace and publishes no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helpergo/refs/heads/main/screenshots/helpergo-2026-07-25T220946.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5016,10 +5016,10 @@
      "rank": 111
     },
     {
-     "name": "HelperGo",
-     "slug": "helpergo",
-     "description": "HelperGo is a Hong Kong-based on-demand home services marketplace that connects households with more than 5,000 vetted local helpers for domestic cleaning, air-conditioning and window cleaning, cooking, childcare and babysitting, postnatal doula and confinement care, elderly and nursing care, and medical escort services. Customers book through the HelperGo iOS and Android apps or the website, with instant helper matching, ratings and reviews, and a satisfaction guarantee. HelperGo is a portfolio company of 500 Global and operates across Hong Kong and Singapore. The company is a consumer-facing service marketplace and publishes no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helpergo/refs/heads/main/screenshots/helpergo-2026-07-25T220946.png",
+     "name": "Improovy",
+     "slug": "improovy",
+     "description": "Improovy is a Chicago-based prop-tech startup and digitally-native managed marketplace that connects homeowners with vetted, professional painters and controls the end-to-end residential and commercial painting experience. Founded in 2019 by CEO Andre Kazimierski, a third-generation tradesman, the platform offers instant online quotes and covers interior and exterior house painting, cabinet painting, drywall and plaster repair, staining, power washing, and specialty finishes across markets in Illinois, Michigan, Colorado, Florida, and Wisconsin. Improovy is a consumer service brand with no public developer program or API; this profile captures its web presence and domain-security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/improovy/refs/heads/main/screenshots/improovy-2026-07-25T222203.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5031,7 +5031,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5059,10 +5059,10 @@
      "rank": 112
     },
     {
-     "name": "Improovy",
-     "slug": "improovy",
-     "description": "Improovy is a Chicago-based prop-tech startup and digitally-native managed marketplace that connects homeowners with vetted, professional painters and controls the end-to-end residential and commercial painting experience. Founded in 2019 by CEO Andre Kazimierski, a third-generation tradesman, the platform offers instant online quotes and covers interior and exterior house painting, cabinet painting, drywall and plaster repair, staining, power washing, and specialty finishes across markets in Illinois, Michigan, Colorado, Florida, and Wisconsin. Improovy is a consumer service brand with no public developer program or API; this profile captures its web presence and domain-security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/improovy/refs/heads/main/screenshots/improovy-2026-07-25T222203.png",
+     "name": "LawnStarter",
+     "slug": "lawnstarter",
+     "description": "LawnStarter is an on-demand lawn care and outdoor-services marketplace founded in 2013 and headquartered in Austin, Texas, that connects homeowners with vetted local lawn care professionals (\"LawnTrepreneurs\"). Beyond recurring lawn mowing, the platform books more than 30 services including landscaping, lawn treatments and fertilization, tree care, gutter cleaning, pressure washing, and leaf removal, with transparent online quoting, consistent crews, and a re-mow-or-refund quality guarantee. LawnStarter operates across 500+ cities, has served more than 500,000 customers through roughly 7,500 professionals, and reached profitability in 2021. LawnStarter runs a consumer web/mobile marketplace and a separate provider app (pros.lawnstarter.com); it does not publish a public developer platform, API, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawnstarter/refs/heads/main/screenshots/lawnstarter-2026-07-25T224640.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5074,7 +5074,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5102,22 +5102,22 @@
      "rank": 113
     },
     {
-     "name": "LawnStarter",
-     "slug": "lawnstarter",
-     "description": "LawnStarter is an on-demand lawn care and outdoor-services marketplace founded in 2013 and headquartered in Austin, Texas, that connects homeowners with vetted local lawn care professionals (\"LawnTrepreneurs\"). Beyond recurring lawn mowing, the platform books more than 30 services including landscaping, lawn treatments and fertilization, tree care, gutter cleaning, pressure washing, and leaf removal, with transparent online quoting, consistent crews, and a re-mow-or-refund quality guarantee. LawnStarter operates across 500+ cities, has served more than 500,000 customers through roughly 7,500 professionals, and reached profitability in 2021. LawnStarter runs a consumer web/mobile marketplace and a separate provider app (pros.lawnstarter.com); it does not publish a public developer platform, API, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawnstarter/refs/heads/main/screenshots/lawnstarter-2026-07-25T224640.png",
+     "name": "Livspace",
+     "slug": "livspace",
+     "description": "Livspace is India's largest home interior design and renovation company, founded in 2014 and headquartered in Bangalore. It runs an end-to-end, technology-driven interiors platform: free design consultation, in-browser 3D visualisation, factory-made modular products (kitchens, wardrobes, storage), and managed on-site installation, backed by a lifetime warranty on modular products. Livspace serves 125+ cities across India through 100+ Experience Centres and a network of interior designers, covering full-home interiors, modular kitchens, false ceilings, flooring, painting and related fit-out services. It is a Bessemer Venture Partners portfolio company. This profile currently exposes no public developer API or SDK surface; enrichment captured its public security, well-known, and llms.txt surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/livspace/refs/heads/main/screenshots/livspace-2026-07-25T225408.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5145,49 +5145,6 @@
      "rank": 114
     },
     {
-     "name": "Livspace",
-     "slug": "livspace",
-     "description": "Livspace is India's largest home interior design and renovation company, founded in 2014 and headquartered in Bangalore. It runs an end-to-end, technology-driven interiors platform: free design consultation, in-browser 3D visualisation, factory-made modular products (kitchens, wardrobes, storage), and managed on-site installation, backed by a lifetime warranty on modular products. Livspace serves 125+ cities across India through 100+ Experience Centres and a network of interior designers, covering full-home interiors, modular kitchens, false ceilings, flooring, painting and related fit-out services. It is a Bessemer Venture Partners portfolio company. This profile currently exposes no public developer API or SDK surface; enrichment captured its public security, well-known, and llms.txt surfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/livspace/refs/heads/main/screenshots/livspace-2026-07-25T225408.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 115
-    },
-    {
      "name": "ShiftSouth",
      "slug": "shiftsouth",
      "description": "ShiftSouth (Pty) Ltd operates SweepSouth, South Africa's first on-demand home services marketplace, launched in 2014. The platform connects roughly 250,000 customers with about 6,500 vetted home-services professionals (\"SweepStars\") across Cape Town, Johannesburg, Sandton, Centurion, Pretoria, Durban, Umhlanga, Stellenbosch, Paarl and other South African cities. Services span on-demand and express indoor cleaning, office and Airbnb turnover cleaning, laundry and ironing, elder care, Mom's Helper and childcare, dog walking, gardening and pool maintenance, plus full-time placements of housekeepers, nannies and carers and a MyHome Hub subscription for managing private domestic workers. Professionals are background-checked, reference-verified and insured. SweepSouth is a 500 Global portfolio company and has won the Forbes Africa Women Innovation Award (2020) and the World Economic Forum Breakthrough Female Innovators Award (2017). It is a consumer marketplace with mobile apps for iOS and Android and does not publish a public developer API surface.",
@@ -5203,7 +5160,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -5228,7 +5185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "CarServ",
@@ -5273,7 +5230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Kopperfield",
@@ -5291,7 +5248,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -5316,7 +5273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Pronto",
@@ -5334,7 +5291,50 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 118
+    },
+    {
+     "name": "BrightGo",
+     "slug": "brightgo",
+     "description": "BrightGo is an all-in-one janitorial and commercial-cleaning ERP platform for building service contractors. It unifies field operations, workforce management, and back-office finance in one system: scheduling, GPS-verified time and attendance, inspections and quality assurance, real-time job costing, payroll, and accounting, plus operations business-intelligence dashboards and an in-app employee communication portal. Backed by Index Ventures and Costanoa Ventures, BrightGo serves janitorial companies across the U.S. and Canada. No public developer API or documentation surface has been identified; the product is delivered via web (app.brightgo.com) and iOS/Android mobile apps.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightgo/refs/heads/main/screenshots/brightgo-2026-07-25T203841.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5362,10 +5362,10 @@
      "rank": 119
     },
     {
-     "name": "BrightGo",
-     "slug": "brightgo",
-     "description": "BrightGo is an all-in-one janitorial and commercial-cleaning ERP platform for building service contractors. It unifies field operations, workforce management, and back-office finance in one system: scheduling, GPS-verified time and attendance, inspections and quality assurance, real-time job costing, payroll, and accounting, plus operations business-intelligence dashboards and an in-app employee communication portal. Backed by Index Ventures and Costanoa Ventures, BrightGo serves janitorial companies across the U.S. and Canada. No public developer API or documentation surface has been identified; the product is delivered via web (app.brightgo.com) and iOS/Android mobile apps.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightgo/refs/heads/main/screenshots/brightgo-2026-07-25T203841.png",
+     "name": "Mi Dulce Hogar",
+     "slug": "mi-dulce-hogar",
+     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services company operating in Mexico City (CDMX), connecting customers with vetted, background-screened cleaning professionals. Services include residential and office cleaning, upholstery and carpet washing, floor polishing, and pest control/fumigation. The company states it has delivered more than 100,000 services and screens candidates through a rigorous criminological vetting process. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; the public web presence is a consumer marketing and booking site with no public developer API, SDK, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mi-dulce-hogar/refs/heads/main/screenshots/mi-dulce-hogar-2026-08-07T172814.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5374,10 +5374,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 23.7
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5405,22 +5405,22 @@
      "rank": 120
     },
     {
-     "name": "Mi Dulce Hogar",
-     "slug": "mi-dulce-hogar",
-     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services company operating in Mexico City (CDMX), connecting customers with vetted, background-screened cleaning professionals. Services include residential and office cleaning, upholstery and carpet washing, floor polishing, and pest control/fumigation. The company states it has delivered more than 100,000 services and screens candidates through a rigorous criminological vetting process. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; the public web presence is a consumer marketing and booking site with no public developer API, SDK, or documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mi-dulce-hogar/refs/heads/main/screenshots/mi-dulce-hogar-2026-08-07T172814.png",
-     "score": 10.2,
+     "name": "Instalily",
+     "slug": "instalily",
+     "description": "InstaLILY builds Lily, an AI \"Forward Deployed Engineer\" for the physical and regulated economy. Lily learns how an enterprise operates, builds custom software agents for high-friction operational work such as quoting, routing, field service, and approvals, and runs them inside the systems companies already use including SAP, NetSuite, Epicor, Salesforce, HubSpot, and Snowflake. InstaLILY serves industrial distribution and MRO, manufacturing and OEM, field service, healthcare and pharma, and private equity. The company is headquartered at 455 Broadway, New York, and is backed by Insight Partners. No public developer API is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/instalily/refs/heads/main/screenshots/instalily-2026-07-25T222610.png",
+     "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5448,22 +5448,22 @@
      "rank": 121
     },
     {
-     "name": "Instalily",
-     "slug": "instalily",
-     "description": "InstaLILY builds Lily, an AI \"Forward Deployed Engineer\" for the physical and regulated economy. Lily learns how an enterprise operates, builds custom software agents for high-friction operational work such as quoting, routing, field service, and approvals, and runs them inside the systems companies already use including SAP, NetSuite, Epicor, Salesforce, HubSpot, and Snowflake. InstaLILY serves industrial distribution and MRO, manufacturing and OEM, field service, healthcare and pharma, and private equity. The company is headquartered at 455 Broadway, New York, and is backed by Insight Partners. No public developer API is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/instalily/refs/heads/main/screenshots/instalily-2026-07-25T222610.png",
-     "score": 10.0,
+     "name": "Cabana",
+     "slug": "cabana",
+     "description": "Cabana Pools is a California pool-service company providing recurring maintenance, repair, and equipment installation for residential swimming pools across San Diego, Los Angeles, Orange County, and Sacramento. Services include weekly cleaning, filter maintenance, chemical balancing, algae removal, and repair of pumps, heaters, filters, and automation systems, delivered by CPO-certified technicians with photo documentation and chemical reports after each visit. The company offers an instant online pricing quote tool. No public API or developer surface is currently published; this profile is maintained as an API Evangelist network lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cabana/refs/heads/main/screenshots/cabana-2026-07-25T204156.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5491,49 +5491,6 @@
      "rank": 122
     },
     {
-     "name": "Cabana",
-     "slug": "cabana",
-     "description": "Cabana Pools is a California pool-service company providing recurring maintenance, repair, and equipment installation for residential swimming pools across San Diego, Los Angeles, Orange County, and Sacramento. Services include weekly cleaning, filter maintenance, chemical balancing, algae removal, and repair of pumps, heaters, filters, and automation systems, delivered by CPO-certified technicians with photo documentation and chemical reports after each visit. The company offers an instant online pricing quote tool. No public API or developer surface is currently published; this profile is maintained as an API Evangelist network lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cabana/refs/heads/main/screenshots/cabana-2026-07-25T204156.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 123
-    },
-    {
      "name": "Hometree",
      "slug": "hometree",
      "description": "Hometree is a UK home services and residential energy company offering homeowners and landlords subscription-based boiler and home emergency cover with unlimited repairs and annual maintenance from around £12.95 per month. Its nationwide network of Gas Safe registered engineers handles breakdowns across heating, plumbing, electrics, drainage and gas fires, and the company also arranges boiler installations and green home upgrades such as heat pumps and solar panels. Operating as an insurance distributor and installer across mainland England, Scotland and Wales, Hometree is backed by Anthemis, DN Capital, Barclays, BlackRock, 2150 and Puma Growth Partners.",
@@ -5549,7 +5506,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5581,7 +5538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Zolvers",
@@ -5599,7 +5556,50 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 124
+    },
+    {
+     "name": "iControl",
+     "slug": "icontrol",
+     "description": "iControl is a Swedish construction-technology company whose mobile application digitalizes documentation on construction sites, replacing paper-based protocols and inspection records with real-time digital capture. Field personnel create, share, and manage project documentation from the job site, with offline capture that syncs when connectivity returns, drawing and blueprint uploads, and team collaboration. Marketed under the promise \"Skriv aldrig ett protokoll igen\" (never write a protocol again), iControl is used by leading Nordic contractors including NCC, JM, Veidekke, ARCONA, and In3prenor across infrastructure, residential, commercial, and public-facility projects. The company is headquartered in Stockholm and is a portfolio company of 500 Global. iControl exposes a consumer-facing web and mobile application; no public developer API, OpenAPI specification, or SDK was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/icontrol/refs/heads/main/screenshots/icontrol-2026-07-25T222018.png",
+     "score": 9.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5627,49 +5627,6 @@
      "rank": 125
     },
     {
-     "name": "iControl",
-     "slug": "icontrol",
-     "description": "iControl is a Swedish construction-technology company whose mobile application digitalizes documentation on construction sites, replacing paper-based protocols and inspection records with real-time digital capture. Field personnel create, share, and manage project documentation from the job site, with offline capture that syncs when connectivity returns, drawing and blueprint uploads, and team collaboration. Marketed under the promise \"Skriv aldrig ett protokoll igen\" (never write a protocol again), iControl is used by leading Nordic contractors including NCC, JM, Veidekke, ARCONA, and In3prenor across infrastructure, residential, commercial, and public-facility projects. The company is headquartered in Stockholm and is a portfolio company of 500 Global. iControl exposes a consumer-facing web and mobile application; no public developer API, OpenAPI specification, or SDK was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/icontrol/refs/heads/main/screenshots/icontrol-2026-07-25T222018.png",
-     "score": 9.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 126
-    },
-    {
      "name": "UpSmith",
      "slug": "upsmith",
      "description": "UpSmith is a Dallas, Texas-based company backed by a16z that builds AI agents for home services and skilled trades businesses (HVAC, plumbing, electrical). Its platform texts customers to confirm appointments, follows up on cold estimates, responds to inbound leads around the clock, and reactivates dormant customers, syncing customer records, job details, and booking data with ServiceTitan through ServiceTitan's official APIs. UpSmith consumes partner APIs (a native ServiceTitan marketplace integration) but does not publish a public developer API of its own.",
@@ -5685,7 +5642,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5717,7 +5674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "SpryPoint",
@@ -5735,7 +5692,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5767,7 +5724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "B2X",
@@ -5785,7 +5742,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5810,7 +5767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Topline Pro",
@@ -5828,7 +5785,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5860,7 +5817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Buildcheck",
@@ -5878,7 +5835,50 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 130
+    },
+    {
+     "name": "Chimelabs Holdings PTY LTD",
+     "slug": "chimelabs-holdings-pty-ltd",
+     "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chimelabs-holdings-pty-ltd/refs/heads/main/screenshots/chimelabs-holdings-pty-ltd-2026-07-25T205219.png",
+     "score": 8.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5906,22 +5906,22 @@
      "rank": 131
     },
     {
-     "name": "Chimelabs Holdings PTY LTD",
-     "slug": "chimelabs-holdings-pty-ltd",
-     "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chimelabs-holdings-pty-ltd/refs/heads/main/screenshots/chimelabs-holdings-pty-ltd-2026-07-25T205219.png",
+     "name": "Knowify",
+     "slug": "knowify",
+     "description": "Knowify is a New York-based construction management SaaS for trade contractors (electrical, plumbing, HVAC, painting, remodeling, concrete, excavation), covering the full job lifecycle from bidding through payment on a single platform. The product spans project execution (estimating, proposals and contracts, change orders, RFIs and submittals, scheduling, daily logs, document and photo management), service work (dispatch, invoicing, payments, field operations, asset and inventory management), and financial management (AIA billing, job costing, prevailing wage, purchase orders, expenses, WIP and reporting). Knowify is positioned as the official construction software partner of QuickBooks Online and offers deep two-way sync with QuickBooks Online, QuickBooks Desktop, Intuit Enterprise Suite, QuickBooks Payroll, QuickBooks Payments, and QuickBooks Time, alongside native integrations with CompanyCam, Billd, Lumber, eBacon, and AIA Contract Documents. Third-party automation is available via Zapier. Pricing starts at $99/month (Core), $249/month (Advanced), and custom Enterprise, with paid add-ons for Service Pro, Live Equipment Tracking (FleetSharp), AI Dashcams, and Tool Tracking. Knowify does not publish a public REST API, webhooks specification, SDK, CLI, or developer portal; programmatic access for third parties is limited to Zapier and the QuickBooks ecosystem.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/knowify/refs/heads/main/screenshots/knowify-2026-06-20T184117.png",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 6.6
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5949,10 +5949,10 @@
      "rank": 132
     },
     {
-     "name": "Knowify",
-     "slug": "knowify",
-     "description": "Knowify is a New York-based construction management SaaS for trade contractors (electrical, plumbing, HVAC, painting, remodeling, concrete, excavation), covering the full job lifecycle from bidding through payment on a single platform. The product spans project execution (estimating, proposals and contracts, change orders, RFIs and submittals, scheduling, daily logs, document and photo management), service work (dispatch, invoicing, payments, field operations, asset and inventory management), and financial management (AIA billing, job costing, prevailing wage, purchase orders, expenses, WIP and reporting). Knowify is positioned as the official construction software partner of QuickBooks Online and offers deep two-way sync with QuickBooks Online, QuickBooks Desktop, Intuit Enterprise Suite, QuickBooks Payroll, QuickBooks Payments, and QuickBooks Time, alongside native integrations with CompanyCam, Billd, Lumber, eBacon, and AIA Contract Documents. Third-party automation is available via Zapier. Pricing starts at $99/month (Core), $249/month (Advanced), and custom Enterprise, with paid add-ons for Service Pro, Live Equipment Tracking (FleetSharp), AI Dashcams, and Tool Tracking. Knowify does not publish a public REST API, webhooks specification, SDK, CLI, or developer portal; programmatic access for third parties is limited to Zapier and the QuickBooks ecosystem.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/knowify/refs/heads/main/screenshots/knowify-2026-06-20T184117.png",
+     "name": "Serviceware SE",
+     "slug": "serviceware-se",
+     "description": "Serviceware SE is a German enterprise software, consulting, and managed-services company with more than 25 years in business, roughly 420 employees, and over EUR 100 million in annual revenue. Its platform spans Enterprise Service Management (ESM) for IT, HR, and customer service, IT Financial Management (ITFM) for cost tracking and technology business management, Corporate Performance Management (CPM) for budgeting, planning, and reporting, AI-powered Knowledge Management, and Field Service Management. Serviceware positions its platform as AI-native, with no-code workflows, data integration, governance, and self-service capabilities. It was surfaced as a portfolio company of Norwest Venture Partners and added to the API Evangelist network. No public developer portal, API reference, or machine-readable API surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/serviceware-se/refs/heads/main/screenshots/serviceware-se-2026-09-02T155009.png",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5964,7 +5964,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5992,11 +5992,11 @@
      "rank": 133
     },
     {
-     "name": "Serviceware SE",
-     "slug": "serviceware-se",
-     "description": "Serviceware SE is a German enterprise software, consulting, and managed-services company with more than 25 years in business, roughly 420 employees, and over EUR 100 million in annual revenue. Its platform spans Enterprise Service Management (ESM) for IT, HR, and customer service, IT Financial Management (ITFM) for cost tracking and technology business management, Corporate Performance Management (CPM) for budgeting, planning, and reporting, AI-powered Knowledge Management, and Field Service Management. Serviceware positions its platform as AI-native, with no-code workflows, data integration, governance, and self-service capabilities. It was surfaced as a portfolio company of Norwest Venture Partners and added to the API Evangelist network. No public developer portal, API reference, or machine-readable API surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/serviceware-se/refs/heads/main/screenshots/serviceware-se-2026-09-02T155009.png",
-     "score": 8.5,
+     "name": "Scope",
+     "slug": "scope",
+     "description": "Scope (Scope Inspection Ltd, London) is an AI-native inspection platform for the Testing, Inspection, and Certification (TIC) industry and heavy-asset operators. It captures field data through voice, video, and forms (offline-capable), extracts structured data from P&IDs, ASME forms, and inspection drawings, surfaces historical inspection context, and automates report generation in Word, Excel, and PDF. The product pushes results into enterprise CMMS/EAM systems via webhooks and prebuilt connectors, but publishes no public developer API, developer portal, OpenAPI, or documentation surface at this time. Backed by Index Ventures and Y Combinator; raised a ~$18-20M round led by Index Ventures in 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scope/refs/heads/main/screenshots/scope-2026-09-02T154546.png",
+     "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6004,10 +6004,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "access_clarity": 17.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6035,49 +6035,6 @@
      "rank": 134
     },
     {
-     "name": "Scope",
-     "slug": "scope",
-     "description": "Scope (Scope Inspection Ltd, London) is an AI-native inspection platform for the Testing, Inspection, and Certification (TIC) industry and heavy-asset operators. It captures field data through voice, video, and forms (offline-capable), extracts structured data from P&IDs, ASME forms, and inspection drawings, surfaces historical inspection context, and automates report generation in Word, Excel, and PDF. The product pushes results into enterprise CMMS/EAM systems via webhooks and prebuilt connectors, but publishes no public developer API, developer portal, OpenAPI, or documentation surface at this time. Backed by Index Ventures and Y Combinator; raised a ~$18-20M round led by Index Ventures in 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scope/refs/heads/main/screenshots/scope-2026-09-02T154546.png",
-     "score": 8.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 135
-    },
-    {
      "name": "Sealed",
      "slug": "sealed",
      "description": "Sealed is a New York-based climate technology company, founded in 2012, whose Sealed Pro platform helps home-improvement contractors sell and finance home weatherization and electrification projects — insulation, air sealing, heat pumps, smart thermostats and heat-pump water heaters. Sealed pairs energy data and analytics with a rebate and incentive engine that qualifies a project at the point of sale, guarantees a minimum rebate amount, files the utility and Inflation Reduction Act (HOMES / HEAR) paperwork on the contractor's behalf, and pays the contractor after installation while Sealed carries the incentive-collection risk. The company began as a direct-to-consumer home energy retrofit provider with the first residential energy-savings guarantee, and relaunched as Sealed Pro, a contractor-facing software platform, working with utilities and state energy offices on measured- and modeled-savings programs.",
@@ -6093,7 +6050,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6125,7 +6082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Craftview",
@@ -6143,7 +6100,50 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 136
+    },
+    {
+     "name": "Pairio",
+     "slug": "pairio",
+     "description": "Pairio is an AI-powered maintenance assistant for manufacturing and industrial teams, built by Pairio GmbH in Munich, Germany and backed by Y Combinator. Technicians capture voice, photos, and video on the shop floor, and Pairio troubleshoots machine breakdowns, searches technical documentation and maintenance history, identifies spare parts, generates structured maintenance reports, and creates work instructions. It preserves expert knowledge across shifts, sites, and teams to reduce mean time to repair (MTTR) and unplanned downtime, integrating with common ERP, CMMS, EAM, and document-management systems such as SAP, IFS, IBM Maximo, Oracle EAM, Hexagon, SharePoint, and Outlook. Pairio is a consumer-facing mobile/web application and does not currently publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pairio/refs/heads/main/screenshots/pairio-2026-08-07T191310.png",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6171,11 +6171,11 @@
      "rank": 137
     },
     {
-     "name": "Pairio",
-     "slug": "pairio",
-     "description": "Pairio is an AI-powered maintenance assistant for manufacturing and industrial teams, built by Pairio GmbH in Munich, Germany and backed by Y Combinator. Technicians capture voice, photos, and video on the shop floor, and Pairio troubleshoots machine breakdowns, searches technical documentation and maintenance history, identifies spare parts, generates structured maintenance reports, and creates work instructions. It preserves expert knowledge across shifts, sites, and teams to reduce mean time to repair (MTTR) and unplanned downtime, integrating with common ERP, CMMS, EAM, and document-management systems such as SAP, IFS, IBM Maximo, Oracle EAM, Hexagon, SharePoint, and Outlook. Pairio is a consumer-facing mobile/web application and does not currently publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pairio/refs/heads/main/screenshots/pairio-2026-08-07T191310.png",
-     "score": 8.3,
+     "name": "Digital Iron",
+     "slug": "digital-iron",
+     "description": "Digital Iron is an AI platform delivering aftersales intelligence for heavy machinery. It helps equipment dealers and OEMs turn scattered service data — machine history, product documentation, customer records, bills of materials, work orders, and technician notes — into faster troubleshooting, accurate parts identification, and reliable job quoting. The platform surfaces recurring failure patterns across fleets (excavators, crushers, compaction rollers, and similar equipment) to improve first-time fix rates. Digital Iron is backed by Seedcamp and tracked in the API Evangelist network as a portfolio company; the product is delivered as a hosted web application and no public API has been identified to date.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digital-iron/refs/heads/main/screenshots/digital-iron-2026-07-25T212015.png",
+     "score": 8.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6183,10 +6183,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
+      "developer_ergonomics": 4.8,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6214,22 +6214,22 @@
      "rank": 138
     },
     {
-     "name": "Digital Iron",
-     "slug": "digital-iron",
-     "description": "Digital Iron is an AI platform delivering aftersales intelligence for heavy machinery. It helps equipment dealers and OEMs turn scattered service data — machine history, product documentation, customer records, bills of materials, work orders, and technician notes — into faster troubleshooting, accurate parts identification, and reliable job quoting. The platform surfaces recurring failure patterns across fleets (excavators, crushers, compaction rollers, and similar equipment) to improve first-time fix rates. Digital Iron is backed by Seedcamp and tracked in the API Evangelist network as a portfolio company; the product is delivered as a hosted web application and no public API has been identified to date.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digital-iron/refs/heads/main/screenshots/digital-iron-2026-07-25T212015.png",
-     "score": 8.0,
+     "name": "Ajeer",
+     "slug": "ajeer",
+     "description": "Ajeer (iajeer.com) is a Saudi Arabian on-demand services platform for home and facility maintenance and operations (خدمات الصيانة والتشغيل). Through its mobile application customers request residential maintenance, general labor, installation, plumbing, electrical, and air-conditioning services, connecting them with vetted service providers. Ajeer is a portfolio company of 500 Global, surfaced into the API Evangelist network as a company profile. No public API, developer portal, or machine-readable specification was found during enrichment; this profile captures the company's public web surface and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ajeer/refs/heads/main/screenshots/ajeer-2026-07-25T195503.png",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 6.6
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6257,10 +6257,10 @@
      "rank": 139
     },
     {
-     "name": "Ajeer",
-     "slug": "ajeer",
-     "description": "Ajeer (iajeer.com) is a Saudi Arabian on-demand services platform for home and facility maintenance and operations (خدمات الصيانة والتشغيل). Through its mobile application customers request residential maintenance, general labor, installation, plumbing, electrical, and air-conditioning services, connecting them with vetted service providers. Ajeer is a portfolio company of 500 Global, surfaced into the API Evangelist network as a company profile. No public API, developer portal, or machine-readable specification was found during enrichment; this profile captures the company's public web surface and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ajeer/refs/heads/main/screenshots/ajeer-2026-07-25T195503.png",
+     "name": "Netic",
+     "slug": "netic",
+     "description": "Netic (legal entity Cybernetic Labs Inc.), headquartered in San Francisco, builds production-grade autonomous AI systems for America's essential service industries — home services, pest control, roofing, consumer health, and veterinary. Its AI Growth Engine spans speech, text, and data with products including Convert (autonomous multi-channel job booking into CRM/FSM systems), Cultivate (autonomous upsell and membership campaigns), Empower (analytics and data-driven decision support), and Evaluate (AI call-center scoring), with Expand announced as coming soon. Netic is backed by Founders Fund, Greylock, and SV Angel. As of this enrichment pass the company publishes no public API, developer portal, OpenAPI, or SDKs; this profile captures its identity, blog, privacy policy, domain-security posture, and its Secureframe-hosted trust center.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netic/refs/heads/main/screenshots/netic-2026-08-07T184935.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6272,7 +6272,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6300,22 +6300,22 @@
      "rank": 140
     },
     {
-     "name": "Netic",
-     "slug": "netic",
-     "description": "Netic (legal entity Cybernetic Labs Inc.), headquartered in San Francisco, builds production-grade autonomous AI systems for America's essential service industries — home services, pest control, roofing, consumer health, and veterinary. Its AI Growth Engine spans speech, text, and data with products including Convert (autonomous multi-channel job booking into CRM/FSM systems), Cultivate (autonomous upsell and membership campaigns), Empower (analytics and data-driven decision support), and Evaluate (AI call-center scoring), with Expand announced as coming soon. Netic is backed by Founders Fund, Greylock, and SV Angel. As of this enrichment pass the company publishes no public API, developer portal, OpenAPI, or SDKs; this profile captures its identity, blog, privacy policy, domain-security posture, and its Secureframe-hosted trust center.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netic/refs/heads/main/screenshots/netic-2026-08-07T184935.png",
-     "score": 7.6,
+     "name": "MoveitPro",
+     "slug": "moveitpro",
+     "description": "MoveitPro (MoveitPro+) is web-based moving company management software built by professional movers, covering the full operation of a moving and storage company - CRM and lead capture, estimating and quoting, a smart dispatch board with drag-and-drop scheduling and crew assignment, fleet and maintenance management, digital bills of lading and e-signatures, itemized inventory, storage and warehouse tracking, invoicing and credit-card payments, commission tracking, and AI call transcription and QA. MoveitPro advertises \"Open API & Custom Integrations\" and ships native integrations (QuickBooks, Twilio, Mailchimp, Google Maps/Calendar), but does not publish a self-serve public developer API, reference documentation, or OpenAPI. Its only publicly documented programmatic surface is a Zapier integration exposing Clients, Leads, Jobs, and Estimates. The APIs listed below are logical resources modeled from that documented Zapier integration; MoveitPro does not publish HTTP endpoints, base URLs, or authentication details.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moveitpro/refs/heads/main/screenshots/moveitpro-2026-08-07T184350.png",
+     "score": 7.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6343,22 +6343,22 @@
      "rank": 141
     },
     {
-     "name": "MoveitPro",
-     "slug": "moveitpro",
-     "description": "MoveitPro (MoveitPro+) is web-based moving company management software built by professional movers, covering the full operation of a moving and storage company - CRM and lead capture, estimating and quoting, a smart dispatch board with drag-and-drop scheduling and crew assignment, fleet and maintenance management, digital bills of lading and e-signatures, itemized inventory, storage and warehouse tracking, invoicing and credit-card payments, commission tracking, and AI call transcription and QA. MoveitPro advertises \"Open API & Custom Integrations\" and ships native integrations (QuickBooks, Twilio, Mailchimp, Google Maps/Calendar), but does not publish a self-serve public developer API, reference documentation, or OpenAPI. Its only publicly documented programmatic surface is a Zapier integration exposing Clients, Leads, Jobs, and Estimates. The APIs listed below are logical resources modeled from that documented Zapier integration; MoveitPro does not publish HTTP endpoints, base URLs, or authentication details.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moveitpro/refs/heads/main/screenshots/moveitpro-2026-08-07T184350.png",
-     "score": 7.0,
+     "name": "Bitacora.io",
+     "slug": "bitacoraio",
+     "description": "Bitacora.io is a Mexican field-data and operations platform (a 500 Global / 500 LatAm Batch 14 startup) that helps deskless teams in construction, maintenance, and field services capture reports, photos, tasks, and events from the field. Its mobile and web apps work offline and sync to the cloud when connectivity returns, turning field activity into searchable records, PDF and Excel exports, map and gallery views, and real-time analytics dashboards for managers. Bitacora is a SaaS product rather than a developer-API company - it offers custom development, integrations, and KPI dashboards as professional services, but does not publish a public self-serve API, OpenAPI specification, or SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitacoraio/refs/heads/main/screenshots/bitacoraio-2026-07-25T203129.png",
+     "score": 6.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6386,22 +6386,21 @@
      "rank": 142
     },
     {
-     "name": "Bitacora.io",
-     "slug": "bitacoraio",
-     "description": "Bitacora.io is a Mexican field-data and operations platform (a 500 Global / 500 LatAm Batch 14 startup) that helps deskless teams in construction, maintenance, and field services capture reports, photos, tasks, and events from the field. Its mobile and web apps work offline and sync to the cloud when connectivity returns, turning field activity into searchable records, PDF and Excel exports, map and gallery views, and real-time analytics dashboards for managers. Bitacora is a SaaS product rather than a developer-API company - it offers custom development, integrations, and KPI dashboards as professional services, but does not publish a public self-serve API, OpenAPI specification, or SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitacoraio/refs/heads/main/screenshots/bitacoraio-2026-07-25T203129.png",
-     "score": 6.6,
+     "name": "Aora",
+     "slug": "aora",
+     "description": "Aora (Aora Servicios) is a Mexico-based on-demand home and office services marketplace that connects households and businesses with vetted technicians and providers for repairs, installations, and maintenance. Its catalog spans home and office repairs, white-goods and appliance service, air conditioning and mini-split installation, water heaters, plumbing and drainage, waterproofing, and home-technology work. Consumers browse and book services through the Aora web app and the Aora mobile app, while a B2B program serves business customers. The company is backed by 500 Global. Aora publishes a consumer-facing website and blog but does not currently expose a public developer portal, API documentation, or SDKs; this profile captures its public web surface and domain-security posture.",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6429,9 +6428,10 @@
      "rank": 143
     },
     {
-     "name": "Aora",
-     "slug": "aora",
-     "description": "Aora (Aora Servicios) is a Mexico-based on-demand home and office services marketplace that connects households and businesses with vetted technicians and providers for repairs, installations, and maintenance. Its catalog spans home and office repairs, white-goods and appliance service, air conditioning and mini-split installation, water heaters, plumbing and drainage, waterproofing, and home-technology work. Consumers browse and book services through the Aora web app and the Aora mobile app, while a B2B program serves business customers. The company is backed by 500 Global. Aora publishes a consumer-facing website and blog but does not currently expose a public developer portal, API documentation, or SDKs; this profile captures its public web surface and domain-security posture.",
+     "name": "Please Assist Me",
+     "slug": "please-assist-me",
+     "description": "Please Assist Me (PAM) is an apartment-amenity and home-management service that partners with residential buildings to handle cleaning, errands, groceries, laundry, dry-cleaning, package handling, and custom special requests for residents. Dedicated per-building teams deliver the service, backed by a consumer mobile app (iOS and Android) and a web app for booking and account management, a 24-hour satisfaction guarantee, and body-camera transparency. Backed by Techstars. The company operates a consumer-facing product and publishes no public developer API, SDK, or developer portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/please-assist-me/refs/heads/main/screenshots/please-assist-me-2026-09-02T151509.png",
      "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6443,7 +6443,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6471,10 +6471,10 @@
      "rank": 144
     },
     {
-     "name": "Please Assist Me",
-     "slug": "please-assist-me",
-     "description": "Please Assist Me (PAM) is an apartment-amenity and home-management service that partners with residential buildings to handle cleaning, errands, groceries, laundry, dry-cleaning, package handling, and custom special requests for residents. Dedicated per-building teams deliver the service, backed by a consumer mobile app (iOS and Android) and a web app for booking and account management, a 24-hour satisfaction guarantee, and body-camera transparency. Backed by Techstars. The company operates a consumer-facing product and publishes no public developer API, SDK, or developer portal at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/please-assist-me/refs/heads/main/screenshots/please-assist-me-2026-09-02T151509.png",
+     "name": "Tradeway",
+     "slug": "tradeway",
+     "description": "Tradeway is an AI-powered field assistant for residential trade contractors working in electrical, plumbing, and HVAC. Technicians use it to plan jobs step by step with the right materials and code requirements, to identify parts from a photo with nearby supplier pricing and sourcing, and to get hands-free answers to technical questions on the job site. For business owners it centralizes crew history and field activity into a single view, reducing callbacks and rework through built-in code checks and standardized, repeatable processes so new hires can bill like veterans. Tradeway is backed by Bloomberg Beta. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or API documentation; this profile captures its identity and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradeway/refs/heads/main/screenshots/tradeway-2026-09-02T164100.png",
      "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6486,7 +6486,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6514,11 +6514,11 @@
      "rank": 145
     },
     {
-     "name": "Tradeway",
-     "slug": "tradeway",
-     "description": "Tradeway is an AI-powered field assistant for residential trade contractors working in electrical, plumbing, and HVAC. Technicians use it to plan jobs step by step with the right materials and code requirements, to identify parts from a photo with nearby supplier pricing and sourcing, and to get hands-free answers to technical questions on the job site. For business owners it centralizes crew history and field activity into a single view, reducing callbacks and rework through built-in code checks and standardized, repeatable processes so new hires can bill like veterans. Tradeway is backed by Bloomberg Beta. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or API documentation; this profile captures its identity and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradeway/refs/heads/main/screenshots/tradeway-2026-09-02T164100.png",
-     "score": 6.3,
+     "name": "Daero Group",
+     "slug": "daero-group",
+     "description": "DAERO (Daero Group) is a construction-technology company building mobile-first tools for trades and field teams. Its flagship product, ZeroPunch, is a field-operations platform that turns real-time field intuition into structured construction data: voice-first capture lets crews speak field observations in natural language, photos are paired with contextual field data, work is auto-assigned by scope, and stream-of-consciousness notes are converted into organized daily logs. ZeroPunch offers a two-way integration with Procore for project-management sync. The company positions itself around the daily needs of the people actually doing the work, aiming to make construction operations smarter and faster. As of this profile DAERO publishes no public developer API, SDK, or developer portal; integration is partnership-level (Procore) and inquiries go to support@daerogroup.com. Backed by Threshold Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daero-group/refs/heads/main/screenshots/daero-group-2026-07-25T211124.png",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6526,10 +6526,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 6.6
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6557,22 +6557,21 @@
      "rank": 146
     },
     {
-     "name": "Daero Group",
-     "slug": "daero-group",
-     "description": "DAERO (Daero Group) is a construction-technology company building mobile-first tools for trades and field teams. Its flagship product, ZeroPunch, is a field-operations platform that turns real-time field intuition into structured construction data: voice-first capture lets crews speak field observations in natural language, photos are paired with contextual field data, work is auto-assigned by scope, and stream-of-consciousness notes are converted into organized daily logs. ZeroPunch offers a two-way integration with Procore for project-management sync. The company positions itself around the daily needs of the people actually doing the work, aiming to make construction operations smarter and faster. As of this profile DAERO publishes no public developer API, SDK, or developer portal; integration is partnership-level (Procore) and inquiries go to support@daerogroup.com. Backed by Threshold Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daero-group/refs/heads/main/screenshots/daero-group-2026-07-25T211124.png",
-     "score": 6.0,
+     "name": "Angie’s List",
+     "slug": "angies-list",
+     "description": "Angie’s List is a consumer marketplace for finding, reviewing, and hiring local home-service professionals — plumbers, electricians, roofers, landscapers, house cleaners, and hundreds of other trades. Founded in 1995 by Angie Hicks and William Oesterle, it pioneered member-submitted, verified reviews and letter-grade ratings of service providers across U.S. metro markets. In 2017 Angie’s List merged with HomeAdvisor to form ANGI Homeservices (now Angi Inc., NASDAQ: ANGI, part of IAC), and in 2021 the consumer brand and website were rebranded from angieslist.com to angi.com. Angi is a consumer/pro home-services platform and does not currently publish a public developer API program; this API Evangelist profile tracks its public web and security surface. Surfaced as a portfolio company of Battery Ventures.",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6600,21 +6599,21 @@
      "rank": 147
     },
     {
-     "name": "Angie’s List",
-     "slug": "angies-list",
-     "description": "Angie’s List is a consumer marketplace for finding, reviewing, and hiring local home-service professionals — plumbers, electricians, roofers, landscapers, house cleaners, and hundreds of other trades. Founded in 1995 by Angie Hicks and William Oesterle, it pioneered member-submitted, verified reviews and letter-grade ratings of service providers across U.S. metro markets. In 2017 Angie’s List merged with HomeAdvisor to form ANGI Homeservices (now Angi Inc., NASDAQ: ANGI, part of IAC), and in 2021 the consumer brand and website were rebranded from angieslist.com to angi.com. Angi is a consumer/pro home-services platform and does not currently publish a public developer API program; this API Evangelist profile tracks its public web and security surface. Surfaced as a portfolio company of Battery Ventures.",
-     "score": 5.7,
+     "name": "Seekster",
+     "slug": "seekster",
+     "description": "Seekster is a Bangkok, Thailand based technology company operating an on-demand home and business services marketplace alongside a field service management (FSM) platform used by enterprises to dispatch, schedule, and manage service technicians. The consumer marketplace connects customers with vetted providers for cleaning, maintenance, repair, and facility services, while the SaaS product gives businesses workforce management, job tracking, and customer booking tools. Seekster is a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline; at the time of enrichment the public website deployment was offline (HTTP 402 / DEPLOYMENT_DISABLED) and no public API specification, SDK, or developer portal could be located.",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6640,48 +6639,6 @@
       "agentic_commerce": false
      },
      "rank": 148
-    },
-    {
-     "name": "Seekster",
-     "slug": "seekster",
-     "description": "Seekster is a Bangkok, Thailand based technology company operating an on-demand home and business services marketplace alongside a field service management (FSM) platform used by enterprises to dispatch, schedule, and manage service technicians. The consumer marketplace connects customers with vetted providers for cleaning, maintenance, repair, and facility services, while the SaaS product gives businesses workforce management, job tracking, and customer booking tools. Seekster is a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline; at the time of enrichment the public website deployment was offline (HTTP 402 / DEPLOYMENT_DISABLED) and no public API specification, SDK, or developer portal could be located.",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 149
     },
     {
      "name": "Ahlijasa",
@@ -6726,7 +6683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Ciridae",
@@ -6744,7 +6701,50 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 150
+    },
+    {
+     "name": "Crews By Core *",
+     "slug": "crews-by-core",
+     "description": "Crews by Core was a construction field-execution platform based in Palo Alto, California (with a Tokyo office), founded and led by CEO Di-Ann Eisnor. Branded \"Mission Control for the Field,\" its mobile-first product gave superintendents and foremen a single tool for lookahead scheduling, jobsite logistics, drawings, and field-to-office messaging, layered with AI-driven risk detection to quantify and mitigate schedule and financial risk on the jobsite. The company was backed by GV (Google Ventures) among ten investors and was acquired by construction IoT company WakeCap on July 1, 2024, folding its scheduling and communication tooling into WakeCap's worker-productivity sensor platform. Crews by Core did not expose a public developer API; this profile documents the company for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crews-by-core/refs/heads/main/screenshots/crews-by-core-2026-07-25T210732.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6772,10 +6772,9 @@
      "rank": 151
     },
     {
-     "name": "Crews By Core *",
-     "slug": "crews-by-core",
-     "description": "Crews by Core was a construction field-execution platform based in Palo Alto, California (with a Tokyo office), founded and led by CEO Di-Ann Eisnor. Branded \"Mission Control for the Field,\" its mobile-first product gave superintendents and foremen a single tool for lookahead scheduling, jobsite logistics, drawings, and field-to-office messaging, layered with AI-driven risk detection to quantify and mitigate schedule and financial risk on the jobsite. The company was backed by GV (Google Ventures) among ten investors and was acquired by construction IoT company WakeCap on July 1, 2024, folding its scheduling and communication tooling into WakeCap's worker-productivity sensor platform. Crews by Core did not expose a public developer API; this profile documents the company for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crews-by-core/refs/heads/main/screenshots/crews-by-core-2026-07-25T210732.png",
+     "name": "Dexterra",
+     "slug": "dexterra",
+     "description": "Dexterra was a mobile workforce management software startup that built a mobile application platform for managing and optimizing field/mobile operations. Backed by Canaan Partners along with New Enterprise Associates, Intel Capital, Motorola Solutions Venture Capital, and Mesirow Financial, the company raised roughly $108M across its rounds. Dexterra was acquired by Antenna Software in June 2009 and no longer operates as an independent entity; it has no active developer program, public API, or developer portal. This profile is retained as a Canaan Partners portfolio lead for network completeness.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6787,7 +6786,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6815,9 +6814,9 @@
      "rank": 152
     },
     {
-     "name": "Dexterra",
-     "slug": "dexterra",
-     "description": "Dexterra was a mobile workforce management software startup that built a mobile application platform for managing and optimizing field/mobile operations. Backed by Canaan Partners along with New Enterprise Associates, Intel Capital, Motorola Solutions Venture Capital, and Mesirow Financial, the company raised roughly $108M across its rounds. Dexterra was acquired by Antenna Software in June 2009 and no longer operates as an independent entity; it has no active developer program, public API, or developer portal. This profile is retained as a Canaan Partners portfolio lead for network completeness.",
+     "name": "Geekatoo",
+     "slug": "geekatoo",
+     "description": "Geekatoo was a Walnut Creek, California on-demand, in-home technology support marketplace that connected consumers to a nationwide network of vetted local technicians for computer repair, network troubleshooting, TV mounting, and home-theater/smart-home installation using a fixed-price and competitive-bid model positioned as an alternative to retail services like Geek Squad. Founded in 2013, it went through the 500 Startups accelerator (sixth batch) and raised roughly $2.2M from backers including 500 Startups, CRCM Venture Capital, DeNA, MicroVentures, and Wefunder. In May 2016 Geekatoo merged with Los Angeles-based HelloTech to form one of the largest on-demand in-home tech support networks in the US; the standalone Geekatoo brand and website (geekatoo.com) are no longer operational. This API Evangelist profile is a 500 Global portfolio lead retained for historical record; the enrichment pipeline found no live developer surface, API, or documentation to harvest.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6829,7 +6828,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6857,9 +6856,10 @@
      "rank": 153
     },
     {
-     "name": "Geekatoo",
-     "slug": "geekatoo",
-     "description": "Geekatoo was a Walnut Creek, California on-demand, in-home technology support marketplace that connected consumers to a nationwide network of vetted local technicians for computer repair, network troubleshooting, TV mounting, and home-theater/smart-home installation using a fixed-price and competitive-bid model positioned as an alternative to retail services like Geek Squad. Founded in 2013, it went through the 500 Startups accelerator (sixth batch) and raised roughly $2.2M from backers including 500 Startups, CRCM Venture Capital, DeNA, MicroVentures, and Wefunder. In May 2016 Geekatoo merged with Los Angeles-based HelloTech to form one of the largest on-demand in-home tech support networks in the US; the standalone Geekatoo brand and website (geekatoo.com) are no longer operational. This API Evangelist profile is a 500 Global portfolio lead retained for historical record; the enrichment pipeline found no live developer surface, API, or documentation to harvest.",
+     "name": "Hassle",
+     "slug": "hassle",
+     "description": "Hassle.com was a London-based on-demand home-cleaning marketplace, founded in 2012 by Alex Depledge and Jules Coleman, connecting households with vetted local cleaners for one-off and recurring bookings. Backed by Accel Partners, it was acquired by Rocket Internet-backed Helpling in July 2015 for a reported EUR 32 million to form one of the world's largest home-cleaning marketplaces. The Hassle.com brand was subsequently folded into Helpling, whose UK operations have since ceased; the domain now redirects to Helpling. The company operates a consumer-facing web/mobile booking product and exposes no public developer API, SDK, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hassle/refs/heads/main/screenshots/hassle-2026-07-25T220748.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6871,7 +6871,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6897,49 +6897,6 @@
       "agentic_commerce": false
      },
      "rank": 154
-    },
-    {
-     "name": "Hassle",
-     "slug": "hassle",
-     "description": "Hassle.com was a London-based on-demand home-cleaning marketplace, founded in 2012 by Alex Depledge and Jules Coleman, connecting households with vetted local cleaners for one-off and recurring bookings. Backed by Accel Partners, it was acquired by Rocket Internet-backed Helpling in July 2015 for a reported EUR 32 million to form one of the world's largest home-cleaning marketplaces. The Hassle.com brand was subsequently folded into Helpling, whose UK operations have since ceased; the domain now redirects to Helpling. The company operates a consumer-facing web/mobile booking product and exposes no public developer API, SDK, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hassle/refs/heads/main/screenshots/hassle-2026-07-25T220748.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 155
     },
     {
      "name": "HomeJoy",
@@ -6983,7 +6940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Homigo",
@@ -7000,7 +6957,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7025,7 +6982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "iMedeon",
@@ -7069,7 +7026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Kaodim",
@@ -7087,7 +7044,50 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 158
+    },
+    {
+     "name": "Keepe",
+     "slug": "keepe",
+     "description": "Keepe operates a US nationwide service-provider network of vetted technicians covering HVAC, plumbing, electrical, furnace and heating, air conditioning, home appliances, and EV charger installation and repair. The platform streamlines the full home-services workflow end to end - recruiting, sourcing, dispatching, authorizing, and paying qualified technicians - so property managers, warranty companies, and insurers can get high-quality repair work completed reliably across markets. Keepe runs a consumer/technician mobile app and a private application backend at api.keepe.com; it does not publish a public developer API, developer portal, or API documentation. This profile was surfaced as a Techstars portfolio company and enriched by the API Evangelist pipeline with the infrastructure signals that are publicly observable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keepe/refs/heads/main/screenshots/keepe-2026-07-25T223555.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7115,10 +7115,10 @@
      "rank": 159
     },
     {
-     "name": "Keepe",
-     "slug": "keepe",
-     "description": "Keepe operates a US nationwide service-provider network of vetted technicians covering HVAC, plumbing, electrical, furnace and heating, air conditioning, home appliances, and EV charger installation and repair. The platform streamlines the full home-services workflow end to end - recruiting, sourcing, dispatching, authorizing, and paying qualified technicians - so property managers, warranty companies, and insurers can get high-quality repair work completed reliably across markets. Keepe runs a consumer/technician mobile app and a private application backend at api.keepe.com; it does not publish a public developer API, developer portal, or API documentation. This profile was surfaced as a Techstars portfolio company and enriched by the API Evangelist pipeline with the infrastructure signals that are publicly observable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keepe/refs/heads/main/screenshots/keepe-2026-07-25T223555.png",
+     "name": "PaintZen",
+     "slug": "paintzen",
+     "description": "PaintZen is a residential painting services platform that connects homeowners with vetted professional painters, offering instant online quotes and booking for interior and exterior painting, deck staining, epoxy flooring, and drywall repair. Backed by Bullpen Capital, the company operates its proprietary Zenify platform and now runs under Arch Painting out of Woburn, Massachusetts. As of this enrichment pass PaintZen publishes a consumer-facing website with online quoting and financing but no public developer program, API documentation, SDKs, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paintzen/refs/heads/main/screenshots/paintzen-2026-08-07T191306.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7130,7 +7130,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7158,49 +7158,6 @@
      "rank": 160
     },
     {
-     "name": "PaintZen",
-     "slug": "paintzen",
-     "description": "PaintZen is a residential painting services platform that connects homeowners with vetted professional painters, offering instant online quotes and booking for interior and exterior painting, deck staining, epoxy flooring, and drywall repair. Backed by Bullpen Capital, the company operates its proprietary Zenify platform and now runs under Arch Painting out of Woburn, Massachusetts. As of this enrichment pass PaintZen publishes a consumer-facing website with online quoting and financing but no public developer program, API documentation, SDKs, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paintzen/refs/heads/main/screenshots/paintzen-2026-08-07T191306.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 161
-    },
-    {
      "name": "Porch",
      "slug": "porch",
      "description": "Porch Group is a home services and home insurance platform operating across the full lifecycle of the home. Trading on Nasdaq as PRCH, the company combines a vertical software business for home inspectors, moving companies, title and mortgage providers, and contractors with a consumer-facing home insurance carrier (Porch Insurance Reciprocal Exchange), home warranty, and a moving-concierge app that helps homeowners set up utilities, security, and services. Porch reaches a large share of U.S. homebuyers each year through its inspection-software network, using that unique early-in-the-home-lifecycle data to power insurance, warranty, and moving offerings. This profile was seeded as a Battery Ventures portfolio lead and enriched by the API Evangelist pipeline; Porch publishes no public developer API, but it does operate a responsible disclosure program and RFC 9116 security.txt.",
@@ -7216,7 +7173,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7248,7 +7205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Powerplay",
@@ -7266,7 +7223,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7291,7 +7248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "Red Beacon",
@@ -7335,7 +7292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "ServiceMaster Global Holdings",
@@ -7352,7 +7309,49 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 164
+    },
+    {
+     "name": "Smith",
+     "slug": "smith",
+     "description": "Smith (GoSmith, Inc.) was an app- and web-based marketplace for home-improvement and remodeling services, founded in 2012 in Sunnyvale, California and part of the 500 Startups (500 Global) accelerator's 8th batch in 2014. Homeowners listed a project to receive quotes from up to five researched and vetted local contractors, with scheduling and payment tooling for the professionals. As of this enrichment pass the gosmith.com domain still resolves (AWS/Google Workspace DNS) but serves no website (HTTP/HTTPS connections time out), and the company exposes no public developer API, documentation, or SDKs.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7380,9 +7379,9 @@
      "rank": 165
     },
     {
-     "name": "Smith",
-     "slug": "smith",
-     "description": "Smith (GoSmith, Inc.) was an app- and web-based marketplace for home-improvement and remodeling services, founded in 2012 in Sunnyvale, California and part of the 500 Startups (500 Global) accelerator's 8th batch in 2014. Homeowners listed a project to receive quotes from up to five researched and vetted local contractors, with scheduling and payment tooling for the professionals. As of this enrichment pass the gosmith.com domain still resolves (AWS/Google Workspace DNS) but serves no website (HTTP/HTTPS connections time out), and the company exposes no public developer API, documentation, or SDKs.",
+     "name": "StarOfService",
+     "slug": "starofservice",
+     "description": "StarOfService is an online local-services marketplace that connects consumers with vetted service professionals across home improvement, events, wellness, lessons, and business services. Headquartered in France and operating across multiple European markets, the platform matches customer project requests to nearby providers and facilitates quotes and messaging between them. Surfaced as a portfolio company of Point Nine and profiled in the API Evangelist network; the company exposes a consumer web marketplace and has no public developer API surface at this time.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7394,7 +7393,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7422,9 +7421,10 @@
      "rank": 166
     },
     {
-     "name": "StarOfService",
-     "slug": "starofservice",
-     "description": "StarOfService is an online local-services marketplace that connects consumers with vetted service professionals across home improvement, events, wellness, lessons, and business services. Headquartered in France and operating across multiple European markets, the platform matches customer project requests to nearby providers and facilitates quotes and messaging between them. Surfaced as a portfolio company of Point Nine and profiled in the API Evangelist network; the company exposes a consumer web marketplace and has no public developer API surface at this time.",
+     "name": "Taskty",
+     "slug": "taskty",
+     "description": "Taskty (تاسكتى) is an Egypt-based online marketplace for on-demand home services, connecting customers with vetted service providers for residential cleaning, furniture and upholstery care, eco-friendly pest control, and home maintenance including plumbing, electrical, painting, carpentry, marble, aluminum, and air-conditioning work. The platform is delivered primarily through consumer iOS and Android mobile apps plus a web presence, with booking, dispatch, and WhatsApp/phone support. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass Taskty publishes no public developer portal, API documentation, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/taskty/refs/heads/main/screenshots/taskty-2026-09-02T162553.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7436,7 +7436,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7464,49 +7464,6 @@
      "rank": 167
     },
     {
-     "name": "Taskty",
-     "slug": "taskty",
-     "description": "Taskty (تاسكتى) is an Egypt-based online marketplace for on-demand home services, connecting customers with vetted service providers for residential cleaning, furniture and upholstery care, eco-friendly pest control, and home maintenance including plumbing, electrical, painting, carpentry, marble, aluminum, and air-conditioning work. The platform is delivered primarily through consumer iOS and Android mobile apps plus a web presence, with booking, dispatch, and WhatsApp/phone support. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass Taskty publishes no public developer portal, API documentation, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/taskty/refs/heads/main/screenshots/taskty-2026-09-02T162553.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 168
-    },
-    {
      "name": "Kwest",
      "slug": "kwest",
      "description": "Kwest was a Berlin-based B2B SaaS platform for the operations behind renewable-energy installations. Founded by Robin Dechant, Marco Holst and Constantin Ehren, it gave solar, heat-pump and smart-meter installers a workflow platform covering project management, inspection documentation, automated report creation and incident management, plus integrations that synced installation data with the CRM, ERP and field-service tools those companies already ran (Salesforce, HubSpot, Pipedrive, Dynamics 365, Odoo, Xentral, weclapp, Zoho, Aurora Solar, Solytic, Praxedo, Zapier and others). Speedinvest invested in 2021. In 2024 Kwest was acquired by Kraken Technologies, the technology arm of Octopus Energy Group, which folded the Kwest workflow platform into the Kraken stack and opened its first development hub in Berlin around the seven-person team. Kwest published no public API or developer program, and the company no longer operates independently - its former getkwest.com domain has lapsed and now serves unrelated third-party content, so it is recorded here as historical only and is not linked as a live website.",
@@ -7522,7 +7479,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7554,7 +7511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 168
     }
    ]
   }

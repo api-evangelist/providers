@@ -20,16 +20,17 @@ created: '2026-07-17'
 description: 'Mech Mocha is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: mobile. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mech-mocha.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Mech Mocha
 nav: Providers
 network: true
-overview: Mech Mocha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Mobile.
+overview: Mech Mocha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, and Defunct.
 random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/mech-mocha/refs/heads/main/screenshots/mech-mocha-2026-08-07T172307.png
 slug: mech-mocha
 tags:
 - Company
 - Mobile
+- Defunct
 website: http://www.mechmocha.com
 ---

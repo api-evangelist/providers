@@ -32,18 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
-description: 'IZOIC&#8217;s is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting the enrichment pipeline.'
+description: 'IZOIC’s is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/izoic-and-8217-s.png
 layout: provider
 modified: '2026-07-20'
-name: IZOIC&#8217;s
+name: IZOIC’s
 nav: Providers
 network: true
-overview: IZOIC&#8217;s is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Government.
+overview: IZOIC’s is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Government.
 random_paper: 7
 score:
   band: minimal
@@ -79,7 +79,7 @@ score:
     regime_id: government
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 4
 apis:
 - description: Manage Proficy Historian systems, collectors, collector instances, data stores, tags, the Historian model and alarms and events, and query time-series tag samples with a choice of sampling, calculatio
@@ -317,7 +317,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

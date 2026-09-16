@@ -20,7 +20,7 @@ created: '2026-07-17'
 description: gohoo was a boutique e-commerce company based in Hangzhou, China (founded circa 2001) that linked high-quality goods to supplier channels by integrating the factory supply chain to reduce brand premium. It raised a seed round in 2018 and a Series A in March 2019 with backing from Qiming Venture Partners and Bertelsmann Asia Investments. The company is no longer active (deadpooled), and its gohoo.com domain now redirects to an atom.com domain-for-sale landing page. No live company website, developer portal, documentation, or public API surface exists, so there is nothing to enrich beyond this honest identity record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gohoo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-15'
 name: gohoo
 nav: Providers
 network: true
@@ -35,5 +35,6 @@ tags:
 - Supply Chain
 - China
 - Deadpooled
+- Defunct
 website: https://gohoo.com
 ---

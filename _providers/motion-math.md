@@ -19,7 +19,7 @@ created: '2026-07-17'
 description: Motion Math was an educational math-games company (500 Global portfolio) whose products were acquired by Curriculum Associates and folded into the i-Ready learning platform. As of the enrichment probe (2026-07-20) the motionmathgames.com domain and every subdomain (developer/api/docs) return a 301 redirect to curriculumassociates.com/products/i-ready/i-ready-learning/motionmath-shutdown, and the site shares a wildcard TLS certificate with i-ready.com. The company publishes no independent API, developer portal, documentation, SDK, or /.well-known discovery surface — this profile is retained as a network record of a defunct/acquired provider with no API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motion-math.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Motion Math
 nav: Providers
 network: true
@@ -34,5 +34,6 @@ tags:
 - Math
 - Games
 - Acquired
+- Defunct
 website: https://motionmathgames.com
 ---

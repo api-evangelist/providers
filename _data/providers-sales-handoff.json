@@ -1,6 +1,6 @@
 {
- "total": 155,
- "shown": 155,
+ "total": 154,
+ "shown": 154,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 49.6,
      "agent_band": "agent-ready",
@@ -70,7 +70,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -121,7 +121,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-native",
@@ -165,7 +165,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 54.7,
      "agent_band": "agent-ready",
@@ -208,7 +208,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
@@ -252,7 +252,7 @@
       "developer_ergonomics": 84.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 41.0,
      "agent_band": "agent-native",
@@ -295,7 +295,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -339,7 +339,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -397,7 +397,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 55.6,
      "agent_band": "agent-ready",
@@ -441,7 +441,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -485,7 +485,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -536,7 +536,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 65.6,
      "agent_band": "agent-native",
@@ -579,7 +579,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -629,7 +629,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
@@ -673,7 +673,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -723,7 +723,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
@@ -766,7 +766,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -810,7 +810,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
@@ -854,7 +854,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -905,7 +905,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.0,
      "agent_band": "agent-ready",
@@ -940,8 +940,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 40,
-   "shown": 40,
+   "count": 39,
+   "shown": 39,
    "providers": [
     {
      "name": "Vendasta",
@@ -959,7 +959,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 40.8,
      "agent_band": "agent-native",
@@ -1002,7 +1002,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
@@ -1045,7 +1045,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -1088,7 +1088,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 65.6,
      "agent_band": "agent-native",
@@ -1132,7 +1132,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -1176,7 +1176,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1227,7 +1227,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-native",
@@ -1270,7 +1270,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 63.8,
      "agent_band": "agent-native",
@@ -1313,7 +1313,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 60.6,
      "agent_band": "agent-ready",
@@ -1356,7 +1356,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
@@ -1399,7 +1399,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 37.0,
      "agent_band": "agent-ready",
@@ -1443,7 +1443,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -1487,7 +1487,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1530,7 +1530,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1588,7 +1588,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -1632,7 +1632,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
@@ -1675,7 +1675,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 49.3,
      "agent_band": "agent-ready",
@@ -1719,7 +1719,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1770,7 +1770,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1828,7 +1828,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
@@ -1857,49 +1857,6 @@
      "rank": 40
     },
     {
-     "name": "Tackle",
-     "slug": "tackle",
-     "description": "Tackle is a Cloud Go-To-Market (Cloud GTM) platform that helps software companies sell through the AWS, Microsoft Azure, and Google Cloud marketplaces. Its developer APIs (developers.tackle.io) automate the full marketplace workflow: creating and managing private offers on AWS and Microsoft, AWS Partner Central co-sell opportunities and invitations, public contracts, metered usage reporting, disbursements and invoices, buyer prospecting (propensity-to-buy domain scoring), and SCIM 2.0 user provisioning. Authentication is machine-to-machine JWT (client_id/client_secret exchanged for a Bearer token), and vendors receive marketplace lifecycle events via registered, authenticated webhooks. Tackle is backed by a16z and publishes a SafeBase trust center (SOC 2 Type II, GDPR).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/screenshots/tackle-2026-08-17T082242.png",
-     "score": 59.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 47.0,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 41
-    },
-    {
      "name": "LinkedIn Marketing API",
      "slug": "linkedin-ads",
      "description": "The LinkedIn Marketing API Program provides REST APIs that help businesses create LinkedIn marketing campaigns, report on campaign performance, manage leads from Lead Gen Forms, target matched audiences, and grow company Pages. It covers Advertising, Reporting and Analytics, Lead Sync, Matched Audiences, Audience Insights, Media Planning, Conversions, Community Management, Event Management, and Company Intelligence APIs. Authentication uses OAuth 2.0 three-legged (authorization code) flow with versioned API access.",
@@ -1915,7 +1872,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -1940,7 +1897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Creatio",
@@ -1958,7 +1915,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1983,7 +1940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Syft Data",
@@ -2001,7 +1958,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -2026,7 +1983,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Navattic",
@@ -2044,7 +2001,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 45.7,
      "agent_band": "agent-native",
@@ -2069,7 +2026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Sendspark",
@@ -2087,7 +2044,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 56.8,
      "agent_band": "agent-ready",
@@ -2112,7 +2069,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Nutshell",
@@ -2130,7 +2087,7 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
@@ -2156,7 +2113,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "RB2B",
@@ -2174,7 +2131,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -2199,7 +2156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "LeanData",
@@ -2217,7 +2174,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 53.4,
      "agent_band": "agent-ready",
@@ -2242,7 +2199,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Act-On",
@@ -2260,7 +2217,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -2286,7 +2243,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Adapt",
@@ -2304,7 +2261,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -2329,7 +2286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "NextRoll",
@@ -2347,7 +2304,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -2373,7 +2330,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Warmly",
@@ -2391,7 +2348,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -2416,7 +2373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Endgame",
@@ -2434,7 +2391,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
@@ -2459,7 +2416,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Salesforce Marketing Cloud Account Engagement (Pardot)",
@@ -2477,7 +2434,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -2503,7 +2460,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Sumble",
@@ -2521,7 +2478,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 61.5,
      "agent_band": "agent-ready",
@@ -2546,7 +2503,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "VBOUT",
@@ -2564,7 +2521,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -2590,7 +2547,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "LeadSquared",
@@ -2608,7 +2565,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -2634,7 +2591,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "WebinarJam",
@@ -2652,7 +2609,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -2677,7 +2634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "LeadIQ",
@@ -2695,7 +2652,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -2720,7 +2677,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     }
    ],
    "open": true
@@ -2749,7 +2706,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 48.4,
      "agent_band": "agent-native",
@@ -2775,7 +2732,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Uncodie (now Makinari)",
@@ -2793,7 +2750,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -2819,7 +2776,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "iContact",
@@ -2837,7 +2794,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -2863,6 +2820,49 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 62
+    },
+    {
+     "name": "CustomerOS",
+     "slug": "customeros",
+     "description": "CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, and attributes content and ad spend to real pipeline. The developer surface spans a first-party JavaScript website tracker installed behind a customer-owned reverse-proxy CNAME, a set of key-authenticated REST APIs published as OpenAPI in the company monorepo (CustomerBASE contacts and organizations, person and organization enrichment, email verification and IP intelligence, Mailstack sending domains and mailboxes, billing invoices, outreach tracking), a 34-operation Flow API for outbound sequencing, and the open-source customer-os-api GraphQL server that predates the pivot. CustomerOS also runs a live anonymous MCP server and serves an A2A agent card from its documentation host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/screenshots/customeros-2026-06-20T175351.png",
+     "score": 53.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 52.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 42.3,
+      "access_clarity": 82.9
+     },
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 31.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 63
     },
     {
@@ -2881,7 +2881,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
@@ -2924,7 +2924,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 42.2,
      "agent_band": "agent-ready",
@@ -2968,7 +2968,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -2997,49 +2997,6 @@
      "rank": 66
     },
     {
-     "name": "CustomerOS",
-     "slug": "customeros",
-     "description": "CustomerOS (formerly Openline) is a London-based revenue-intelligence platform for B2B go-to-market teams. It identifies anonymous website visitors, scores them against an ideal customer profile, infers buying stage from page engagement, and attributes content and ad spend to real pipeline. The developer surface spans a first-party JavaScript website tracker installed behind a customer-owned reverse-proxy CNAME, a set of key-authenticated REST APIs published as OpenAPI in the company monorepo (CustomerBASE contacts and organizations, person and organization enrichment, email verification and IP intelligence, Mailstack sending domains and mailboxes, billing invoices, outreach tracking), a 34-operation Flow API for outbound sequencing, and the open-source customer-os-api GraphQL server that predates the pivot. CustomerOS also runs a live anonymous MCP server and serves an A2A agent card from its documentation host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/screenshots/customeros-2026-06-20T175351.png",
-     "score": 52.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 52.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 82.9
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 31.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 67
-    },
-    {
      "name": "Mob.ly",
      "slug": "mobly",
      "description": "Mob.ly (Mobly) is an AI-powered in-person go-to-market platform — \"The Event Marketer's Operating System\" — that helps B2B teams plan events, capture and enrich leads in person, engage prospects, and measure pipeline across trade shows and in-real-life (IRL) marketing experiences. Its product suite spans Capture (universal lead capture and OCR badge/business-card scanning), Host (self-run activations, registration pages and Stripe-backed ticketing), Insights (dashboards and reporting), Pulse (speed-to-lead sequences and lead routing) and Scout (event discovery), with native integrations into HubSpot, Salesforce, Pardot, Marketo, Pipedrive, Zoho, Slack, Calendly and generic webhook destinations. Mobly publishes a JSON REST API (v0) at core-api.getmobly.com covering events, leads, lead activity events, activations, tag groups and industry events, authenticated with an organization API key issued by its customer success team. Headquartered in Lehi, Utah and backed by Uncork Capital and Jump Capital.",
@@ -3055,7 +3012,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -3080,7 +3037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Chatsimple",
@@ -3098,7 +3055,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -3123,7 +3080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "AutoLeadStar",
@@ -3141,7 +3098,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -3167,7 +3124,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "OptinMonster",
@@ -3185,7 +3142,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -3211,7 +3168,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Pinoffer",
@@ -3229,7 +3186,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3262,7 +3219,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Fullcast",
@@ -3280,7 +3237,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -3305,7 +3262,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Census",
@@ -3323,7 +3280,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3349,7 +3306,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Agile CRM",
@@ -3367,7 +3324,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -3393,7 +3350,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Seam AI",
@@ -3411,7 +3368,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -3436,7 +3393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "involve.me",
@@ -3454,7 +3411,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -3480,7 +3437,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Oracle Eloqua",
@@ -3498,7 +3455,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -3524,7 +3481,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "PersistIQ",
@@ -3542,7 +3499,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -3567,7 +3524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Windfall Data",
@@ -3585,7 +3542,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -3610,7 +3567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Hilos",
@@ -3628,7 +3585,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 36.1,
      "agent_band": "agent-ready",
@@ -3653,7 +3610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Nimble",
@@ -3671,7 +3628,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -3697,7 +3654,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Monaco",
@@ -3715,7 +3672,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 50.2,
      "agent_band": "agent-native",
@@ -3740,7 +3697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "Revnu",
@@ -3758,7 +3715,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -3784,7 +3741,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "WoowUp",
@@ -3802,7 +3759,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 52.9,
      "agent_band": "agent-ready",
@@ -3828,7 +3785,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Bonjoro",
@@ -3846,7 +3803,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -3872,7 +3829,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Demio",
@@ -3890,7 +3847,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -3916,7 +3873,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "MailOptin",
@@ -3934,7 +3891,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -3960,7 +3917,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "SharpSpring",
@@ -3978,7 +3935,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -4004,7 +3961,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Albacross",
@@ -4022,7 +3979,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -4047,7 +4004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "Metrilo",
@@ -4065,7 +4022,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -4091,7 +4048,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Gojiberry AI",
@@ -4109,7 +4066,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
@@ -4134,7 +4091,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Fxiaoke",
@@ -4152,7 +4109,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -4177,7 +4134,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "EasyWebinar",
@@ -4195,7 +4152,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -4220,7 +4177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Bombora",
@@ -4238,7 +4195,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
@@ -4264,7 +4221,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Rox",
@@ -4282,7 +4239,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -4307,7 +4264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Dealer.com",
@@ -4325,7 +4282,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -4350,7 +4307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Conversica",
@@ -4368,7 +4325,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4401,7 +4358,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Poptin",
@@ -4419,7 +4376,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -4445,7 +4402,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Channel99",
@@ -4463,7 +4420,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -4489,7 +4446,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Metadata",
@@ -4507,7 +4464,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
@@ -4533,7 +4490,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "CRM Bonus",
@@ -4551,7 +4508,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -4577,7 +4534,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Instapage",
@@ -4595,7 +4552,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -4620,7 +4577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Karumi",
@@ -4638,7 +4595,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 44.8,
      "agent_band": "agent-native",
@@ -4663,7 +4620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Ocean.io",
@@ -4681,7 +4638,7 @@
       "developer_ergonomics": 23.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 43.3,
      "agent_band": "agent-ready",
@@ -4706,7 +4663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "EZR",
@@ -4724,7 +4681,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -4750,7 +4707,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 106
+     "rank": 105
     }
    ]
   },
@@ -4778,7 +4735,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -4803,7 +4760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Docket",
@@ -4821,7 +4778,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -4847,7 +4804,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Mutiny",
@@ -4865,7 +4822,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -4890,7 +4847,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "FuseWP",
@@ -4907,7 +4864,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -4933,7 +4890,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "11x",
@@ -4951,7 +4908,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -4976,7 +4933,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "Mutiny HQ",
@@ -4994,7 +4951,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
@@ -5019,7 +4976,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "LeadGenius",
@@ -5037,7 +4994,7 @@
       "developer_ergonomics": 8.9,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -5062,7 +5019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Infutor",
@@ -5080,7 +5037,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5105,7 +5062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "DecisionLink",
@@ -5123,7 +5080,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -5148,7 +5105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "PlusThis",
@@ -5166,7 +5123,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5199,7 +5156,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Push",
@@ -5217,7 +5174,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5250,7 +5207,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Jifflenow",
@@ -5268,7 +5225,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5293,7 +5250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "BlueOcean",
@@ -5311,7 +5268,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -5337,7 +5294,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Terminus",
@@ -5355,7 +5312,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5380,7 +5337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "USADATA, Inc.",
@@ -5398,7 +5355,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -5423,7 +5380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Passionfroot",
@@ -5441,7 +5398,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5480,7 +5437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Salesgraph",
@@ -5498,7 +5455,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 43.8,
      "agent_band": "agent-native",
@@ -5523,7 +5480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Arphie",
@@ -5541,7 +5498,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -5566,7 +5523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Giveffect",
@@ -5584,7 +5541,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5610,7 +5567,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Cheerfy",
@@ -5628,7 +5585,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5668,7 +5625,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Yesware",
@@ -5686,7 +5643,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5712,7 +5669,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "1mind",
@@ -5730,7 +5687,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -5755,7 +5712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Capterra",
@@ -5772,7 +5729,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5798,7 +5755,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Replyr.ai",
@@ -5816,7 +5773,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5848,7 +5805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "InsightEra",
@@ -5866,7 +5823,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -5892,7 +5849,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "OneShot",
@@ -5910,7 +5867,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5935,7 +5892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     }
    ]
   },
@@ -5963,7 +5920,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -5988,7 +5945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Ematic Solutions",
@@ -6006,7 +5963,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -6032,7 +5989,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Advantage Solutions",
@@ -6050,7 +6007,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -6075,7 +6032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "Groupboss",
@@ -6093,7 +6050,51 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 135
+    },
+    {
+     "name": "Heyo",
+     "slug": "heyo",
+     "description": "Heyo is a social marketing platform for building and running online promotions such as sweepstakes, contests, giveaways, quizzes, and coupons. Businesses use Heyo's drag-and-drop campaign builder and landing pages to create interactive campaign apps that publish to the web, mobile, and social networks including Facebook, Instagram, and Twitter. It is used to grow email marketing lists, generate sales leads, acquire new customers, reward existing customers, and increase social followers, with templated promotion apps and a free trial. Heyo is a portfolio company of 500 Global and was acquired by Votigo, Inc. in January 2016, continuing to operate as a stand-alone self-serve brand. Heyo publishes no public API, SDK or developer portal; the product is used entirely through the web dashboard at platform.heyo.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heyo/refs/heads/main/screenshots/heyo-2026-07-25T221123.png",
+     "score": 22.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6122,22 +6123,21 @@
      "rank": 136
     },
     {
-     "name": "Heyo",
-     "slug": "heyo",
-     "description": "Heyo is a social marketing platform for building and running online promotions such as sweepstakes, contests, giveaways, quizzes, and coupons. Businesses use Heyo's drag-and-drop campaign builder and landing pages to create interactive campaign apps that publish to the web, mobile, and social networks including Facebook, Instagram, and Twitter. It is used to grow email marketing lists, generate sales leads, acquire new customers, reward existing customers, and increase social followers, with templated promotion apps and a free trial. Heyo is a portfolio company of 500 Global and was acquired by Votigo, Inc. in January 2016, continuing to operate as a stand-alone self-serve brand. Heyo publishes no public API, SDK or developer portal; the product is used entirely through the web dashboard at platform.heyo.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heyo/refs/heads/main/screenshots/heyo-2026-07-25T221123.png",
-     "score": 22.4,
+     "name": "Alyce",
+     "slug": "alyce",
+     "description": "Alyce is an AI-powered corporate gifting platform that enables B2B sales, marketing, and customer success teams to send hyper-personalized gifts at scale. The platform provides a REST API for sending personalized gifts, tracking gift acceptance and engagement, managing budgets and marketplaces, and integrating with CRM and marketing automation tools including Salesforce, HubSpot, Marketo, Eloqua, Outreach, and Salesloft. Alyce, Inc. was acquired by Sendoso in February 2024 and operated as \"Alyce by Sendoso\"; the standalone Alyce product surface has since been decommissioned — as of August 2026 the alyce.com apex and every product subdomain (www, app, api, docs, dashboard, recipient) no longer resolve, the documentation host returns a Cloudflare origin error, and the status page is inactive. This profile is retained as a historical record.",
+     "score": 22.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
+      "discoverability": 68.5,
+      "contract_quality": 10.7,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 76.3
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 39.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6166,49 +6166,6 @@
      "rank": 137
     },
     {
-     "name": "Alyce",
-     "slug": "alyce",
-     "description": "Alyce is an AI-powered corporate gifting platform that enables B2B sales, marketing, and customer success teams to send hyper-personalized gifts at scale. The platform provides a REST API for sending personalized gifts, tracking gift acceptance and engagement, managing budgets and marketplaces, and integrating with CRM and marketing automation tools including Salesforce, HubSpot, Marketo, Eloqua, Outreach, and Salesloft. Alyce, Inc. was acquired by Sendoso in February 2024 and operated as \"Alyce by Sendoso\"; the standalone Alyce product surface has since been decommissioned — as of August 2026 the alyce.com apex and every product subdomain (www, app, api, docs, dashboard, recipient) no longer resolve, the documentation host returns a Cloudflare origin error, and the status page is inactive. This profile is retained as a historical record.",
-     "score": 22.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 138
-    },
-    {
      "name": "Commsor",
      "slug": "commsor",
      "description": "Commsor is a go-to-network (GTN) platform for B2B revenue teams. It maps the collective relationship graph of a company's employees, executives, investors, advisors, customers and community, then surfaces the warmest path into a target account so sellers and marketers can source pipeline through trusted introductions and referrals instead of cold outbound. The platform ingests relationship and engagement data from connected systems (HubSpot CRM, uploaded lists, and other connectors), scores network signals against company events, and routes intro requests to the person best placed to make them. Commsor previously operated a community-operations analytics platform and publishes a knowledge base, a Go-to-Network methodology curriculum (GTN University), guides and a blog. It does not currently publish a public developer portal, OpenAPI definition, or self-serve API documentation; a legacy REST API was enabled per-account on request during the community-platform era, and a Zapier app remains the documented programmatic write path. On 2026-07-23 The Swarm announced it is acquiring Commsor and winding down the Commsor products, folding selected features into The Swarm; no product sunset date has been published and the application and status page remain live.",
@@ -6224,7 +6181,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6249,7 +6206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Spotwise, Inc.",
@@ -6267,7 +6224,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -6293,7 +6250,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Saleo",
@@ -6311,7 +6268,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6336,7 +6293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "Imagine Ai",
@@ -6354,7 +6311,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6379,7 +6336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Indigov",
@@ -6397,7 +6354,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6430,7 +6387,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "Customer Database",
@@ -6448,7 +6405,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 1.3,
      "agent_band": "human-only",
@@ -6474,7 +6431,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Pico",
@@ -6492,7 +6449,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6525,7 +6482,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Cuponomia",
@@ -6542,7 +6499,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6567,7 +6524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Triblio",
@@ -6585,7 +6542,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6611,7 +6568,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 147
+     "rank": 146
     }
    ]
   },
@@ -6639,7 +6596,50 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 147
+    },
+    {
+     "name": "Cardinal",
+     "slug": "trycardinal-ai",
+     "description": "Cardinal is an AI platform for precision outbound sales — it markets itself as \"revenue agents for high-growth companies\" — built for go-to-market teams that want outbound to run as one engine instead of a stack of disconnected tools. Its agents build and refresh account lists from signals, monitor what prospects post and engage with, generate personalized snippets, and orchestrate end-to-end email and LinkedIn plays, while capturing inbound from website visitors, product signups and ad impressions. The company is a Y Combinator Winter 2026 company founded by Devishi Jha and Jianna Liu, based in San Francisco, and names Mintlify, Deepgram, Greptile, Giga and Luminai among its customers. Cardinal moved its primary web presence from trycardinal.ai to trycardinal.com during 2026: https://trycardinal.ai/ now HTTP 301s to https://www.trycardinal.com/ and the former deep pages on the .ai domain (/company, /product) return 404, though the company still runs its customer application, its email and its analytics identity on trycardinal.ai. The product is sold as half-software and half-service (\"we wire into your existing stack and build agents around plays that already work for you\"), delivered through a customer app at app.trycardinal.ai behind a Stytch login, with a Calendly GTM chat as the only publicly reachable entry point. It reads from and writes back to customer CRMs and says it adds a new integration every two weeks, but names none of them publicly and publishes no outbound API of its own: across four hosts on two domains this pass found no OpenAPI, GraphQL SDL, AsyncAPI, MCP server, agent card, webhook catalog, SDK, CLI, developer portal or documentation site. docs.trycardinal.ai does not resolve in DNS, api.trycardinal.ai is a dangling custom domain whose Render origin answers x-render-routing: no-server, and every /api/* path on the customer app returns HTTP 401 {\"error\":\"Unauthorized\"}.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trycardinal-ai/refs/heads/main/screenshots/trycardinal-ai-2026-09-02T164437.png",
+     "score": 9.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6667,22 +6667,21 @@
      "rank": 148
     },
     {
-     "name": "Cardinal",
-     "slug": "trycardinal-ai",
-     "description": "Cardinal is an AI platform for precision outbound sales — it markets itself as \"revenue agents for high-growth companies\" — built for go-to-market teams that want outbound to run as one engine instead of a stack of disconnected tools. Its agents build and refresh account lists from signals, monitor what prospects post and engage with, generate personalized snippets, and orchestrate end-to-end email and LinkedIn plays, while capturing inbound from website visitors, product signups and ad impressions. The company is a Y Combinator Winter 2026 company founded by Devishi Jha and Jianna Liu, based in San Francisco, and names Mintlify, Deepgram, Greptile, Giga and Luminai among its customers. Cardinal moved its primary web presence from trycardinal.ai to trycardinal.com during 2026: https://trycardinal.ai/ now HTTP 301s to https://www.trycardinal.com/ and the former deep pages on the .ai domain (/company, /product) return 404, though the company still runs its customer application, its email and its analytics identity on trycardinal.ai. The product is sold as half-software and half-service (\"we wire into your existing stack and build agents around plays that already work for you\"), delivered through a customer app at app.trycardinal.ai behind a Stytch login, with a Calendly GTM chat as the only publicly reachable entry point. It reads from and writes back to customer CRMs and says it adds a new integration every two weeks, but names none of them publicly and publishes no outbound API of its own: across four hosts on two domains this pass found no OpenAPI, GraphQL SDL, AsyncAPI, MCP server, agent card, webhook catalog, SDK, CLI, developer portal or documentation site. docs.trycardinal.ai does not resolve in DNS, api.trycardinal.ai is a dangling custom domain whose Render origin answers x-render-routing: no-server, and every /api/* path on the customer app returns HTTP 401 {\"error\":\"Unauthorized\"}.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trycardinal-ai/refs/heads/main/screenshots/trycardinal-ai-2026-09-02T164437.png",
-     "score": 9.6,
+     "name": "designstripe",
+     "slug": "designstripe",
+     "description": "The designstripe.com domain, blog and social handles were acquired by Visual (visual.app) in March 2025. Visual states on its own site that it acquired the marketing assets only and that Designstripe Inc. continues to operate independently, so this is an asset purchase rather than a rebrand. designstripe.com now 308-redirects to visual.app, an AI-first presentation and design-agent product for go-to-market teams — it generates presentations, proposals, QBRs and campaign assets through conversational agents with brand-lock consistency for sales, marketing and customer success. The legacy designstripe illustration marketplace and AI ad-maker have been retired. As of August 2026 the product is waitlist-only and markets an API on its homepage (\"every agent is an endpoint... integrate design agents with your existing automation workflows or applications using our API\"), but publishes no developer portal, API reference, OpenAPI definition, GraphQL endpoint, MCP server, SDK on any package registry, pricing page, or /.well-known discovery document. The one API-shaped host, api.designstripe.com, sits behind Google Cloud Identity-Aware Proxy and answers every request with \"Invalid IAP credentials: empty token\" while presenting a TLS certificate for an unrelated host. This profile was surfaced as an Insight Partners portfolio lead and enriched by the API Evangelist pipeline.",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 6.6
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6710,21 +6709,21 @@
      "rank": 149
     },
     {
-     "name": "designstripe",
-     "slug": "designstripe",
-     "description": "The designstripe.com domain, blog and social handles were acquired by Visual (visual.app) in March 2025. Visual states on its own site that it acquired the marketing assets only and that Designstripe Inc. continues to operate independently, so this is an asset purchase rather than a rebrand. designstripe.com now 308-redirects to visual.app, an AI-first presentation and design-agent product for go-to-market teams — it generates presentations, proposals, QBRs and campaign assets through conversational agents with brand-lock consistency for sales, marketing and customer success. The legacy designstripe illustration marketplace and AI ad-maker have been retired. As of August 2026 the product is waitlist-only and markets an API on its homepage (\"every agent is an endpoint... integrate design agents with your existing automation workflows or applications using our API\"), but publishes no developer portal, API reference, OpenAPI definition, GraphQL endpoint, MCP server, SDK on any package registry, pricing page, or /.well-known discovery document. The one API-shaped host, api.designstripe.com, sits behind Google Cloud Identity-Aware Proxy and answers every request with \"Invalid IAP credentials: empty token\" while presenting a TLS certificate for an unrelated host. This profile was surfaced as an Insight Partners portfolio lead and enriched by the API Evangelist pipeline.",
-     "score": 8.9,
+     "name": "Novocall",
+     "slug": "novocall",
+     "description": "Novocall was a Singapore-based callback and lead-conversion SaaS (a click-to-call and callback-scheduling widget that turned website visitors into inbound phone calls and booked meetings), surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub for enrichment. It was acquired by Malaysian commerce platform EasyStore in March 2023, alongside sibling product NovoChat, and has been marketed since as \"Novocall, an EasyStore company\". As of the August 2026 enrichment pass every Novocall host is dead: the apex novocall.co keeps live email DNS (Google Workspace MX, SPF, DMARC quarantine, CAA) but has no A record at all, www.novocall.co, app.novocall.co and call.novocall.co — the widget/dashboard host hardcoded in Novocall's own WordPress plugin — all return a Cloudflare 530 (edge up, origin gone), help.novocall.co returns 429 with Cloudflare error 1027 (account daily request limit reached), getnovocall.com times out, and novocall.com is now an Afternic parked domain whose catch-all answers 200 with an HTML lander for every path including /openapi.json and /.well-known/agent-card.json. No API, specification, developer portal, .well-known document or documentation surface exists on any reachable host. The only first-party artifact Novocall ever published that survives is a WordPress callback-widget plugin, stuck at version 1.0.0 since 2019-04-08.",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6752,48 +6751,6 @@
      "rank": 150
     },
     {
-     "name": "Novocall",
-     "slug": "novocall",
-     "description": "Novocall was a Singapore-based callback and lead-conversion SaaS (a click-to-call and callback-scheduling widget that turned website visitors into inbound phone calls and booked meetings), surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub for enrichment. It was acquired by Malaysian commerce platform EasyStore in March 2023, alongside sibling product NovoChat, and has been marketed since as \"Novocall, an EasyStore company\". As of the August 2026 enrichment pass every Novocall host is dead: the apex novocall.co keeps live email DNS (Google Workspace MX, SPF, DMARC quarantine, CAA) but has no A record at all, www.novocall.co, app.novocall.co and call.novocall.co — the widget/dashboard host hardcoded in Novocall's own WordPress plugin — all return a Cloudflare 530 (edge up, origin gone), help.novocall.co returns 429 with Cloudflare error 1027 (account daily request limit reached), getnovocall.com times out, and novocall.com is now an Afternic parked domain whose catch-all answers 200 with an HTML lander for every path including /openapi.json and /.well-known/agent-card.json. No API, specification, developer portal, .well-known document or documentation surface exists on any reachable host. The only first-party artifact Novocall ever published that survives is a WordPress callback-widget plugin, stuck at version 1.0.0 since 2019-04-08.",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 151
-    },
-    {
      "name": "Datanyze *",
      "slug": "datanyze",
      "description": "Datanyze is a sales intelligence and technographic data provider owned by ZoomInfo. It offers a free browser (Chrome) extension that surfaces business contact information — work email addresses, direct-dial and mobile phone numbers, and company firmographics — for prospects on LinkedIn profiles and company websites. Datanyze pioneered \"technographics,\" the practice of tracking the web technologies and software a company uses to power targeted B2B sales and marketing outreach. ZoomInfo acquired Datanyze in 2018 to deliver real-time technographic data to its customers. No public developer API is currently documented; this profile captures the company's discoverable web and security surface.",
@@ -6809,7 +6766,50 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 151
+    },
+    {
+     "name": "Bluebirds",
+     "slug": "bluebirds",
+     "description": "Bluebirds was an AI-powered outbound sales and go-to-market (GTM) prospecting platform, founded in 2022 by Rohan Punamia (CEO) and Kunal Punera (CTO). The product helped sales teams create, test, and scale AI-driven prospecting triggers, combining LinkedIn signals with first-party CRM data and de-anonymized web traffic so representatives could target and personalize outreach in a unified workflow. Bluebirds was seed-funded by Lightspeed Venture Partners (invested 2023). Salesforce announced a definitive agreement to acquire Bluebirds in August 2025 and folded the prospecting agent into Sales Cloud and Agentforce, with integration expected complete by the end of Salesforce fiscal Q3 2026. The absorption is now complete: as of August 2026 every path on bluebirds.com — including /pricing, /docs and every /.well-known/ path — answers HTTP 301 to Salesforce's AI prospecting agent page from an AWS redirect service, api./docs./developer./status./trust subdomains do not resolve, and the former application host app.bluebirds.com resolves but resets the TLS handshake. Bluebirds therefore exposes no public developer or API surface of its own; the prospecting capability is now reached through Salesforce, and this profile is identity-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluebirds/refs/heads/main/screenshots/bluebirds-2026-07-25T203443.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6837,49 +6837,6 @@
      "rank": 152
     },
     {
-     "name": "Bluebirds",
-     "slug": "bluebirds",
-     "description": "Bluebirds was an AI-powered outbound sales and go-to-market (GTM) prospecting platform, founded in 2022 by Rohan Punamia (CEO) and Kunal Punera (CTO). The product helped sales teams create, test, and scale AI-driven prospecting triggers, combining LinkedIn signals with first-party CRM data and de-anonymized web traffic so representatives could target and personalize outreach in a unified workflow. Bluebirds was seed-funded by Lightspeed Venture Partners (invested 2023). Salesforce announced a definitive agreement to acquire Bluebirds in August 2025 and folded the prospecting agent into Sales Cloud and Agentforce, with integration expected complete by the end of Salesforce fiscal Q3 2026. The absorption is now complete: as of August 2026 every path on bluebirds.com — including /pricing, /docs and every /.well-known/ path — answers HTTP 301 to Salesforce's AI prospecting agent page from an AWS redirect service, api./docs./developer./status./trust subdomains do not resolve, and the former application host app.bluebirds.com resolves but resets the TLS handshake. Bluebirds therefore exposes no public developer or API surface of its own; the prospecting capability is now reached through Salesforce, and this profile is identity-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluebirds/refs/heads/main/screenshots/bluebirds-2026-07-25T203443.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-14",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 153
-    },
-    {
      "name": "OneCommand",
      "slug": "onecommand",
      "description": "OneCommand was a cloud-based customer marketing and loyalty-automation platform built for automotive dealerships, headquartered in Mason, Ohio. It helped dealers drive service and sales traffic, increase owner retention, and lower marketing costs through data-driven, multichannel outreach across voice, text, email, and direct mail. Its product family included the OneCommand loyalty-automation platform, the Higher Gear CRM, and the TrafficAccelerator service. OneCommand was absorbed into Affinitiv in September 2016, one of four automotive-marketing firms (with TimeHighway.com, Peak Performance and DPS) merged to form that company. The brand is now defunct as an operating surface — onecommand.com and portal.onecommand.com are still fronted by Cloudflare but the origin no longer answers (HTTP 522 on every path probed 2026-08-13), highergear.com no longer connects, and onecommand.net and trafficaccelerator.com resolve to parked landing pages. OneCommand never published a public developer API, developer portal, SDKs, or API documentation, and the acquirer's site (affinitiv.com) publishes none either.",
@@ -6894,7 +6851,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6920,7 +6877,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Parative",
@@ -6937,7 +6894,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-14",
+     "scored_at": "2026-09-15",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6962,7 +6919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     }
    ]
   }

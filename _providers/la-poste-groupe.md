@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 9
 apis:
 - baseURL: https://api.laposte.fr/suivi/v2
@@ -285,7 +285,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
 api_count: 5
 apis:
 - description: The Zurich Open Repository and Archive (ZORA) is UZH's institutional repository for the peer-reviewed research output of the university. Its OAI-PMH 2.0 interface serves metadata for harvesting with n
@@ -214,7 +214,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-14'
+  scored_at: '2026-09-15'
   trend: flat
   upsert:
     applies: false

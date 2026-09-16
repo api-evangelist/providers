@@ -14,7 +14,7 @@ created: '2026-07-17'
 description: IntelliCare, Inc. was a specialty healthcare services and application software company founded in 1997 and headquartered in South Portland, Maine. It provided medical contact center outsourcing services and technology products, delivering telephone-based (telephonic) nurse triage and clinical decision-support services to health plans, providers, payors, self-insured employers, hospitals, and health management organizations. IntelliCare was a portfolio company of Canaan Partners (with Liberty Medical and Cutlass Capital) and was acquired by PolyMedica Corporation in 2005. The company no longer operates as an independent entity and publishes no public developer program, API, or documentation surface; its former intellicare.com domain is parked and listed for sale. This profile is retained in the API Evangelist network as a historical portfolio-lead record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intellicare.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-15'
 name: Intellicare
 nav: Providers
 network: true
@@ -30,4 +30,5 @@ tags:
 - Telehealth
 - Care Management
 - Acquired
+- Defunct
 ---

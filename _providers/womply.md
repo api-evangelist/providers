@@ -29,7 +29,7 @@ created: '2026-07-17'
 description: Womply (legally Oto Analytics, Inc.) was a small-business software company founded in 2011 by Toby Scammell that spent a decade building marketing, reputation, and payments software for roughly 500,000 Main Street businesses, and during the Paycheck Protection Program built the application-intake and identity-screening technology its lender partners used to process loans for sole proprietors and the smallest businesses. The company sold in 2021 for approximately $1.1 billion and is no longer operating; womply.com today is a primary-source documentary record of Womply's PPP role, sourced to court rulings, the JAMS arbitration award, SBA data, and the company's own production files. No public developer/API surface remains — this profile captures the company's identity and the record site's published artifacts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/womply.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-15'
 name: Womply
 nav: Providers
 network: true
@@ -51,5 +51,6 @@ tags:
 - PPP
 - Software
 - Historical Record
+- Defunct
 website: https://womply.com
 ---
